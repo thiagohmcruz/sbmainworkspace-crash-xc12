@@ -1,0 +1,6 @@
+framework module Framework155 {
+  umbrella header "Framework155-umbrella.h"
+
+  export *
+  module * { export * }
+}

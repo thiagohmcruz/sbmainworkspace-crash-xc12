@@ -1,0 +1,6 @@
+framework module Framework13 {
+  umbrella header "Framework13-umbrella.h"
+
+  export *
+  module * { export * }
+}

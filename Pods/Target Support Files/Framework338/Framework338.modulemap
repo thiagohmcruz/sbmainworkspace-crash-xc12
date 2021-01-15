@@ -1,0 +1,6 @@
+framework module Framework338 {
+  umbrella header "Framework338-umbrella.h"
+
+  export *
+  module * { export * }
+}

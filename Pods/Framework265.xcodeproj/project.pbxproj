@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD9A72755AF20731A126FB355A5C73B /* Framework265.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514BE4D189CF7CECE1962D4D71C39FC /* Framework265.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6327BD86F346910DA83A7E08487B53F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1340D2296E988586EAD13843E423751 /* Foundation.framework */; };
+		7F1A912A8BA0EC709D72C8F4786C765C /* Framework265.m in Sources */ = {isa = PBXBuildFile; fileRef = 602FAB4D90C506C744C29ECDB276EE01 /* Framework265.m */; };
+		87EAB43B173FFE458929D89E57096875 /* Framework265-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6474F2F991A5B67BC9569DE8CD65F8 /* Framework265-dummy.m */; };
+		E336DDB4C33DE40ED7F96978EF8E9ED0 /* Framework265-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB26DAEB59716C54D40BBC5CFC2E9F9 /* Framework265-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DDB41FF523E7A17FB6DF523A00A3A2C /* Framework265.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework265.podspec.json; sourceTree = "<group>"; };
+		340CD8CC54F79C0FF310ECE73AD7C6BA /* Framework265.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework265.framework; path = Framework265.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		470EC650DEE404A2321C2E463C62C7CB /* Framework265.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework265.release.xcconfig; sourceTree = "<group>"; };
+		5514BE4D189CF7CECE1962D4D71C39FC /* Framework265.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework265.h; sourceTree = "<group>"; };
+		602FAB4D90C506C744C29ECDB276EE01 /* Framework265.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework265.m; sourceTree = "<group>"; };
+		791C73A0DBDE033A94F706A9A8C8F57E /* Framework265.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework265.modulemap; sourceTree = "<group>"; };
+		8B6474F2F991A5B67BC9569DE8CD65F8 /* Framework265-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework265-dummy.m"; sourceTree = "<group>"; };
+		8D5929B632F35B05DAD5C7C3B3134AC4 /* Framework265-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework265-prefix.pch"; sourceTree = "<group>"; };
+		A60CF763B78CB9282B46AF8D895A012D /* Framework265-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework265-Info.plist"; sourceTree = "<group>"; };
+		D1340D2296E988586EAD13843E423751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1B84AA80EA92E60A7ED1D6B38386BC2 /* Framework265.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework265.debug.xcconfig; sourceTree = "<group>"; };
+		DFB26DAEB59716C54D40BBC5CFC2E9F9 /* Framework265-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework265-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BB2491434DBF3B0E7EB6E313B3D0AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6327BD86F346910DA83A7E08487B53F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297DCAD21C5F631425A6D04A67E60A3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1DDB41FF523E7A17FB6DF523A00A3A2C /* Framework265.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		477B1653AB743006C55D7A6890B160B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340CD8CC54F79C0FF310ECE73AD7C6BA /* Framework265.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58A05B51CDDAE5B9578E302FF78A96DD /* Framework265 */ = {
+			isa = PBXGroup;
+			children = (
+				5514BE4D189CF7CECE1962D4D71C39FC /* Framework265.h */,
+				602FAB4D90C506C744C29ECDB276EE01 /* Framework265.m */,
+				297DCAD21C5F631425A6D04A67E60A3E /* Pod */,
+				72486AFAB774EC12A4BB747E2D144F32 /* Support Files */,
+			);
+			name = Framework265;
+			path = ../Framework265;
+			sourceTree = "<group>";
+		};
+		5F544FE75913F43C643A2D5B81154E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE36E4EB542CFF159F64EC1C81E83A36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72486AFAB774EC12A4BB747E2D144F32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				791C73A0DBDE033A94F706A9A8C8F57E /* Framework265.modulemap */,
+				8B6474F2F991A5B67BC9569DE8CD65F8 /* Framework265-dummy.m */,
+				A60CF763B78CB9282B46AF8D895A012D /* Framework265-Info.plist */,
+				8D5929B632F35B05DAD5C7C3B3134AC4 /* Framework265-prefix.pch */,
+				DFB26DAEB59716C54D40BBC5CFC2E9F9 /* Framework265-umbrella.h */,
+				D1B84AA80EA92E60A7ED1D6B38386BC2 /* Framework265.debug.xcconfig */,
+				470EC650DEE404A2321C2E463C62C7CB /* Framework265.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework265";
+			sourceTree = "<group>";
+		};
+		ED52164D84CA92638DDB0235C80490E8 = {
+			isa = PBXGroup;
+			children = (
+				58A05B51CDDAE5B9578E302FF78A96DD /* Framework265 */,
+				5F544FE75913F43C643A2D5B81154E0B /* Frameworks */,
+				477B1653AB743006C55D7A6890B160B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE36E4EB542CFF159F64EC1C81E83A36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1340D2296E988586EAD13843E423751 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		926D80EA3D1741B784B05529D53D345D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E336DDB4C33DE40ED7F96978EF8E9ED0 /* Framework265-umbrella.h in Headers */,
+				3AD9A72755AF20731A126FB355A5C73B /* Framework265.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D5EEE90A150B72AF5D67FE706A6D403 /* Framework265 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C429F9052A1A2508C66ACADE3A9413 /* Build configuration list for PBXNativeTarget "Framework265" */;
+			buildPhases = (
+				926D80EA3D1741B784B05529D53D345D /* Headers */,
+				5F3C996D3AAD61155332295E2C753B99 /* Sources */,
+				1BB2491434DBF3B0E7EB6E313B3D0AA8 /* Frameworks */,
+				00792270C8530F88B192B848B8AACB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework265;
+			productName = Framework265;
+			productReference = 340CD8CC54F79C0FF310ECE73AD7C6BA /* Framework265.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FFE01534FB30B413F2987B6B1441F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 73B1B5083282268622D6462ADD5D765F /* Build configuration list for PBXProject "Framework265" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED52164D84CA92638DDB0235C80490E8;
+			productRefGroup = 477B1653AB743006C55D7A6890B160B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5EEE90A150B72AF5D67FE706A6D403 /* Framework265 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00792270C8530F88B192B848B8AACB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3C996D3AAD61155332295E2C753B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EAB43B173FFE458929D89E57096875 /* Framework265-dummy.m in Sources */,
+				7F1A912A8BA0EC709D72C8F4786C765C /* Framework265.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E67C66887D519BD03029B75FBD3F8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B84AA80EA92E60A7ED1D6B38386BC2 /* Framework265.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework265/Framework265-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework265/Framework265-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework265/Framework265.modulemap";
+				PRODUCT_MODULE_NAME = Framework265;
+				PRODUCT_NAME = Framework265;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54E2682D1C488E2CA89846CBFA2BBAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87BD192E68C466BF8E43FC3502A0AA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470EC650DEE404A2321C2E463C62C7CB /* Framework265.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework265/Framework265-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework265/Framework265-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework265/Framework265.modulemap";
+				PRODUCT_MODULE_NAME = Framework265;
+				PRODUCT_NAME = Framework265;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF666AA5AE007CDE32D7651E88FBD575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73B1B5083282268622D6462ADD5D765F /* Build configuration list for PBXProject "Framework265" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF666AA5AE007CDE32D7651E88FBD575 /* Debug */,
+				54E2682D1C488E2CA89846CBFA2BBAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C429F9052A1A2508C66ACADE3A9413 /* Build configuration list for PBXNativeTarget "Framework265" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E67C66887D519BD03029B75FBD3F8E3 /* Debug */,
+				87BD192E68C466BF8E43FC3502A0AA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FFE01534FB30B413F2987B6B1441F91 /* Project object */;
+}

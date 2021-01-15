@@ -1,0 +1,6 @@
+framework module Framework8 {
+  umbrella header "Framework8-umbrella.h"
+
+  export *
+  module * { export * }
+}

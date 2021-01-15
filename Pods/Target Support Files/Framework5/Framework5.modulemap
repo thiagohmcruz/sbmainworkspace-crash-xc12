@@ -1,0 +1,6 @@
+framework module Framework5 {
+  umbrella header "Framework5-umbrella.h"
+
+  export *
+  module * { export * }
+}

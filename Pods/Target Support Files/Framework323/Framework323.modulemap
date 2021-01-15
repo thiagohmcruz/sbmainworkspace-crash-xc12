@@ -1,0 +1,6 @@
+framework module Framework323 {
+  umbrella header "Framework323-umbrella.h"
+
+  export *
+  module * { export * }
+}

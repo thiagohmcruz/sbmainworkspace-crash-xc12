@@ -1,0 +1,6 @@
+framework module Framework4 {
+  umbrella header "Framework4-umbrella.h"
+
+  export *
+  module * { export * }
+}

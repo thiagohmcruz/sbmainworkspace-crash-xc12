@@ -1,0 +1,6 @@
+framework module Framework302 {
+  umbrella header "Framework302-umbrella.h"
+
+  export *
+  module * { export * }
+}

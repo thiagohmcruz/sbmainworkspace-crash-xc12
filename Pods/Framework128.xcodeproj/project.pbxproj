@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3D579CD67A14BC06C8E7B8329444D3 /* Framework128-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9E47DED0C400A7482609A01D18E6C8 /* Framework128-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B563A89E46F8DA63B06EDF9F831802 /* Framework128.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AB8C297CE7AB81ED98CC345834BF5 /* Framework128.m */; };
+		511D27BE7489EAECE7F5787B0215E726 /* Framework128-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E10488611619E74A19EAA66E05B8878 /* Framework128-dummy.m */; };
+		B2C815BD058A7A80B8E6A08B5BAA87F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7635F98820125C86719F1602B2BF2DC /* Foundation.framework */; };
+		F72752C4C373FF236D81BBB9994044EC /* Framework128.h in Headers */ = {isa = PBXBuildFile; fileRef = 8310A5946C04ADCDA7F885C41664C3F9 /* Framework128.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		069C91B28746E1F75CFE94DC704B8A05 /* Framework128.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework128.release.xcconfig; sourceTree = "<group>"; };
+		0AB03D4B35106C3B4010930E2277FB1E /* Framework128.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework128.framework; path = Framework128.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		286D6A15F11E51F43421EF4561C31571 /* Framework128-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework128-Info.plist"; sourceTree = "<group>"; };
+		2BF3B19E05644AA97A35D8D7D7548349 /* Framework128.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework128.modulemap; sourceTree = "<group>"; };
+		6620EAB6A465802F702591739E3FB04A /* Framework128-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework128-prefix.pch"; sourceTree = "<group>"; };
+		8310A5946C04ADCDA7F885C41664C3F9 /* Framework128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework128.h; sourceTree = "<group>"; };
+		9E10488611619E74A19EAA66E05B8878 /* Framework128-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework128-dummy.m"; sourceTree = "<group>"; };
+		A12AB8C297CE7AB81ED98CC345834BF5 /* Framework128.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework128.m; sourceTree = "<group>"; };
+		A7635F98820125C86719F1602B2BF2DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B781EAA2D820BA433025F3052F193D27 /* Framework128.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework128.debug.xcconfig; sourceTree = "<group>"; };
+		EF9E47DED0C400A7482609A01D18E6C8 /* Framework128-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework128-umbrella.h"; sourceTree = "<group>"; };
+		FDC4607FDF2CF74FD456EF887F3E87B2 /* Framework128.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework128.podspec.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C46F243119735D45BECCC80D7FDBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C815BD058A7A80B8E6A08B5BAA87F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004A9ECC2292370DA78A45933961864F /* Framework128 */ = {
+			isa = PBXGroup;
+			children = (
+				8310A5946C04ADCDA7F885C41664C3F9 /* Framework128.h */,
+				A12AB8C297CE7AB81ED98CC345834BF5 /* Framework128.m */,
+				DD2177562D9FEBA09D27DEFB1591BA01 /* Pod */,
+				15B83FBC06CBB1791A3A303C651B1DCB /* Support Files */,
+			);
+			name = Framework128;
+			path = ../Framework128;
+			sourceTree = "<group>";
+		};
+		093CD4B39A03B95065C27DA6744F2EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36C314278074627A1DC870521BD215F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15B83FBC06CBB1791A3A303C651B1DCB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BF3B19E05644AA97A35D8D7D7548349 /* Framework128.modulemap */,
+				9E10488611619E74A19EAA66E05B8878 /* Framework128-dummy.m */,
+				286D6A15F11E51F43421EF4561C31571 /* Framework128-Info.plist */,
+				6620EAB6A465802F702591739E3FB04A /* Framework128-prefix.pch */,
+				EF9E47DED0C400A7482609A01D18E6C8 /* Framework128-umbrella.h */,
+				B781EAA2D820BA433025F3052F193D27 /* Framework128.debug.xcconfig */,
+				069C91B28746E1F75CFE94DC704B8A05 /* Framework128.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework128";
+			sourceTree = "<group>";
+		};
+		65695355F178998717F728372E2B2680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB03D4B35106C3B4010930E2277FB1E /* Framework128.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87716209EEDC5ADB1AF5415FFBF35EA1 = {
+			isa = PBXGroup;
+			children = (
+				004A9ECC2292370DA78A45933961864F /* Framework128 */,
+				093CD4B39A03B95065C27DA6744F2EA8 /* Frameworks */,
+				65695355F178998717F728372E2B2680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36C314278074627A1DC870521BD215F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7635F98820125C86719F1602B2BF2DC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD2177562D9FEBA09D27DEFB1591BA01 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FDC4607FDF2CF74FD456EF887F3E87B2 /* Framework128.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8A03772F5438799EEAB995A2142B4D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3D579CD67A14BC06C8E7B8329444D3 /* Framework128-umbrella.h in Headers */,
+				F72752C4C373FF236D81BBB9994044EC /* Framework128.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11E06F87EF9C1F2287170F16C60CB14C /* Framework128 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8E852ACE9543379E80706E358193A9 /* Build configuration list for PBXNativeTarget "Framework128" */;
+			buildPhases = (
+				B8A03772F5438799EEAB995A2142B4D7 /* Headers */,
+				0EABBAC28AD8411822C17A4D343F2F02 /* Sources */,
+				25C46F243119735D45BECCC80D7FDBE0 /* Frameworks */,
+				5A8316A031695B74A1DB1F89F63A5161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework128;
+			productName = Framework128;
+			productReference = 0AB03D4B35106C3B4010930E2277FB1E /* Framework128.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF62E768C1A3FCAEA5C3D97A68EF8491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4BBB577F0C7CCCC8D738015BB7531A2E /* Build configuration list for PBXProject "Framework128" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87716209EEDC5ADB1AF5415FFBF35EA1;
+			productRefGroup = 65695355F178998717F728372E2B2680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E06F87EF9C1F2287170F16C60CB14C /* Framework128 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8316A031695B74A1DB1F89F63A5161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EABBAC28AD8411822C17A4D343F2F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511D27BE7489EAECE7F5787B0215E726 /* Framework128-dummy.m in Sources */,
+				44B563A89E46F8DA63B06EDF9F831802 /* Framework128.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09AD9CFD0B333776666219258D72B326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20598360F588178B20DB08BF89ACDE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069C91B28746E1F75CFE94DC704B8A05 /* Framework128.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework128/Framework128-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework128/Framework128-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework128/Framework128.modulemap";
+				PRODUCT_MODULE_NAME = Framework128;
+				PRODUCT_NAME = Framework128;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FC3FCDE948D218B9A7743553BFB3838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AC1339D28B37BE119C76F47420025C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B781EAA2D820BA433025F3052F193D27 /* Framework128.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework128/Framework128-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework128/Framework128-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework128/Framework128.modulemap";
+				PRODUCT_MODULE_NAME = Framework128;
+				PRODUCT_NAME = Framework128;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BBB577F0C7CCCC8D738015BB7531A2E /* Build configuration list for PBXProject "Framework128" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AD9CFD0B333776666219258D72B326 /* Debug */,
+				4FC3FCDE948D218B9A7743553BFB3838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8E852ACE9543379E80706E358193A9 /* Build configuration list for PBXNativeTarget "Framework128" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1339D28B37BE119C76F47420025C0D /* Debug */,
+				20598360F588178B20DB08BF89ACDE81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF62E768C1A3FCAEA5C3D97A68EF8491 /* Project object */;
+}

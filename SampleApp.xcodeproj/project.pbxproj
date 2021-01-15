@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6503862716D1BE1D10C53CE1 /* Pods_SampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A97A3EEABCCC756085CB9C8 /* Pods_SampleAppTests.framework */; };
+		B7490FB123A858FF008FBDA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7490FB023A858FF008FBDA7 /* AppDelegate.m */; };
+		B7490FB423A858FF008FBDA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7490FB323A858FF008FBDA7 /* ViewController.m */; };
+		B7490FB723A858FF008FBDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7490FB523A858FF008FBDA7 /* Main.storyboard */; };
+		B7490FB923A85900008FBDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7490FB823A85900008FBDA7 /* Assets.xcassets */; };
+		B7490FBC23A85900008FBDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7490FBA23A85900008FBDA7 /* LaunchScreen.storyboard */; };
+		B7490FBF23A85900008FBDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7490FBE23A85900008FBDA7 /* main.m */; };
+		B7490FC923A85900008FBDA7 /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7490FC823A85900008FBDA7 /* SampleAppTests.m */; };
+		B7F062E423A9A46700ECEB29 /* Someimport.m in Sources */ = {isa = PBXBuildFile; fileRef = B744AE8823A867E400FB3613 /* Someimport.m */; };
+		B7F09C6423A9B5FE00ECEB29 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F09C6323A9B5FE00ECEB29 /* Pods_SampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7490FC523A85900008FBDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7490FA423A858FF008FBDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7490FAB23A858FF008FBDA7;
+			remoteInfo = SampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7F05B1223A9A1D700ECEB29 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A97A3EEABCCC756085CB9C8 /* Pods_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CE58611A1451B93DFEAC5F /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		2707339745C1411DEB92027B /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		886F65530109DD1306003923 /* Pods-SampleApp-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9476964906E3DE1547BFD83F /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B19723BA7B89E1B7D3DCAFE3 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B744AE8823A867E400FB3613 /* Someimport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Someimport.m; sourceTree = "<group>"; };
+		B7490FAC23A858FF008FBDA7 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7490FAF23A858FF008FBDA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7490FB023A858FF008FBDA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7490FB223A858FF008FBDA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7490FB323A858FF008FBDA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7490FB623A858FF008FBDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7490FB823A85900008FBDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7490FBB23A85900008FBDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7490FBD23A85900008FBDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7490FBE23A85900008FBDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7490FC423A85900008FBDA7 /* SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7490FC823A85900008FBDA7 /* SampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppTests.m; sourceTree = "<group>"; };
+		B7490FCA23A85900008FBDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F09C6323A9B5FE00ECEB29 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F611613D096823D03E32F313 /* Pods-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF717527E1A4C2344CB3E6FB /* Pods-SampleApp-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7490FA923A858FF008FBDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F09C6423A9B5FE00ECEB29 /* Pods_SampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7490FC123A85900008FBDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6503862716D1BE1D10C53CE1 /* Pods_SampleAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3361E225E0AEA7C8B556CAD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2707339745C1411DEB92027B /* Pods-SampleApp.debug.xcconfig */,
+				25CE58611A1451B93DFEAC5F /* Pods-SampleApp.release.xcconfig */,
+				F611613D096823D03E32F313 /* Pods-SampleAppTests.debug.xcconfig */,
+				9476964906E3DE1547BFD83F /* Pods-SampleAppTests.release.xcconfig */,
+				FF717527E1A4C2344CB3E6FB /* Pods-SampleApp-SampleAppTests.debug.xcconfig */,
+				886F65530109DD1306003923 /* Pods-SampleApp-SampleAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B5402674ADB9F5B9BB210AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F09C6323A9B5FE00ECEB29 /* Pods_SampleApp.framework */,
+				B19723BA7B89E1B7D3DCAFE3 /* Pods_SampleApp.framework */,
+				1A97A3EEABCCC756085CB9C8 /* Pods_SampleAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7490FA323A858FF008FBDA7 = {
+			isa = PBXGroup;
+			children = (
+				B7490FAE23A858FF008FBDA7 /* SampleApp */,
+				B7490FC723A85900008FBDA7 /* SampleAppTests */,
+				B7490FAD23A858FF008FBDA7 /* Products */,
+				3361E225E0AEA7C8B556CAD3 /* Pods */,
+				8B5402674ADB9F5B9BB210AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7490FAD23A858FF008FBDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7490FAC23A858FF008FBDA7 /* SampleApp.app */,
+				B7490FC423A85900008FBDA7 /* SampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7490FAE23A858FF008FBDA7 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B7490FAF23A858FF008FBDA7 /* AppDelegate.h */,
+				B7490FB023A858FF008FBDA7 /* AppDelegate.m */,
+				B7490FB223A858FF008FBDA7 /* ViewController.h */,
+				B744AE8823A867E400FB3613 /* Someimport.m */,
+				B7490FB323A858FF008FBDA7 /* ViewController.m */,
+				B7490FB523A858FF008FBDA7 /* Main.storyboard */,
+				B7490FB823A85900008FBDA7 /* Assets.xcassets */,
+				B7490FBA23A85900008FBDA7 /* LaunchScreen.storyboard */,
+				B7490FBD23A85900008FBDA7 /* Info.plist */,
+				B7490FBE23A85900008FBDA7 /* main.m */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		B7490FC723A85900008FBDA7 /* SampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7490FC823A85900008FBDA7 /* SampleAppTests.m */,
+				B7490FCA23A85900008FBDA7 /* Info.plist */,
+			);
+			path = SampleAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7490FAB23A858FF008FBDA7 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7490FCD23A85900008FBDA7 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				80EB5BBC4DB66FFEE07B2987 /* [CP] Check Pods Manifest.lock */,
+				B7490FA823A858FF008FBDA7 /* Sources */,
+				B7490FA923A858FF008FBDA7 /* Frameworks */,
+				B7490FAA23A858FF008FBDA7 /* Resources */,
+				B7F05B1223A9A1D700ECEB29 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			productName = SampleApp;
+			productReference = B7490FAC23A858FF008FBDA7 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7490FC323A85900008FBDA7 /* SampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7490FD023A85900008FBDA7 /* Build configuration list for PBXNativeTarget "SampleAppTests" */;
+			buildPhases = (
+				7C47B4230C75AEE943FE3179 /* [CP] Check Pods Manifest.lock */,
+				B7490FC023A85900008FBDA7 /* Sources */,
+				B7490FC123A85900008FBDA7 /* Frameworks */,
+				B7490FC223A85900008FBDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7490FC623A85900008FBDA7 /* PBXTargetDependency */,
+			);
+			name = SampleAppTests;
+			productName = SampleAppTests;
+			productReference = B7490FC423A85900008FBDA7 /* SampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7490FA423A858FF008FBDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Dimitris Koutsogiorgas";
+				TargetAttributes = {
+					B7490FAB23A858FF008FBDA7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B7490FC323A85900008FBDA7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B7490FAB23A858FF008FBDA7;
+					};
+				};
+			};
+			buildConfigurationList = B7490FA723A858FF008FBDA7 /* Build configuration list for PBXProject "SampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7490FA323A858FF008FBDA7;
+			productRefGroup = B7490FAD23A858FF008FBDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7490FAB23A858FF008FBDA7 /* SampleApp */,
+				B7490FC323A85900008FBDA7 /* SampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7490FAA23A858FF008FBDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7490FBC23A85900008FBDA7 /* LaunchScreen.storyboard in Resources */,
+				B7490FB923A85900008FBDA7 /* Assets.xcassets in Resources */,
+				B7490FB723A858FF008FBDA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7490FC223A85900008FBDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C47B4230C75AEE943FE3179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80EB5BBC4DB66FFEE07B2987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7490FA823A858FF008FBDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7490FB423A858FF008FBDA7 /* ViewController.m in Sources */,
+				B7490FBF23A85900008FBDA7 /* main.m in Sources */,
+				B7490FB123A858FF008FBDA7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7490FC023A85900008FBDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F062E423A9A46700ECEB29 /* Someimport.m in Sources */,
+				B7490FC923A85900008FBDA7 /* SampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7490FC623A85900008FBDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7490FAB23A858FF008FBDA7 /* SampleApp */;
+			targetProxy = B7490FC523A85900008FBDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7490FB523A858FF008FBDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7490FB623A858FF008FBDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7490FBA23A85900008FBDA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7490FBB23A85900008FBDA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7490FCB23A85900008FBDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/thiago/Documents/PonyCode-investigation/LargeProject/**/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7490FCC23A85900008FBDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/thiago/Documents/PonyCode-investigation/LargeProject/**/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7490FCE23A85900008FBDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2707339745C1411DEB92027B /* Pods-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/thiago/Documents/PonyCode-investigation/LargeProject/**",
+				);
+				INFOPLIST_FILE = SampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7490FCF23A85900008FBDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CE58611A1451B93DFEAC5F /* Pods-SampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}\"",
+				);
+				INFOPLIST_FILE = SampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7490FD123A85900008FBDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F611613D096823D03E32F313 /* Pods-SampleAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SampleAppTestsWeird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework1\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework10\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework100\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework101\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework102\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework103\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework104\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework105\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework106\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework107\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework108\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework109\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework11\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework110\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework111\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework112\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework113\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework114\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework115\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework116\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework117\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework118\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework119\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework12\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework120\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework121\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework122\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework123\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework124\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework125\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework126\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework127\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework128\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework129\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework13\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework130\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework131\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework132\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework133\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework134\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework135\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework136\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework137\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework138\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework139\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework14\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework140\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework141\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework142\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework143\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework144\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework145\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework146\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework147\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework148\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework149\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework15\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework150\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework151\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework152\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework153\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework154\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework155\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework156\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework157\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework158\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework159\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework16\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework160\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework161\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework162\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework163\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework164\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework165\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework166\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework167\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework168\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework169\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework17\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework170\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework171\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework172\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework173\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework174\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework175\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework176\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework177\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework178\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework179\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework18\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework180\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework181\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework182\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework183\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework184\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework185\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework186\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework187\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework188\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework189\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework19\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework190\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework191\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework192\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework193\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework194\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework195\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework196\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework197\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework198\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework199\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework2\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework20\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework200\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework201\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework202\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework203\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework204\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework205\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework206\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework207\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework208\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework209\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework21\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework210\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework211\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework212\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework213\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework214\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework215\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework216\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework217\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework218\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework219\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework22\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework220\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework221\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework222\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework223\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework224\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework225\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework226\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework227\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework228\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework229\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework23\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework230\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework231\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework232\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework233\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework234\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework235\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework236\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework237\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework238\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework239\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework24\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework240\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework241\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework242\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework243\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework244\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework245\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework246\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework247\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework248\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework249\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework25\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework250\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework251\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework252\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework253\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework254\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework255\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework256\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework257\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework258\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework259\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework26\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework260\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework261\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework262\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework263\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework264\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework265\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework266\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework267\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework268\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework269\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework27\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework270\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework271\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework272\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework273\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework274\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework275\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework276\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework277\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework278\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework279\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework28\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework280\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework281\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework282\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework283\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework284\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework285\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework286\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework287\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework288\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework289\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework29\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework290\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework291\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework292\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework293\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework294\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework295\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework296\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework297\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework298\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework299\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework3\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework30\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework300\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework301\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework302\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework303\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework304\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework305\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework306\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework307\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework308\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework309\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework31\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework310\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework311\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework312\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework313\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework314\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework315\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework316\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework317\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework318\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework319\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework32\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework320\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework321\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework322\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework323\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework324\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework325\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework326\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework327\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework328\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework329\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework33\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework330\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework331\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework332\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework333\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework334\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework335\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework336\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework337\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework338\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework339\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework34\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework340\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework341\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework342\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework343\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework344\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework345\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework346\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework347\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework348\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework349\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework35\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework350\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework351\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework352\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework353\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework354\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework355\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework356\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework357\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework358\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework359\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework36\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework360\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework361\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework362\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework363\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework364\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework365\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework366\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework367\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework368\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework369\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework37\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework370\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework371\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework372\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework373\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework374\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework375\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework376\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework377\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework378\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework379\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework38\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework380\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework381\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework382\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework383\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework384\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework385\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework386\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework387\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework388\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework389\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework39\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework390\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework391\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework392\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework393\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework394\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework395\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework396\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework397\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework398\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework399\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework4\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework40\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework400\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework401\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework402\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework403\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework404\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework405\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework406\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework407\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework408\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework409\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework41\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework410\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework411\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework412\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework413\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework414\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework415\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework416\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework417\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework418\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework419\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework42\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework420\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework421\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework422\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework423\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework424\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework425\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework426\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework427\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework428\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework429\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework43\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework430\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework431\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework432\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework433\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework434\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework435\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework436\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework437\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework438\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework439\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework44\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework440\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework441\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework442\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework443\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework444\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework445\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework446\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework447\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework448\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework449\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework45\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework450\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework451\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework452\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework453\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework454\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework455\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework456\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework457\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework458\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework459\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework46\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework460\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework461\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework462\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework463\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework464\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework465\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework466\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework467\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework468\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework469\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework47\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework470\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework471\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework472\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework473\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework474\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework475\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework476\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework477\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework478\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework479\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework48\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework480\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework481\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework482\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework483\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework484\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework485\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework486\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework487\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework488\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework489\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework49\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework490\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework491\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework492\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework493\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework494\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework495\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework496\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework497\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework498\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework499\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework5\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework50\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework51\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework52\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework53\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework54\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework55\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework56\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework57\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework58\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework59\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework6\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework60\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework61\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework62\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework63\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework64\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework65\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework66\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework67\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework68\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework69\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework7\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework70\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework71\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework72\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework73\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework74\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework75\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework76\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework77\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework78\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework79\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework8\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework80\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework81\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework82\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework83\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework84\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework85\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework86\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework87\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework88\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework89\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework9\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework90\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework91\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework92\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework93\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework94\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework95\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework96\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework97\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework98\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Framework99\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}\"",
+				);
+				INFOPLIST_FILE = SampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/EpsonPrintSDK/Frameworks/EpsonPrintSDK\"",
+					"\"${PODS_ROOT}/ScanAPI/lib\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
+			};
+			name = Debug;
+		};
+		B7490FD223A85900008FBDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9476964906E3DE1547BFD83F /* Pods-SampleAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/EpsonPrintSDK/Frameworks/EpsonPrintSDK\"",
+					"\"${PODS_ROOT}/ScanAPI/lib\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7490FA723A858FF008FBDA7 /* Build configuration list for PBXProject "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7490FCB23A85900008FBDA7 /* Debug */,
+				B7490FCC23A85900008FBDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7490FCD23A85900008FBDA7 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7490FCE23A85900008FBDA7 /* Debug */,
+				B7490FCF23A85900008FBDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7490FD023A85900008FBDA7 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7490FD123A85900008FBDA7 /* Debug */,
+				B7490FD223A85900008FBDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7490FA423A858FF008FBDA7 /* Project object */;
+}

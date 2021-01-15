@@ -1,0 +1,6 @@
+framework module Framework141 {
+  umbrella header "Framework141-umbrella.h"
+
+  export *
+  module * { export * }
+}

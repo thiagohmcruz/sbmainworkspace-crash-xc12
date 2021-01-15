@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFB3B3F8D64415BD6BE04CE4FCD6AF2 /* Framework428.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A18267D511A1EAE1F49AB910051C80 /* Framework428.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54E8D6FE55BA43F8F3FE119AEAF9F6B6 /* Framework428-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E909E8E929D2BB83E9EF0B6D6178EE5F /* Framework428-dummy.m */; };
+		6EA417F5467B69DF848D84E74A392DAA /* Framework428.m in Sources */ = {isa = PBXBuildFile; fileRef = C563B3CEB038F52194BCE5C0C46FB415 /* Framework428.m */; };
+		C0DD77721F0F229A4270D7B0BE9808B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380A90992B9ED824C4E38E951EB78370 /* Foundation.framework */; };
+		C96E0B2FBCE241631AD45D7E3E8968A4 /* Framework428-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D5915A5C9515A8DA84DD86564B4D67 /* Framework428-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380A90992B9ED824C4E38E951EB78370 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4FEA77106B6B1E33D85D6BD06E46948E /* Framework428-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework428-Info.plist"; sourceTree = "<group>"; };
+		54D5915A5C9515A8DA84DD86564B4D67 /* Framework428-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework428-umbrella.h"; sourceTree = "<group>"; };
+		61A4539FA8D2176D816655E65F554950 /* Framework428-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework428-prefix.pch"; sourceTree = "<group>"; };
+		84A5040A771CB3D39800F5615AE498A1 /* Framework428.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework428.release.xcconfig; sourceTree = "<group>"; };
+		A2BBA1A4B75F9DEB07ADB9E56D257C34 /* Framework428.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework428.debug.xcconfig; sourceTree = "<group>"; };
+		A9A18267D511A1EAE1F49AB910051C80 /* Framework428.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework428.h; sourceTree = "<group>"; };
+		C0F46366208C932FD77871DF34B78EE5 /* Framework428.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework428.podspec.json; sourceTree = "<group>"; };
+		C563B3CEB038F52194BCE5C0C46FB415 /* Framework428.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework428.m; sourceTree = "<group>"; };
+		C649F94C6FE29D0BC5FCBCA2F0FE898B /* Framework428.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework428.framework; path = Framework428.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E909E8E929D2BB83E9EF0B6D6178EE5F /* Framework428-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework428-dummy.m"; sourceTree = "<group>"; };
+		E9EDA3923045C2DBAC4E96C9AEF0C57A /* Framework428.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework428.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83D023A6FE53B84129561620D4672C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DD77721F0F229A4270D7B0BE9808B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07ED3275628BC848E01AE869195B2015 /* Framework428 */ = {
+			isa = PBXGroup;
+			children = (
+				A9A18267D511A1EAE1F49AB910051C80 /* Framework428.h */,
+				C563B3CEB038F52194BCE5C0C46FB415 /* Framework428.m */,
+				71A4B1DFA2546DE191B6D15E8CDE7325 /* Pod */,
+				0A2CE1A472F0B3C0AE45D9525B4173CE /* Support Files */,
+			);
+			name = Framework428;
+			path = ../Framework428;
+			sourceTree = "<group>";
+		};
+		0A2CE1A472F0B3C0AE45D9525B4173CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDA3923045C2DBAC4E96C9AEF0C57A /* Framework428.modulemap */,
+				E909E8E929D2BB83E9EF0B6D6178EE5F /* Framework428-dummy.m */,
+				4FEA77106B6B1E33D85D6BD06E46948E /* Framework428-Info.plist */,
+				61A4539FA8D2176D816655E65F554950 /* Framework428-prefix.pch */,
+				54D5915A5C9515A8DA84DD86564B4D67 /* Framework428-umbrella.h */,
+				A2BBA1A4B75F9DEB07ADB9E56D257C34 /* Framework428.debug.xcconfig */,
+				84A5040A771CB3D39800F5615AE498A1 /* Framework428.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework428";
+			sourceTree = "<group>";
+		};
+		71A4B1DFA2546DE191B6D15E8CDE7325 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0F46366208C932FD77871DF34B78EE5 /* Framework428.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		77E5BB8F87EA72CFAD8EC3283CB08ED5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				380A90992B9ED824C4E38E951EB78370 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		899EB263E123618E7E558BDE202B8471 = {
+			isa = PBXGroup;
+			children = (
+				07ED3275628BC848E01AE869195B2015 /* Framework428 */,
+				E0937E8784CF9F400F4943BB22E8F206 /* Frameworks */,
+				EBE950148465487BBFD07540B8C0DFEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0937E8784CF9F400F4943BB22E8F206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E5BB8F87EA72CFAD8EC3283CB08ED5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBE950148465487BBFD07540B8C0DFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C649F94C6FE29D0BC5FCBCA2F0FE898B /* Framework428.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC6D72C9E12D763F6C0BA3EF13226319 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96E0B2FBCE241631AD45D7E3E8968A4 /* Framework428-umbrella.h in Headers */,
+				3CFB3B3F8D64415BD6BE04CE4FCD6AF2 /* Framework428.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		696459DA3420A48F969E1EB3A3FF56CC /* Framework428 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB416126C44AF859CCC1867880588BC0 /* Build configuration list for PBXNativeTarget "Framework428" */;
+			buildPhases = (
+				FC6D72C9E12D763F6C0BA3EF13226319 /* Headers */,
+				86293BBDEE8157B5C3973FA3E55BA3FC /* Sources */,
+				C83D023A6FE53B84129561620D4672C2 /* Frameworks */,
+				3C2C5774F4CF43ED0DB4C6025C6F8D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework428;
+			productName = Framework428;
+			productReference = C649F94C6FE29D0BC5FCBCA2F0FE898B /* Framework428.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C48780DEE35CB17DE6E412B579CC59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 0DB474AC780CFD017512671DEDC7EBAA /* Build configuration list for PBXProject "Framework428" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899EB263E123618E7E558BDE202B8471;
+			productRefGroup = EBE950148465487BBFD07540B8C0DFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696459DA3420A48F969E1EB3A3FF56CC /* Framework428 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2C5774F4CF43ED0DB4C6025C6F8D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86293BBDEE8157B5C3973FA3E55BA3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E8D6FE55BA43F8F3FE119AEAF9F6B6 /* Framework428-dummy.m in Sources */,
+				6EA417F5467B69DF848D84E74A392DAA /* Framework428.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0234B954A2853AAA65B61415D6AAC2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BBA1A4B75F9DEB07ADB9E56D257C34 /* Framework428.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework428/Framework428-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework428/Framework428-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework428/Framework428.modulemap";
+				PRODUCT_MODULE_NAME = Framework428;
+				PRODUCT_NAME = Framework428;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68ADA2C2C7F5CE513413F50F45AF92DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		948AA60479B1DB6EAFF396E00C2BB771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A5040A771CB3D39800F5615AE498A1 /* Framework428.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework428/Framework428-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework428/Framework428-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework428/Framework428.modulemap";
+				PRODUCT_MODULE_NAME = Framework428;
+				PRODUCT_NAME = Framework428;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E69011D1736EA42AD435D3DBE00C35E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB474AC780CFD017512671DEDC7EBAA /* Build configuration list for PBXProject "Framework428" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69011D1736EA42AD435D3DBE00C35E2 /* Debug */,
+				68ADA2C2C7F5CE513413F50F45AF92DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB416126C44AF859CCC1867880588BC0 /* Build configuration list for PBXNativeTarget "Framework428" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0234B954A2853AAA65B61415D6AAC2FF /* Debug */,
+				948AA60479B1DB6EAFF396E00C2BB771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C48780DEE35CB17DE6E412B579CC59 /* Project object */;
+}

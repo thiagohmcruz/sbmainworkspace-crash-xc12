@@ -1,0 +1,926 @@
+---
+installation_method:
+  name: cocoapods
+  options:
+    :generate_multiple_pod_projects: true
+    :incremental_installation: true
+target_definitions:
+  - abstract: true
+    children:
+      - children:
+          - abstract: false
+            inheritance: search_paths
+            name: SampleAppTests
+        dependencies:
+          - Framework0:
+            - :path: "./Framework0"
+          - Framework0/App:
+            - :path: "./Framework0"
+          - Framework0/Tests:
+            - :path: "./Framework0"
+          - Framework1:
+            - :path: "./Framework1"
+          - Framework10:
+            - :path: "./Framework10"
+          - Framework100:
+            - :path: "./Framework100"
+          - Framework101:
+            - :path: "./Framework101"
+          - Framework102:
+            - :path: "./Framework102"
+          - Framework103:
+            - :path: "./Framework103"
+          - Framework104:
+            - :path: "./Framework104"
+          - Framework105:
+            - :path: "./Framework105"
+          - Framework106:
+            - :path: "./Framework106"
+          - Framework107:
+            - :path: "./Framework107"
+          - Framework108:
+            - :path: "./Framework108"
+          - Framework109:
+            - :path: "./Framework109"
+          - Framework11:
+            - :path: "./Framework11"
+          - Framework110:
+            - :path: "./Framework110"
+          - Framework111:
+            - :path: "./Framework111"
+          - Framework112:
+            - :path: "./Framework112"
+          - Framework113:
+            - :path: "./Framework113"
+          - Framework114:
+            - :path: "./Framework114"
+          - Framework115:
+            - :path: "./Framework115"
+          - Framework116:
+            - :path: "./Framework116"
+          - Framework117:
+            - :path: "./Framework117"
+          - Framework118:
+            - :path: "./Framework118"
+          - Framework119:
+            - :path: "./Framework119"
+          - Framework12:
+            - :path: "./Framework12"
+          - Framework120:
+            - :path: "./Framework120"
+          - Framework121:
+            - :path: "./Framework121"
+          - Framework122:
+            - :path: "./Framework122"
+          - Framework123:
+            - :path: "./Framework123"
+          - Framework124:
+            - :path: "./Framework124"
+          - Framework125:
+            - :path: "./Framework125"
+          - Framework126:
+            - :path: "./Framework126"
+          - Framework127:
+            - :path: "./Framework127"
+          - Framework128:
+            - :path: "./Framework128"
+          - Framework129:
+            - :path: "./Framework129"
+          - Framework13:
+            - :path: "./Framework13"
+          - Framework130:
+            - :path: "./Framework130"
+          - Framework131:
+            - :path: "./Framework131"
+          - Framework132:
+            - :path: "./Framework132"
+          - Framework133:
+            - :path: "./Framework133"
+          - Framework134:
+            - :path: "./Framework134"
+          - Framework135:
+            - :path: "./Framework135"
+          - Framework136:
+            - :path: "./Framework136"
+          - Framework137:
+            - :path: "./Framework137"
+          - Framework138:
+            - :path: "./Framework138"
+          - Framework139:
+            - :path: "./Framework139"
+          - Framework14:
+            - :path: "./Framework14"
+          - Framework140:
+            - :path: "./Framework140"
+          - Framework141:
+            - :path: "./Framework141"
+          - Framework142:
+            - :path: "./Framework142"
+          - Framework143:
+            - :path: "./Framework143"
+          - Framework144:
+            - :path: "./Framework144"
+          - Framework145:
+            - :path: "./Framework145"
+          - Framework146:
+            - :path: "./Framework146"
+          - Framework147:
+            - :path: "./Framework147"
+          - Framework148:
+            - :path: "./Framework148"
+          - Framework149:
+            - :path: "./Framework149"
+          - Framework15:
+            - :path: "./Framework15"
+          - Framework150:
+            - :path: "./Framework150"
+          - Framework151:
+            - :path: "./Framework151"
+          - Framework152:
+            - :path: "./Framework152"
+          - Framework153:
+            - :path: "./Framework153"
+          - Framework154:
+            - :path: "./Framework154"
+          - Framework155:
+            - :path: "./Framework155"
+          - Framework156:
+            - :path: "./Framework156"
+          - Framework157:
+            - :path: "./Framework157"
+          - Framework158:
+            - :path: "./Framework158"
+          - Framework159:
+            - :path: "./Framework159"
+          - Framework16:
+            - :path: "./Framework16"
+          - Framework160:
+            - :path: "./Framework160"
+          - Framework161:
+            - :path: "./Framework161"
+          - Framework162:
+            - :path: "./Framework162"
+          - Framework163:
+            - :path: "./Framework163"
+          - Framework164:
+            - :path: "./Framework164"
+          - Framework165:
+            - :path: "./Framework165"
+          - Framework166:
+            - :path: "./Framework166"
+          - Framework167:
+            - :path: "./Framework167"
+          - Framework168:
+            - :path: "./Framework168"
+          - Framework169:
+            - :path: "./Framework169"
+          - Framework17:
+            - :path: "./Framework17"
+          - Framework170:
+            - :path: "./Framework170"
+          - Framework171:
+            - :path: "./Framework171"
+          - Framework172:
+            - :path: "./Framework172"
+          - Framework173:
+            - :path: "./Framework173"
+          - Framework174:
+            - :path: "./Framework174"
+          - Framework175:
+            - :path: "./Framework175"
+          - Framework176:
+            - :path: "./Framework176"
+          - Framework177:
+            - :path: "./Framework177"
+          - Framework178:
+            - :path: "./Framework178"
+          - Framework179:
+            - :path: "./Framework179"
+          - Framework18:
+            - :path: "./Framework18"
+          - Framework180:
+            - :path: "./Framework180"
+          - Framework181:
+            - :path: "./Framework181"
+          - Framework182:
+            - :path: "./Framework182"
+          - Framework183:
+            - :path: "./Framework183"
+          - Framework184:
+            - :path: "./Framework184"
+          - Framework185:
+            - :path: "./Framework185"
+          - Framework186:
+            - :path: "./Framework186"
+          - Framework187:
+            - :path: "./Framework187"
+          - Framework188:
+            - :path: "./Framework188"
+          - Framework189:
+            - :path: "./Framework189"
+          - Framework19:
+            - :path: "./Framework19"
+          - Framework190:
+            - :path: "./Framework190"
+          - Framework191:
+            - :path: "./Framework191"
+          - Framework192:
+            - :path: "./Framework192"
+          - Framework193:
+            - :path: "./Framework193"
+          - Framework194:
+            - :path: "./Framework194"
+          - Framework195:
+            - :path: "./Framework195"
+          - Framework196:
+            - :path: "./Framework196"
+          - Framework197:
+            - :path: "./Framework197"
+          - Framework198:
+            - :path: "./Framework198"
+          - Framework199:
+            - :path: "./Framework199"
+          - Framework2:
+            - :path: "./Framework2"
+          - Framework20:
+            - :path: "./Framework20"
+          - Framework200:
+            - :path: "./Framework200"
+          - Framework201:
+            - :path: "./Framework201"
+          - Framework202:
+            - :path: "./Framework202"
+          - Framework203:
+            - :path: "./Framework203"
+          - Framework204:
+            - :path: "./Framework204"
+          - Framework205:
+            - :path: "./Framework205"
+          - Framework206:
+            - :path: "./Framework206"
+          - Framework207:
+            - :path: "./Framework207"
+          - Framework208:
+            - :path: "./Framework208"
+          - Framework209:
+            - :path: "./Framework209"
+          - Framework21:
+            - :path: "./Framework21"
+          - Framework210:
+            - :path: "./Framework210"
+          - Framework211:
+            - :path: "./Framework211"
+          - Framework212:
+            - :path: "./Framework212"
+          - Framework213:
+            - :path: "./Framework213"
+          - Framework214:
+            - :path: "./Framework214"
+          - Framework215:
+            - :path: "./Framework215"
+          - Framework216:
+            - :path: "./Framework216"
+          - Framework217:
+            - :path: "./Framework217"
+          - Framework218:
+            - :path: "./Framework218"
+          - Framework219:
+            - :path: "./Framework219"
+          - Framework22:
+            - :path: "./Framework22"
+          - Framework220:
+            - :path: "./Framework220"
+          - Framework221:
+            - :path: "./Framework221"
+          - Framework222:
+            - :path: "./Framework222"
+          - Framework223:
+            - :path: "./Framework223"
+          - Framework224:
+            - :path: "./Framework224"
+          - Framework225:
+            - :path: "./Framework225"
+          - Framework226:
+            - :path: "./Framework226"
+          - Framework227:
+            - :path: "./Framework227"
+          - Framework228:
+            - :path: "./Framework228"
+          - Framework229:
+            - :path: "./Framework229"
+          - Framework23:
+            - :path: "./Framework23"
+          - Framework230:
+            - :path: "./Framework230"
+          - Framework231:
+            - :path: "./Framework231"
+          - Framework232:
+            - :path: "./Framework232"
+          - Framework233:
+            - :path: "./Framework233"
+          - Framework234:
+            - :path: "./Framework234"
+          - Framework235:
+            - :path: "./Framework235"
+          - Framework236:
+            - :path: "./Framework236"
+          - Framework237:
+            - :path: "./Framework237"
+          - Framework238:
+            - :path: "./Framework238"
+          - Framework239:
+            - :path: "./Framework239"
+          - Framework24:
+            - :path: "./Framework24"
+          - Framework240:
+            - :path: "./Framework240"
+          - Framework241:
+            - :path: "./Framework241"
+          - Framework242:
+            - :path: "./Framework242"
+          - Framework243:
+            - :path: "./Framework243"
+          - Framework244:
+            - :path: "./Framework244"
+          - Framework245:
+            - :path: "./Framework245"
+          - Framework246:
+            - :path: "./Framework246"
+          - Framework247:
+            - :path: "./Framework247"
+          - Framework248:
+            - :path: "./Framework248"
+          - Framework249:
+            - :path: "./Framework249"
+          - Framework25:
+            - :path: "./Framework25"
+          - Framework250:
+            - :path: "./Framework250"
+          - Framework251:
+            - :path: "./Framework251"
+          - Framework252:
+            - :path: "./Framework252"
+          - Framework253:
+            - :path: "./Framework253"
+          - Framework254:
+            - :path: "./Framework254"
+          - Framework255:
+            - :path: "./Framework255"
+          - Framework256:
+            - :path: "./Framework256"
+          - Framework257:
+            - :path: "./Framework257"
+          - Framework258:
+            - :path: "./Framework258"
+          - Framework259:
+            - :path: "./Framework259"
+          - Framework26:
+            - :path: "./Framework26"
+          - Framework260:
+            - :path: "./Framework260"
+          - Framework261:
+            - :path: "./Framework261"
+          - Framework262:
+            - :path: "./Framework262"
+          - Framework263:
+            - :path: "./Framework263"
+          - Framework264:
+            - :path: "./Framework264"
+          - Framework265:
+            - :path: "./Framework265"
+          - Framework266:
+            - :path: "./Framework266"
+          - Framework267:
+            - :path: "./Framework267"
+          - Framework268:
+            - :path: "./Framework268"
+          - Framework269:
+            - :path: "./Framework269"
+          - Framework27:
+            - :path: "./Framework27"
+          - Framework270:
+            - :path: "./Framework270"
+          - Framework271:
+            - :path: "./Framework271"
+          - Framework272:
+            - :path: "./Framework272"
+          - Framework273:
+            - :path: "./Framework273"
+          - Framework274:
+            - :path: "./Framework274"
+          - Framework275:
+            - :path: "./Framework275"
+          - Framework276:
+            - :path: "./Framework276"
+          - Framework277:
+            - :path: "./Framework277"
+          - Framework278:
+            - :path: "./Framework278"
+          - Framework279:
+            - :path: "./Framework279"
+          - Framework28:
+            - :path: "./Framework28"
+          - Framework280:
+            - :path: "./Framework280"
+          - Framework281:
+            - :path: "./Framework281"
+          - Framework282:
+            - :path: "./Framework282"
+          - Framework283:
+            - :path: "./Framework283"
+          - Framework284:
+            - :path: "./Framework284"
+          - Framework285:
+            - :path: "./Framework285"
+          - Framework286:
+            - :path: "./Framework286"
+          - Framework287:
+            - :path: "./Framework287"
+          - Framework288:
+            - :path: "./Framework288"
+          - Framework289:
+            - :path: "./Framework289"
+          - Framework29:
+            - :path: "./Framework29"
+          - Framework290:
+            - :path: "./Framework290"
+          - Framework291:
+            - :path: "./Framework291"
+          - Framework292:
+            - :path: "./Framework292"
+          - Framework293:
+            - :path: "./Framework293"
+          - Framework294:
+            - :path: "./Framework294"
+          - Framework295:
+            - :path: "./Framework295"
+          - Framework296:
+            - :path: "./Framework296"
+          - Framework297:
+            - :path: "./Framework297"
+          - Framework298:
+            - :path: "./Framework298"
+          - Framework299:
+            - :path: "./Framework299"
+          - Framework3:
+            - :path: "./Framework3"
+          - Framework30:
+            - :path: "./Framework30"
+          - Framework300:
+            - :path: "./Framework300"
+          - Framework301:
+            - :path: "./Framework301"
+          - Framework302:
+            - :path: "./Framework302"
+          - Framework303:
+            - :path: "./Framework303"
+          - Framework304:
+            - :path: "./Framework304"
+          - Framework305:
+            - :path: "./Framework305"
+          - Framework306:
+            - :path: "./Framework306"
+          - Framework307:
+            - :path: "./Framework307"
+          - Framework308:
+            - :path: "./Framework308"
+          - Framework309:
+            - :path: "./Framework309"
+          - Framework31:
+            - :path: "./Framework31"
+          - Framework310:
+            - :path: "./Framework310"
+          - Framework311:
+            - :path: "./Framework311"
+          - Framework312:
+            - :path: "./Framework312"
+          - Framework313:
+            - :path: "./Framework313"
+          - Framework314:
+            - :path: "./Framework314"
+          - Framework315:
+            - :path: "./Framework315"
+          - Framework316:
+            - :path: "./Framework316"
+          - Framework317:
+            - :path: "./Framework317"
+          - Framework318:
+            - :path: "./Framework318"
+          - Framework319:
+            - :path: "./Framework319"
+          - Framework32:
+            - :path: "./Framework32"
+          - Framework320:
+            - :path: "./Framework320"
+          - Framework321:
+            - :path: "./Framework321"
+          - Framework322:
+            - :path: "./Framework322"
+          - Framework323:
+            - :path: "./Framework323"
+          - Framework324:
+            - :path: "./Framework324"
+          - Framework325:
+            - :path: "./Framework325"
+          - Framework326:
+            - :path: "./Framework326"
+          - Framework327:
+            - :path: "./Framework327"
+          - Framework328:
+            - :path: "./Framework328"
+          - Framework329:
+            - :path: "./Framework329"
+          - Framework33:
+            - :path: "./Framework33"
+          - Framework330:
+            - :path: "./Framework330"
+          - Framework331:
+            - :path: "./Framework331"
+          - Framework332:
+            - :path: "./Framework332"
+          - Framework333:
+            - :path: "./Framework333"
+          - Framework334:
+            - :path: "./Framework334"
+          - Framework335:
+            - :path: "./Framework335"
+          - Framework336:
+            - :path: "./Framework336"
+          - Framework337:
+            - :path: "./Framework337"
+          - Framework338:
+            - :path: "./Framework338"
+          - Framework339:
+            - :path: "./Framework339"
+          - Framework34:
+            - :path: "./Framework34"
+          - Framework340:
+            - :path: "./Framework340"
+          - Framework341:
+            - :path: "./Framework341"
+          - Framework342:
+            - :path: "./Framework342"
+          - Framework343:
+            - :path: "./Framework343"
+          - Framework344:
+            - :path: "./Framework344"
+          - Framework345:
+            - :path: "./Framework345"
+          - Framework346:
+            - :path: "./Framework346"
+          - Framework347:
+            - :path: "./Framework347"
+          - Framework348:
+            - :path: "./Framework348"
+          - Framework349:
+            - :path: "./Framework349"
+          - Framework35:
+            - :path: "./Framework35"
+          - Framework350:
+            - :path: "./Framework350"
+          - Framework351:
+            - :path: "./Framework351"
+          - Framework352:
+            - :path: "./Framework352"
+          - Framework353:
+            - :path: "./Framework353"
+          - Framework354:
+            - :path: "./Framework354"
+          - Framework355:
+            - :path: "./Framework355"
+          - Framework356:
+            - :path: "./Framework356"
+          - Framework357:
+            - :path: "./Framework357"
+          - Framework358:
+            - :path: "./Framework358"
+          - Framework359:
+            - :path: "./Framework359"
+          - Framework36:
+            - :path: "./Framework36"
+          - Framework360:
+            - :path: "./Framework360"
+          - Framework361:
+            - :path: "./Framework361"
+          - Framework362:
+            - :path: "./Framework362"
+          - Framework363:
+            - :path: "./Framework363"
+          - Framework364:
+            - :path: "./Framework364"
+          - Framework365:
+            - :path: "./Framework365"
+          - Framework366:
+            - :path: "./Framework366"
+          - Framework367:
+            - :path: "./Framework367"
+          - Framework368:
+            - :path: "./Framework368"
+          - Framework369:
+            - :path: "./Framework369"
+          - Framework37:
+            - :path: "./Framework37"
+          - Framework370:
+            - :path: "./Framework370"
+          - Framework371:
+            - :path: "./Framework371"
+          - Framework372:
+            - :path: "./Framework372"
+          - Framework373:
+            - :path: "./Framework373"
+          - Framework374:
+            - :path: "./Framework374"
+          - Framework375:
+            - :path: "./Framework375"
+          - Framework376:
+            - :path: "./Framework376"
+          - Framework377:
+            - :path: "./Framework377"
+          - Framework378:
+            - :path: "./Framework378"
+          - Framework379:
+            - :path: "./Framework379"
+          - Framework38:
+            - :path: "./Framework38"
+          - Framework380:
+            - :path: "./Framework380"
+          - Framework381:
+            - :path: "./Framework381"
+          - Framework382:
+            - :path: "./Framework382"
+          - Framework383:
+            - :path: "./Framework383"
+          - Framework384:
+            - :path: "./Framework384"
+          - Framework385:
+            - :path: "./Framework385"
+          - Framework386:
+            - :path: "./Framework386"
+          - Framework387:
+            - :path: "./Framework387"
+          - Framework388:
+            - :path: "./Framework388"
+          - Framework389:
+            - :path: "./Framework389"
+          - Framework39:
+            - :path: "./Framework39"
+          - Framework390:
+            - :path: "./Framework390"
+          - Framework391:
+            - :path: "./Framework391"
+          - Framework392:
+            - :path: "./Framework392"
+          - Framework393:
+            - :path: "./Framework393"
+          - Framework394:
+            - :path: "./Framework394"
+          - Framework395:
+            - :path: "./Framework395"
+          - Framework396:
+            - :path: "./Framework396"
+          - Framework397:
+            - :path: "./Framework397"
+          - Framework398:
+            - :path: "./Framework398"
+          - Framework399:
+            - :path: "./Framework399"
+          - Framework4:
+            - :path: "./Framework4"
+          - Framework40:
+            - :path: "./Framework40"
+          - Framework400:
+            - :path: "./Framework400"
+          - Framework401:
+            - :path: "./Framework401"
+          - Framework402:
+            - :path: "./Framework402"
+          - Framework403:
+            - :path: "./Framework403"
+          - Framework404:
+            - :path: "./Framework404"
+          - Framework405:
+            - :path: "./Framework405"
+          - Framework406:
+            - :path: "./Framework406"
+          - Framework407:
+            - :path: "./Framework407"
+          - Framework408:
+            - :path: "./Framework408"
+          - Framework409:
+            - :path: "./Framework409"
+          - Framework41:
+            - :path: "./Framework41"
+          - Framework410:
+            - :path: "./Framework410"
+          - Framework411:
+            - :path: "./Framework411"
+          - Framework412:
+            - :path: "./Framework412"
+          - Framework413:
+            - :path: "./Framework413"
+          - Framework414:
+            - :path: "./Framework414"
+          - Framework415:
+            - :path: "./Framework415"
+          - Framework416:
+            - :path: "./Framework416"
+          - Framework417:
+            - :path: "./Framework417"
+          - Framework418:
+            - :path: "./Framework418"
+          - Framework419:
+            - :path: "./Framework419"
+          - Framework42:
+            - :path: "./Framework42"
+          - Framework420:
+            - :path: "./Framework420"
+          - Framework421:
+            - :path: "./Framework421"
+          - Framework422:
+            - :path: "./Framework422"
+          - Framework423:
+            - :path: "./Framework423"
+          - Framework424:
+            - :path: "./Framework424"
+          - Framework425:
+            - :path: "./Framework425"
+          - Framework426:
+            - :path: "./Framework426"
+          - Framework427:
+            - :path: "./Framework427"
+          - Framework428:
+            - :path: "./Framework428"
+          - Framework429:
+            - :path: "./Framework429"
+          - Framework43:
+            - :path: "./Framework43"
+          - Framework430:
+            - :path: "./Framework430"
+          - Framework431:
+            - :path: "./Framework431"
+          - Framework432:
+            - :path: "./Framework432"
+          - Framework433:
+            - :path: "./Framework433"
+          - Framework434:
+            - :path: "./Framework434"
+          - Framework435:
+            - :path: "./Framework435"
+          - Framework436:
+            - :path: "./Framework436"
+          - Framework437:
+            - :path: "./Framework437"
+          - Framework438:
+            - :path: "./Framework438"
+          - Framework439:
+            - :path: "./Framework439"
+          - Framework44:
+            - :path: "./Framework44"
+          - Framework440:
+            - :path: "./Framework440"
+          - Framework441:
+            - :path: "./Framework441"
+          - Framework442:
+            - :path: "./Framework442"
+          - Framework443:
+            - :path: "./Framework443"
+          - Framework444:
+            - :path: "./Framework444"
+          - Framework445:
+            - :path: "./Framework445"
+          - Framework446:
+            - :path: "./Framework446"
+          - Framework447:
+            - :path: "./Framework447"
+          - Framework448:
+            - :path: "./Framework448"
+          - Framework449:
+            - :path: "./Framework449"
+          - Framework45:
+            - :path: "./Framework45"
+          - Framework46:
+            - :path: "./Framework46"
+          - Framework47:
+            - :path: "./Framework47"
+          - Framework48:
+            - :path: "./Framework48"
+          - Framework49:
+            - :path: "./Framework49"
+          - Framework5:
+            - :path: "./Framework5"
+          - Framework50:
+            - :path: "./Framework50"
+          - Framework51:
+            - :path: "./Framework51"
+          - Framework52:
+            - :path: "./Framework52"
+          - Framework53:
+            - :path: "./Framework53"
+          - Framework54:
+            - :path: "./Framework54"
+          - Framework55:
+            - :path: "./Framework55"
+          - Framework56:
+            - :path: "./Framework56"
+          - Framework57:
+            - :path: "./Framework57"
+          - Framework58:
+            - :path: "./Framework58"
+          - Framework59:
+            - :path: "./Framework59"
+          - Framework6:
+            - :path: "./Framework6"
+          - Framework60:
+            - :path: "./Framework60"
+          - Framework61:
+            - :path: "./Framework61"
+          - Framework62:
+            - :path: "./Framework62"
+          - Framework63:
+            - :path: "./Framework63"
+          - Framework64:
+            - :path: "./Framework64"
+          - Framework65:
+            - :path: "./Framework65"
+          - Framework66:
+            - :path: "./Framework66"
+          - Framework67:
+            - :path: "./Framework67"
+          - Framework68:
+            - :path: "./Framework68"
+          - Framework69:
+            - :path: "./Framework69"
+          - Framework7:
+            - :path: "./Framework7"
+          - Framework70:
+            - :path: "./Framework70"
+          - Framework71:
+            - :path: "./Framework71"
+          - Framework72:
+            - :path: "./Framework72"
+          - Framework73:
+            - :path: "./Framework73"
+          - Framework74:
+            - :path: "./Framework74"
+          - Framework75:
+            - :path: "./Framework75"
+          - Framework76:
+            - :path: "./Framework76"
+          - Framework77:
+            - :path: "./Framework77"
+          - Framework78:
+            - :path: "./Framework78"
+          - Framework79:
+            - :path: "./Framework79"
+          - Framework8:
+            - :path: "./Framework8"
+          - Framework80:
+            - :path: "./Framework80"
+          - Framework81:
+            - :path: "./Framework81"
+          - Framework82:
+            - :path: "./Framework82"
+          - Framework83:
+            - :path: "./Framework83"
+          - Framework84:
+            - :path: "./Framework84"
+          - Framework85:
+            - :path: "./Framework85"
+          - Framework86:
+            - :path: "./Framework86"
+          - Framework87:
+            - :path: "./Framework87"
+          - Framework88:
+            - :path: "./Framework88"
+          - Framework89:
+            - :path: "./Framework89"
+          - Framework9:
+            - :path: "./Framework9"
+          - Framework90:
+            - :path: "./Framework90"
+          - Framework91:
+            - :path: "./Framework91"
+          - Framework92:
+            - :path: "./Framework92"
+          - Framework93:
+            - :path: "./Framework93"
+          - Framework94:
+            - :path: "./Framework94"
+          - Framework95:
+            - :path: "./Framework95"
+          - Framework96:
+            - :path: "./Framework96"
+          - Framework97:
+            - :path: "./Framework97"
+          - Framework98:
+            - :path: "./Framework98"
+          - Framework99:
+            - :path: "./Framework99"
+        name: SampleApp
+    name: Pods
+    platform:
+      ios: 9.3
+    user_project_path: SampleApp
+    uses_frameworks:
+      :linkage: :static
+      :packaging: :framework

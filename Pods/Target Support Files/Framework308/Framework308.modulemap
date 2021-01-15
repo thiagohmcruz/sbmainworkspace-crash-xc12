@@ -1,0 +1,6 @@
+framework module Framework308 {
+  umbrella header "Framework308-umbrella.h"
+
+  export *
+  module * { export * }
+}

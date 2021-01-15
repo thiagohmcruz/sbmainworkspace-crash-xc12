@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F52CAA466278F75D66D195318731F /* Framework330-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC80A57634FA2B85564A86E6B0655DF /* Framework330-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FE6A699E1440F8B002DB3578B95E74 /* Framework330.m in Sources */ = {isa = PBXBuildFile; fileRef = 818D46447905A20F0EDF9C837D92AC96 /* Framework330.m */; };
+		517AF06D3A7C385B6ED452A8155A2D92 /* Framework330.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D1E7125441A21D5B6F00A23B95B4F5 /* Framework330.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D61EE34E1744A9261B58E7F28E010E9 /* Framework330-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6689E1A8402A4669C1F5955B5462BA03 /* Framework330-dummy.m */; };
+		AA87DB33BD12FF5E340B36100CF91C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A9FB7F8BBA124E502612FA0A71F2B4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48A9FB7F8BBA124E502612FA0A71F2B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62EF03C2F5BFA6F129D35F7480278AF6 /* Framework330.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework330.framework; path = Framework330.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6689E1A8402A4669C1F5955B5462BA03 /* Framework330-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework330-dummy.m"; sourceTree = "<group>"; };
+		6AC80A57634FA2B85564A86E6B0655DF /* Framework330-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework330-umbrella.h"; sourceTree = "<group>"; };
+		6B3C3DD92D1919D8500F4722853FC00A /* Framework330-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework330-prefix.pch"; sourceTree = "<group>"; };
+		7381072F2FB36DEEC0A60F64B33A3275 /* Framework330.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework330.debug.xcconfig; sourceTree = "<group>"; };
+		74D1E7125441A21D5B6F00A23B95B4F5 /* Framework330.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework330.h; sourceTree = "<group>"; };
+		818D46447905A20F0EDF9C837D92AC96 /* Framework330.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework330.m; sourceTree = "<group>"; };
+		BFE93740D8B37A5C2CE0061DA4295889 /* Framework330.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework330.podspec.json; sourceTree = "<group>"; };
+		C31A7870516335AB72B960A909E108BF /* Framework330.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework330.release.xcconfig; sourceTree = "<group>"; };
+		EAB62A401A340AA65B65BFA9373E234E /* Framework330.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework330.modulemap; sourceTree = "<group>"; };
+		F367F7E69C4105FBF136606E7C36B565 /* Framework330-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework330-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DAC20215BD03DE485785CF5B5C8F3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA87DB33BD12FF5E340B36100CF91C31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350974B979DB2C36BAF3D2D2439F0ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C635A8BA9B7FBC8AE4B679559B5A1A81 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54BF8CA0C0D7051C17EA438960DA9B0F = {
+			isa = PBXGroup;
+			children = (
+				CEA22BB49E8C5765BA19E3BBA1C3D1D5 /* Framework330 */,
+				350974B979DB2C36BAF3D2D2439F0ECF /* Frameworks */,
+				C2741B2A9D4709BBB2B6E40FB7625AA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9165933EA1CDA925F15C4D56D64A5DF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BFE93740D8B37A5C2CE0061DA4295889 /* Framework330.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C2741B2A9D4709BBB2B6E40FB7625AA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62EF03C2F5BFA6F129D35F7480278AF6 /* Framework330.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C635A8BA9B7FBC8AE4B679559B5A1A81 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				48A9FB7F8BBA124E502612FA0A71F2B4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEA22BB49E8C5765BA19E3BBA1C3D1D5 /* Framework330 */ = {
+			isa = PBXGroup;
+			children = (
+				74D1E7125441A21D5B6F00A23B95B4F5 /* Framework330.h */,
+				818D46447905A20F0EDF9C837D92AC96 /* Framework330.m */,
+				9165933EA1CDA925F15C4D56D64A5DF7 /* Pod */,
+				E1979E9BAE507BD6A9D6652A524A9783 /* Support Files */,
+			);
+			name = Framework330;
+			path = ../Framework330;
+			sourceTree = "<group>";
+		};
+		E1979E9BAE507BD6A9D6652A524A9783 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB62A401A340AA65B65BFA9373E234E /* Framework330.modulemap */,
+				6689E1A8402A4669C1F5955B5462BA03 /* Framework330-dummy.m */,
+				F367F7E69C4105FBF136606E7C36B565 /* Framework330-Info.plist */,
+				6B3C3DD92D1919D8500F4722853FC00A /* Framework330-prefix.pch */,
+				6AC80A57634FA2B85564A86E6B0655DF /* Framework330-umbrella.h */,
+				7381072F2FB36DEEC0A60F64B33A3275 /* Framework330.debug.xcconfig */,
+				C31A7870516335AB72B960A909E108BF /* Framework330.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework330";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74C1213C8B68C135DF8F6F704D6DC19E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F52CAA466278F75D66D195318731F /* Framework330-umbrella.h in Headers */,
+				517AF06D3A7C385B6ED452A8155A2D92 /* Framework330.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7D5D77D08A2EB6219DBEA50AD67A2A8 /* Framework330 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D44DB176DFCA1B76169A0A3BE9823E /* Build configuration list for PBXNativeTarget "Framework330" */;
+			buildPhases = (
+				74C1213C8B68C135DF8F6F704D6DC19E /* Headers */,
+				B1EFC3DCFB5898A08711FB54FCBDA9B5 /* Sources */,
+				2DAC20215BD03DE485785CF5B5C8F3CE /* Frameworks */,
+				3F406336451173808DED93DA0CCDC516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework330;
+			productName = Framework330;
+			productReference = 62EF03C2F5BFA6F129D35F7480278AF6 /* Framework330.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0026762ED08211259F075A7E73A990E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 6E9D65F8090B123516E3350DB2E3491F /* Build configuration list for PBXProject "Framework330" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54BF8CA0C0D7051C17EA438960DA9B0F;
+			productRefGroup = C2741B2A9D4709BBB2B6E40FB7625AA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D5D77D08A2EB6219DBEA50AD67A2A8 /* Framework330 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F406336451173808DED93DA0CCDC516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1EFC3DCFB5898A08711FB54FCBDA9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D61EE34E1744A9261B58E7F28E010E9 /* Framework330-dummy.m in Sources */,
+				20FE6A699E1440F8B002DB3578B95E74 /* Framework330.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CA5C9EB1D1E7DE19AA6B35D55587EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7381072F2FB36DEEC0A60F64B33A3275 /* Framework330.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework330/Framework330-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework330/Framework330-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework330/Framework330.modulemap";
+				PRODUCT_MODULE_NAME = Framework330;
+				PRODUCT_NAME = Framework330;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		606812BA023A74B1E66E6B2295E1884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31A7870516335AB72B960A909E108BF /* Framework330.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework330/Framework330-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework330/Framework330-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework330/Framework330.modulemap";
+				PRODUCT_MODULE_NAME = Framework330;
+				PRODUCT_NAME = Framework330;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		846A2C9066D191040EC88457049DB9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		857FACF768E173C7C196511BDF87760F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D44DB176DFCA1B76169A0A3BE9823E /* Build configuration list for PBXNativeTarget "Framework330" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA5C9EB1D1E7DE19AA6B35D55587EE1 /* Debug */,
+				606812BA023A74B1E66E6B2295E1884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9D65F8090B123516E3350DB2E3491F /* Build configuration list for PBXProject "Framework330" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857FACF768E173C7C196511BDF87760F /* Debug */,
+				846A2C9066D191040EC88457049DB9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0026762ED08211259F075A7E73A990E0 /* Project object */;
+}

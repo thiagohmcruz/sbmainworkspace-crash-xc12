@@ -1,0 +1,6 @@
+framework module Framework128 {
+  umbrella header "Framework128-umbrella.h"
+
+  export *
+  module * { export * }
+}

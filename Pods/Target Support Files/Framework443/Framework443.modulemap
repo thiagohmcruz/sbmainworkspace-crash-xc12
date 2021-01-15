@@ -1,0 +1,6 @@
+framework module Framework443 {
+  umbrella header "Framework443-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Framework256 {
+  umbrella header "Framework256-umbrella.h"
+
+  export *
+  module * { export * }
+}

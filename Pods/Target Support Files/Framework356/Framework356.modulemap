@@ -1,0 +1,6 @@
+framework module Framework356 {
+  umbrella header "Framework356-umbrella.h"
+
+  export *
+  module * { export * }
+}

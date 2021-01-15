@@ -1,0 +1,6 @@
+framework module Framework83 {
+  umbrella header "Framework83-umbrella.h"
+
+  export *
+  module * { export * }
+}

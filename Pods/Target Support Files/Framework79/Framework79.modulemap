@@ -1,0 +1,6 @@
+framework module Framework79 {
+  umbrella header "Framework79-umbrella.h"
+
+  export *
+  module * { export * }
+}

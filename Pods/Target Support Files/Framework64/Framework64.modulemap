@@ -1,0 +1,6 @@
+framework module Framework64 {
+  umbrella header "Framework64-umbrella.h"
+
+  export *
+  module * { export * }
+}

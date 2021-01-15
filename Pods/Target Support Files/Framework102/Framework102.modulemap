@@ -1,0 +1,6 @@
+framework module Framework102 {
+  umbrella header "Framework102-umbrella.h"
+
+  export *
+  module * { export * }
+}

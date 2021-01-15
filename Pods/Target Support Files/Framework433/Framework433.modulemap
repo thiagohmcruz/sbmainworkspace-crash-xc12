@@ -1,0 +1,6 @@
+framework module Framework433 {
+  umbrella header "Framework433-umbrella.h"
+
+  export *
+  module * { export * }
+}

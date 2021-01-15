@@ -1,0 +1,6 @@
+framework module Framework28 {
+  umbrella header "Framework28-umbrella.h"
+
+  export *
+  module * { export * }
+}

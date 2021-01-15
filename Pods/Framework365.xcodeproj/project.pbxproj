@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43FD15D5B0861D62245A3886F3471286 /* Framework365.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D69B6275F968F7D3694B014AC354A5E /* Framework365.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69528B258D4BFA98BD16CF09EAE7F407 /* Framework365.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1B9F933FF6257655F6CB12DD74AB8 /* Framework365.m */; };
+		7D438CB5DC1B7AD2D7E5127C2186E940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71D9248F8C1637CE111314857053F5D /* Foundation.framework */; };
+		CCDBE0E1AF14EEA4706151FCEF2A1AB6 /* Framework365-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E5A18FD813295FC7F61E6E2745259 /* Framework365-dummy.m */; };
+		F31BF9A22C4AAD97D0B1C15B9C412F96 /* Framework365-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCF7E274823C63A7867610CC258E42E /* Framework365-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CF1B9F933FF6257655F6CB12DD74AB8 /* Framework365.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework365.m; sourceTree = "<group>"; };
+		1D69B6275F968F7D3694B014AC354A5E /* Framework365.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework365.h; sourceTree = "<group>"; };
+		4B1615603FF9E038F7080A72CFFFD493 /* Framework365-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework365-prefix.pch"; sourceTree = "<group>"; };
+		503E4D22A216E89D3751A9BDEA0F89AE /* Framework365-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework365-Info.plist"; sourceTree = "<group>"; };
+		5CCF7E274823C63A7867610CC258E42E /* Framework365-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework365-umbrella.h"; sourceTree = "<group>"; };
+		71E65539D3393350F9657CEECA9E7F85 /* Framework365.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework365.framework; path = Framework365.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B2D81E3CF78C99E0ECAF0D806FC690 /* Framework365.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework365.release.xcconfig; sourceTree = "<group>"; };
+		B1A0C3DC2DE4A5C1123A9B30AFB7C91D /* Framework365.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework365.modulemap; sourceTree = "<group>"; };
+		C25869FB91B88A4E9B26D76F86424808 /* Framework365.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework365.podspec.json; sourceTree = "<group>"; };
+		C6412FFF1797CEE300633AF9754392D8 /* Framework365.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework365.debug.xcconfig; sourceTree = "<group>"; };
+		C71D9248F8C1637CE111314857053F5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D42E5A18FD813295FC7F61E6E2745259 /* Framework365-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework365-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A16A68617F20EA8A257CD064B162C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D438CB5DC1B7AD2D7E5127C2186E940 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0564CCD4B3C8F8435E654553A6116714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870D3FF265F84FF416D20AF263D33314 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F35527D025636428494E544CB3ED5F = {
+			isa = PBXGroup;
+			children = (
+				9F4DDA2EC6EBD49638C9FBB96A7D68CB /* Framework365 */,
+				0564CCD4B3C8F8435E654553A6116714 /* Frameworks */,
+				CEA06372CB1473F569A9420201FCC2B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870D3FF265F84FF416D20AF263D33314 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C71D9248F8C1637CE111314857053F5D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F4DDA2EC6EBD49638C9FBB96A7D68CB /* Framework365 */ = {
+			isa = PBXGroup;
+			children = (
+				1D69B6275F968F7D3694B014AC354A5E /* Framework365.h */,
+				1CF1B9F933FF6257655F6CB12DD74AB8 /* Framework365.m */,
+				E272460FE8A0DA85A09AB6B09024AC53 /* Pod */,
+				C659995CDC1167207FB76520077737E7 /* Support Files */,
+			);
+			name = Framework365;
+			path = ../Framework365;
+			sourceTree = "<group>";
+		};
+		C659995CDC1167207FB76520077737E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1A0C3DC2DE4A5C1123A9B30AFB7C91D /* Framework365.modulemap */,
+				D42E5A18FD813295FC7F61E6E2745259 /* Framework365-dummy.m */,
+				503E4D22A216E89D3751A9BDEA0F89AE /* Framework365-Info.plist */,
+				4B1615603FF9E038F7080A72CFFFD493 /* Framework365-prefix.pch */,
+				5CCF7E274823C63A7867610CC258E42E /* Framework365-umbrella.h */,
+				C6412FFF1797CEE300633AF9754392D8 /* Framework365.debug.xcconfig */,
+				73B2D81E3CF78C99E0ECAF0D806FC690 /* Framework365.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework365";
+			sourceTree = "<group>";
+		};
+		CEA06372CB1473F569A9420201FCC2B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E65539D3393350F9657CEECA9E7F85 /* Framework365.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E272460FE8A0DA85A09AB6B09024AC53 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C25869FB91B88A4E9B26D76F86424808 /* Framework365.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6845D1185B551EC85AF037824172FAF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31BF9A22C4AAD97D0B1C15B9C412F96 /* Framework365-umbrella.h in Headers */,
+				43FD15D5B0861D62245A3886F3471286 /* Framework365.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D764CAFD982B2D21B0655ECB25F134B7 /* Framework365 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0B799E48395F4555032866DA5CFA7C /* Build configuration list for PBXNativeTarget "Framework365" */;
+			buildPhases = (
+				6845D1185B551EC85AF037824172FAF8 /* Headers */,
+				35778DE2ABB6981FAF2459685388492B /* Sources */,
+				3A16A68617F20EA8A257CD064B162C40 /* Frameworks */,
+				A6FEFBA4060DAE3310BD44317D003354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework365;
+			productName = Framework365;
+			productReference = 71E65539D3393350F9657CEECA9E7F85 /* Framework365.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E64F30BD9E7F0B7A09F347EBB09F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 15165A5BF60E2A939BD4FA1A2A683D46 /* Build configuration list for PBXProject "Framework365" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67F35527D025636428494E544CB3ED5F;
+			productRefGroup = CEA06372CB1473F569A9420201FCC2B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D764CAFD982B2D21B0655ECB25F134B7 /* Framework365 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6FEFBA4060DAE3310BD44317D003354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35778DE2ABB6981FAF2459685388492B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDBE0E1AF14EEA4706151FCEF2A1AB6 /* Framework365-dummy.m in Sources */,
+				69528B258D4BFA98BD16CF09EAE7F407 /* Framework365.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FD0F7A3B28365612E111B21586A796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67EDD1CA51E434530B7C2C94FAA3BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		83188814441D27C4B0BC1A3CBA03B7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B2D81E3CF78C99E0ECAF0D806FC690 /* Framework365.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework365/Framework365-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework365/Framework365-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework365/Framework365.modulemap";
+				PRODUCT_MODULE_NAME = Framework365;
+				PRODUCT_NAME = Framework365;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A12A3F6A000C8E3F2BA4872C0C1EFB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6412FFF1797CEE300633AF9754392D8 /* Framework365.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework365/Framework365-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework365/Framework365-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework365/Framework365.modulemap";
+				PRODUCT_MODULE_NAME = Framework365;
+				PRODUCT_NAME = Framework365;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15165A5BF60E2A939BD4FA1A2A683D46 /* Build configuration list for PBXProject "Framework365" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD0F7A3B28365612E111B21586A796C /* Debug */,
+				67EDD1CA51E434530B7C2C94FAA3BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0B799E48395F4555032866DA5CFA7C /* Build configuration list for PBXNativeTarget "Framework365" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A3F6A000C8E3F2BA4872C0C1EFB5A /* Debug */,
+				83188814441D27C4B0BC1A3CBA03B7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E64F30BD9E7F0B7A09F347EBB09F3B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Framework21 {
+  umbrella header "Framework21-umbrella.h"
+
+  export *
+  module * { export * }
+}

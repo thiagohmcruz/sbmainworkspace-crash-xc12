@@ -1,0 +1,6 @@
+framework module Framework32 {
+  umbrella header "Framework32-umbrella.h"
+
+  export *
+  module * { export * }
+}

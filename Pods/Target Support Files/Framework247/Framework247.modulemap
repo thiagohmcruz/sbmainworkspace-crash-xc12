@@ -1,0 +1,6 @@
+framework module Framework247 {
+  umbrella header "Framework247-umbrella.h"
+
+  export *
+  module * { export * }
+}

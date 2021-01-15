@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0E84BC166DB88956CCD686EEB1CC1C /* Framework46.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B250ABF11DC91ED6AC4790A80EDBE8 /* Framework46.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59E7CB97E82F659AD328B11717597BBD /* Framework46.m in Sources */ = {isa = PBXBuildFile; fileRef = E538684FF85C8CE631553D104BB9CA73 /* Framework46.m */; };
+		6EDFD831980EA11471F9250813720B20 /* Framework46-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB3F0AF14BEEE54AB51CE63959ECBA5 /* Framework46-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70AE76D489164F306A4395C10498610B /* Framework46-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC86411BEB56B8A35328DEC267D18D /* Framework46-dummy.m */; };
+		CABC8515B2E9A4C60B8C1F4822801F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB8A0915C29EAC299093B6874E5BBC5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FB3F0AF14BEEE54AB51CE63959ECBA5 /* Framework46-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework46-umbrella.h"; sourceTree = "<group>"; };
+		2758CE52FB9BE24C9B7F4F6A219E36BE /* Framework46-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework46-Info.plist"; sourceTree = "<group>"; };
+		4884A3911F9664223E9466F33BF895EF /* Framework46.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework46.podspec.json; sourceTree = "<group>"; };
+		6C6D4D81C47D07B7B807FC992C6FFF44 /* Framework46.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework46.framework; path = Framework46.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5A8FB38DD17AD1E7E68C4B7A6D3FF6 /* Framework46-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework46-prefix.pch"; sourceTree = "<group>"; };
+		9480947FD32CEBD9133918E267528322 /* Framework46.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework46.release.xcconfig; sourceTree = "<group>"; };
+		9B03FD97F85E20613AE767570DA7665A /* Framework46.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework46.modulemap; sourceTree = "<group>"; };
+		BCCC86411BEB56B8A35328DEC267D18D /* Framework46-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework46-dummy.m"; sourceTree = "<group>"; };
+		CCB8A0915C29EAC299093B6874E5BBC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2B250ABF11DC91ED6AC4790A80EDBE8 /* Framework46.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework46.h; sourceTree = "<group>"; };
+		E538684FF85C8CE631553D104BB9CA73 /* Framework46.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework46.m; sourceTree = "<group>"; };
+		EF1746E69A45EDA2D52A47A92DD5589C /* Framework46.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework46.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF80D65A6F58070AEEA99000EA0A588B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC8515B2E9A4C60B8C1F4822801F75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0999E7AB74EDF41EB7B2E117F5795FAF = {
+			isa = PBXGroup;
+			children = (
+				77915C846EFB7541C82BA526A1B5F593 /* Framework46 */,
+				5E06C9DD256EFB0B4A490B8A0F62DBA4 /* Frameworks */,
+				0D3E70E7E22465EF15F875D684F87779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D3E70E7E22465EF15F875D684F87779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6D4D81C47D07B7B807FC992C6FFF44 /* Framework46.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E06C9DD256EFB0B4A490B8A0F62DBA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FC06D911186B1574CCBEFED4E1435B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A87F1F62E1759AA2C3C7215BBD2883 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4884A3911F9664223E9466F33BF895EF /* Framework46.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		76FC06D911186B1574CCBEFED4E1435B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8A0915C29EAC299093B6874E5BBC5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77915C846EFB7541C82BA526A1B5F593 /* Framework46 */ = {
+			isa = PBXGroup;
+			children = (
+				E2B250ABF11DC91ED6AC4790A80EDBE8 /* Framework46.h */,
+				E538684FF85C8CE631553D104BB9CA73 /* Framework46.m */,
+				76A87F1F62E1759AA2C3C7215BBD2883 /* Pod */,
+				E8DB889B98BC4EF753B0F76A1BE2D79A /* Support Files */,
+			);
+			name = Framework46;
+			path = ../Framework46;
+			sourceTree = "<group>";
+		};
+		E8DB889B98BC4EF753B0F76A1BE2D79A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B03FD97F85E20613AE767570DA7665A /* Framework46.modulemap */,
+				BCCC86411BEB56B8A35328DEC267D18D /* Framework46-dummy.m */,
+				2758CE52FB9BE24C9B7F4F6A219E36BE /* Framework46-Info.plist */,
+				8D5A8FB38DD17AD1E7E68C4B7A6D3FF6 /* Framework46-prefix.pch */,
+				1FB3F0AF14BEEE54AB51CE63959ECBA5 /* Framework46-umbrella.h */,
+				EF1746E69A45EDA2D52A47A92DD5589C /* Framework46.debug.xcconfig */,
+				9480947FD32CEBD9133918E267528322 /* Framework46.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework46";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FB5F553CB88994EB3430400403DB644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDFD831980EA11471F9250813720B20 /* Framework46-umbrella.h in Headers */,
+				4B0E84BC166DB88956CCD686EEB1CC1C /* Framework46.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		866905895987183C5893FD39C8127434 /* Framework46 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E097C5B83EEACDE1C84C568C436DE3 /* Build configuration list for PBXNativeTarget "Framework46" */;
+			buildPhases = (
+				4FB5F553CB88994EB3430400403DB644 /* Headers */,
+				0C66F7D97404A1B1B3A6ADC5DCB42A8B /* Sources */,
+				FF80D65A6F58070AEEA99000EA0A588B /* Frameworks */,
+				57FD3073F20276115717285287B56921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework46;
+			productName = Framework46;
+			productReference = 6C6D4D81C47D07B7B807FC992C6FFF44 /* Framework46.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9315EF5168F8968AF1154789DD140F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 1032F8DA2316EABFEA8FE46F4C4282A6 /* Build configuration list for PBXProject "Framework46" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0999E7AB74EDF41EB7B2E117F5795FAF;
+			productRefGroup = 0D3E70E7E22465EF15F875D684F87779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866905895987183C5893FD39C8127434 /* Framework46 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FD3073F20276115717285287B56921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C66F7D97404A1B1B3A6ADC5DCB42A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE76D489164F306A4395C10498610B /* Framework46-dummy.m in Sources */,
+				59E7CB97E82F659AD328B11717597BBD /* Framework46.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		365AF0BB7311BE86475D1CDC90E67F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9480947FD32CEBD9133918E267528322 /* Framework46.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework46/Framework46-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework46/Framework46-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework46/Framework46.modulemap";
+				PRODUCT_MODULE_NAME = Framework46;
+				PRODUCT_NAME = Framework46;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75FA62D6C67AC5DCC4799BFB72EB5CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E3BBA6E62B94B10E7A3BE3AA9EAA86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DC43E73B06DA5EC39A9645AB87E0B402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1746E69A45EDA2D52A47A92DD5589C /* Framework46.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework46/Framework46-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework46/Framework46-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework46/Framework46.modulemap";
+				PRODUCT_MODULE_NAME = Framework46;
+				PRODUCT_NAME = Framework46;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1032F8DA2316EABFEA8FE46F4C4282A6 /* Build configuration list for PBXProject "Framework46" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA62D6C67AC5DCC4799BFB72EB5CD4 /* Debug */,
+				9E3BBA6E62B94B10E7A3BE3AA9EAA86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E097C5B83EEACDE1C84C568C436DE3 /* Build configuration list for PBXNativeTarget "Framework46" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC43E73B06DA5EC39A9645AB87E0B402 /* Debug */,
+				365AF0BB7311BE86475D1CDC90E67F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9315EF5168F8968AF1154789DD140F11 /* Project object */;
+}

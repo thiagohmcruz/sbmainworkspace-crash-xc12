@@ -1,0 +1,6 @@
+framework module Framework360 {
+  umbrella header "Framework360-umbrella.h"
+
+  export *
+  module * { export * }
+}

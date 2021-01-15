@@ -1,0 +1,17 @@
+{
+  "name": "Framework100",
+  "version": "1.0.0",
+  "authors": {
+    "Sample Large App": "large-app@largecompany.com"
+  },
+  "summary": "Generated Framework100.",
+  "homepage": "https://largecompany.com",
+  "source": {
+    "git": "https://largecompany.com/Framework100.git",
+    "tag": "podify/1.0.0"
+  },
+  "source_files": "*.{h,m}",
+  "platforms": {
+    "ios": "9.3"
+  }
+}

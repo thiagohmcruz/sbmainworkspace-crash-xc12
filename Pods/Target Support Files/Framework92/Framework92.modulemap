@@ -1,0 +1,6 @@
+framework module Framework92 {
+  umbrella header "Framework92-umbrella.h"
+
+  export *
+  module * { export * }
+}

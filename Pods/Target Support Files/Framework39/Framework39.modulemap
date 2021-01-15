@@ -1,0 +1,6 @@
+framework module Framework39 {
+  umbrella header "Framework39-umbrella.h"
+
+  export *
+  module * { export * }
+}

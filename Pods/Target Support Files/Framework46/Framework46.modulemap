@@ -1,0 +1,6 @@
+framework module Framework46 {
+  umbrella header "Framework46-umbrella.h"
+
+  export *
+  module * { export * }
+}

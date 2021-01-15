@@ -1,0 +1,4079 @@
+{
+  "name": "Framework0",
+  "version": "1.0.0",
+  "authors": {
+    "Sample Large App": "large-app@largecompany.com"
+  },
+  "summary": "Generated Framework0.",
+  "homepage": "https://largecompany.com",
+  "source": {
+    "git": "https://largecompany.com/Framework0.git",
+    "tag": "podify/1.0.0"
+  },
+  "source_files": "*.{h,m}",
+  "platforms": {
+    "ios": "9.3"
+  },
+  "dependencies": {
+    "Framework1": [
+
+    ],
+    "Framework2": [
+
+    ],
+    "Framework3": [
+
+    ],
+    "Framework4": [
+
+    ],
+    "Framework5": [
+
+    ],
+    "Framework6": [
+
+    ],
+    "Framework7": [
+
+    ],
+    "Framework8": [
+
+    ],
+    "Framework9": [
+
+    ],
+    "Framework10": [
+
+    ],
+    "Framework11": [
+
+    ],
+    "Framework12": [
+
+    ],
+    "Framework13": [
+
+    ],
+    "Framework14": [
+
+    ],
+    "Framework15": [
+
+    ],
+    "Framework16": [
+
+    ],
+    "Framework17": [
+
+    ],
+    "Framework18": [
+
+    ],
+    "Framework19": [
+
+    ],
+    "Framework20": [
+
+    ],
+    "Framework21": [
+
+    ],
+    "Framework22": [
+
+    ],
+    "Framework23": [
+
+    ],
+    "Framework24": [
+
+    ],
+    "Framework25": [
+
+    ],
+    "Framework26": [
+
+    ],
+    "Framework27": [
+
+    ],
+    "Framework28": [
+
+    ],
+    "Framework29": [
+
+    ],
+    "Framework30": [
+
+    ],
+    "Framework31": [
+
+    ],
+    "Framework32": [
+
+    ],
+    "Framework33": [
+
+    ],
+    "Framework34": [
+
+    ],
+    "Framework35": [
+
+    ],
+    "Framework36": [
+
+    ],
+    "Framework37": [
+
+    ],
+    "Framework38": [
+
+    ],
+    "Framework39": [
+
+    ],
+    "Framework40": [
+
+    ],
+    "Framework41": [
+
+    ],
+    "Framework42": [
+
+    ],
+    "Framework43": [
+
+    ],
+    "Framework44": [
+
+    ],
+    "Framework45": [
+
+    ],
+    "Framework46": [
+
+    ],
+    "Framework47": [
+
+    ],
+    "Framework48": [
+
+    ],
+    "Framework49": [
+
+    ],
+    "Framework50": [
+
+    ],
+    "Framework51": [
+
+    ],
+    "Framework52": [
+
+    ],
+    "Framework53": [
+
+    ],
+    "Framework54": [
+
+    ],
+    "Framework55": [
+
+    ],
+    "Framework56": [
+
+    ],
+    "Framework57": [
+
+    ],
+    "Framework58": [
+
+    ],
+    "Framework59": [
+
+    ],
+    "Framework60": [
+
+    ],
+    "Framework61": [
+
+    ],
+    "Framework62": [
+
+    ],
+    "Framework63": [
+
+    ],
+    "Framework64": [
+
+    ],
+    "Framework65": [
+
+    ],
+    "Framework66": [
+
+    ],
+    "Framework67": [
+
+    ],
+    "Framework68": [
+
+    ],
+    "Framework69": [
+
+    ],
+    "Framework70": [
+
+    ],
+    "Framework71": [
+
+    ],
+    "Framework72": [
+
+    ],
+    "Framework73": [
+
+    ],
+    "Framework74": [
+
+    ],
+    "Framework75": [
+
+    ],
+    "Framework76": [
+
+    ],
+    "Framework77": [
+
+    ],
+    "Framework78": [
+
+    ],
+    "Framework79": [
+
+    ],
+    "Framework80": [
+
+    ],
+    "Framework81": [
+
+    ],
+    "Framework82": [
+
+    ],
+    "Framework83": [
+
+    ],
+    "Framework84": [
+
+    ],
+    "Framework85": [
+
+    ],
+    "Framework86": [
+
+    ],
+    "Framework87": [
+
+    ],
+    "Framework88": [
+
+    ],
+    "Framework89": [
+
+    ],
+    "Framework90": [
+
+    ],
+    "Framework91": [
+
+    ],
+    "Framework92": [
+
+    ],
+    "Framework93": [
+
+    ],
+    "Framework94": [
+
+    ],
+    "Framework95": [
+
+    ],
+    "Framework96": [
+
+    ],
+    "Framework97": [
+
+    ],
+    "Framework98": [
+
+    ],
+    "Framework99": [
+
+    ],
+    "Framework100": [
+
+    ],
+    "Framework101": [
+
+    ],
+    "Framework102": [
+
+    ],
+    "Framework103": [
+
+    ],
+    "Framework104": [
+
+    ],
+    "Framework105": [
+
+    ],
+    "Framework106": [
+
+    ],
+    "Framework107": [
+
+    ],
+    "Framework108": [
+
+    ],
+    "Framework109": [
+
+    ],
+    "Framework110": [
+
+    ],
+    "Framework111": [
+
+    ],
+    "Framework112": [
+
+    ],
+    "Framework113": [
+
+    ],
+    "Framework114": [
+
+    ],
+    "Framework115": [
+
+    ],
+    "Framework116": [
+
+    ],
+    "Framework117": [
+
+    ],
+    "Framework118": [
+
+    ],
+    "Framework119": [
+
+    ],
+    "Framework120": [
+
+    ],
+    "Framework121": [
+
+    ],
+    "Framework122": [
+
+    ],
+    "Framework123": [
+
+    ],
+    "Framework124": [
+
+    ],
+    "Framework125": [
+
+    ],
+    "Framework126": [
+
+    ],
+    "Framework127": [
+
+    ],
+    "Framework128": [
+
+    ],
+    "Framework129": [
+
+    ],
+    "Framework130": [
+
+    ],
+    "Framework131": [
+
+    ],
+    "Framework132": [
+
+    ],
+    "Framework133": [
+
+    ],
+    "Framework134": [
+
+    ],
+    "Framework135": [
+
+    ],
+    "Framework136": [
+
+    ],
+    "Framework137": [
+
+    ],
+    "Framework138": [
+
+    ],
+    "Framework139": [
+
+    ],
+    "Framework140": [
+
+    ],
+    "Framework141": [
+
+    ],
+    "Framework142": [
+
+    ],
+    "Framework143": [
+
+    ],
+    "Framework144": [
+
+    ],
+    "Framework145": [
+
+    ],
+    "Framework146": [
+
+    ],
+    "Framework147": [
+
+    ],
+    "Framework148": [
+
+    ],
+    "Framework149": [
+
+    ],
+    "Framework150": [
+
+    ],
+    "Framework151": [
+
+    ],
+    "Framework152": [
+
+    ],
+    "Framework153": [
+
+    ],
+    "Framework154": [
+
+    ],
+    "Framework155": [
+
+    ],
+    "Framework156": [
+
+    ],
+    "Framework157": [
+
+    ],
+    "Framework158": [
+
+    ],
+    "Framework159": [
+
+    ],
+    "Framework160": [
+
+    ],
+    "Framework161": [
+
+    ],
+    "Framework162": [
+
+    ],
+    "Framework163": [
+
+    ],
+    "Framework164": [
+
+    ],
+    "Framework165": [
+
+    ],
+    "Framework166": [
+
+    ],
+    "Framework167": [
+
+    ],
+    "Framework168": [
+
+    ],
+    "Framework169": [
+
+    ],
+    "Framework170": [
+
+    ],
+    "Framework171": [
+
+    ],
+    "Framework172": [
+
+    ],
+    "Framework173": [
+
+    ],
+    "Framework174": [
+
+    ],
+    "Framework175": [
+
+    ],
+    "Framework176": [
+
+    ],
+    "Framework177": [
+
+    ],
+    "Framework178": [
+
+    ],
+    "Framework179": [
+
+    ],
+    "Framework180": [
+
+    ],
+    "Framework181": [
+
+    ],
+    "Framework182": [
+
+    ],
+    "Framework183": [
+
+    ],
+    "Framework184": [
+
+    ],
+    "Framework185": [
+
+    ],
+    "Framework186": [
+
+    ],
+    "Framework187": [
+
+    ],
+    "Framework188": [
+
+    ],
+    "Framework189": [
+
+    ],
+    "Framework190": [
+
+    ],
+    "Framework191": [
+
+    ],
+    "Framework192": [
+
+    ],
+    "Framework193": [
+
+    ],
+    "Framework194": [
+
+    ],
+    "Framework195": [
+
+    ],
+    "Framework196": [
+
+    ],
+    "Framework197": [
+
+    ],
+    "Framework198": [
+
+    ],
+    "Framework199": [
+
+    ],
+    "Framework200": [
+
+    ],
+    "Framework201": [
+
+    ],
+    "Framework202": [
+
+    ],
+    "Framework203": [
+
+    ],
+    "Framework204": [
+
+    ],
+    "Framework205": [
+
+    ],
+    "Framework206": [
+
+    ],
+    "Framework207": [
+
+    ],
+    "Framework208": [
+
+    ],
+    "Framework209": [
+
+    ],
+    "Framework210": [
+
+    ],
+    "Framework211": [
+
+    ],
+    "Framework212": [
+
+    ],
+    "Framework213": [
+
+    ],
+    "Framework214": [
+
+    ],
+    "Framework215": [
+
+    ],
+    "Framework216": [
+
+    ],
+    "Framework217": [
+
+    ],
+    "Framework218": [
+
+    ],
+    "Framework219": [
+
+    ],
+    "Framework220": [
+
+    ],
+    "Framework221": [
+
+    ],
+    "Framework222": [
+
+    ],
+    "Framework223": [
+
+    ],
+    "Framework224": [
+
+    ],
+    "Framework225": [
+
+    ],
+    "Framework226": [
+
+    ],
+    "Framework227": [
+
+    ],
+    "Framework228": [
+
+    ],
+    "Framework229": [
+
+    ],
+    "Framework230": [
+
+    ],
+    "Framework231": [
+
+    ],
+    "Framework232": [
+
+    ],
+    "Framework233": [
+
+    ],
+    "Framework234": [
+
+    ],
+    "Framework235": [
+
+    ],
+    "Framework236": [
+
+    ],
+    "Framework237": [
+
+    ],
+    "Framework238": [
+
+    ],
+    "Framework239": [
+
+    ],
+    "Framework240": [
+
+    ],
+    "Framework241": [
+
+    ],
+    "Framework242": [
+
+    ],
+    "Framework243": [
+
+    ],
+    "Framework244": [
+
+    ],
+    "Framework245": [
+
+    ],
+    "Framework246": [
+
+    ],
+    "Framework247": [
+
+    ],
+    "Framework248": [
+
+    ],
+    "Framework249": [
+
+    ],
+    "Framework250": [
+
+    ],
+    "Framework251": [
+
+    ],
+    "Framework252": [
+
+    ],
+    "Framework253": [
+
+    ],
+    "Framework254": [
+
+    ],
+    "Framework255": [
+
+    ],
+    "Framework256": [
+
+    ],
+    "Framework257": [
+
+    ],
+    "Framework258": [
+
+    ],
+    "Framework259": [
+
+    ],
+    "Framework260": [
+
+    ],
+    "Framework261": [
+
+    ],
+    "Framework262": [
+
+    ],
+    "Framework263": [
+
+    ],
+    "Framework264": [
+
+    ],
+    "Framework265": [
+
+    ],
+    "Framework266": [
+
+    ],
+    "Framework267": [
+
+    ],
+    "Framework268": [
+
+    ],
+    "Framework269": [
+
+    ],
+    "Framework270": [
+
+    ],
+    "Framework271": [
+
+    ],
+    "Framework272": [
+
+    ],
+    "Framework273": [
+
+    ],
+    "Framework274": [
+
+    ],
+    "Framework275": [
+
+    ],
+    "Framework276": [
+
+    ],
+    "Framework277": [
+
+    ],
+    "Framework278": [
+
+    ],
+    "Framework279": [
+
+    ],
+    "Framework280": [
+
+    ],
+    "Framework281": [
+
+    ],
+    "Framework282": [
+
+    ],
+    "Framework283": [
+
+    ],
+    "Framework284": [
+
+    ],
+    "Framework285": [
+
+    ],
+    "Framework286": [
+
+    ],
+    "Framework287": [
+
+    ],
+    "Framework288": [
+
+    ],
+    "Framework289": [
+
+    ],
+    "Framework290": [
+
+    ],
+    "Framework291": [
+
+    ],
+    "Framework292": [
+
+    ],
+    "Framework293": [
+
+    ],
+    "Framework294": [
+
+    ],
+    "Framework295": [
+
+    ],
+    "Framework296": [
+
+    ],
+    "Framework297": [
+
+    ],
+    "Framework298": [
+
+    ],
+    "Framework299": [
+
+    ],
+    "Framework300": [
+
+    ],
+    "Framework301": [
+
+    ],
+    "Framework302": [
+
+    ],
+    "Framework303": [
+
+    ],
+    "Framework304": [
+
+    ],
+    "Framework305": [
+
+    ],
+    "Framework306": [
+
+    ],
+    "Framework307": [
+
+    ],
+    "Framework308": [
+
+    ],
+    "Framework309": [
+
+    ],
+    "Framework310": [
+
+    ],
+    "Framework311": [
+
+    ],
+    "Framework312": [
+
+    ],
+    "Framework313": [
+
+    ],
+    "Framework314": [
+
+    ],
+    "Framework315": [
+
+    ],
+    "Framework316": [
+
+    ],
+    "Framework317": [
+
+    ],
+    "Framework318": [
+
+    ],
+    "Framework319": [
+
+    ],
+    "Framework320": [
+
+    ],
+    "Framework321": [
+
+    ],
+    "Framework322": [
+
+    ],
+    "Framework323": [
+
+    ],
+    "Framework324": [
+
+    ],
+    "Framework325": [
+
+    ],
+    "Framework326": [
+
+    ],
+    "Framework327": [
+
+    ],
+    "Framework328": [
+
+    ],
+    "Framework329": [
+
+    ],
+    "Framework330": [
+
+    ],
+    "Framework331": [
+
+    ],
+    "Framework332": [
+
+    ],
+    "Framework333": [
+
+    ],
+    "Framework334": [
+
+    ],
+    "Framework335": [
+
+    ],
+    "Framework336": [
+
+    ],
+    "Framework337": [
+
+    ],
+    "Framework338": [
+
+    ],
+    "Framework339": [
+
+    ],
+    "Framework340": [
+
+    ],
+    "Framework341": [
+
+    ],
+    "Framework342": [
+
+    ],
+    "Framework343": [
+
+    ],
+    "Framework344": [
+
+    ],
+    "Framework345": [
+
+    ],
+    "Framework346": [
+
+    ],
+    "Framework347": [
+
+    ],
+    "Framework348": [
+
+    ],
+    "Framework349": [
+
+    ],
+    "Framework350": [
+
+    ],
+    "Framework351": [
+
+    ],
+    "Framework352": [
+
+    ],
+    "Framework353": [
+
+    ],
+    "Framework354": [
+
+    ],
+    "Framework355": [
+
+    ],
+    "Framework356": [
+
+    ],
+    "Framework357": [
+
+    ],
+    "Framework358": [
+
+    ],
+    "Framework359": [
+
+    ],
+    "Framework360": [
+
+    ],
+    "Framework361": [
+
+    ],
+    "Framework362": [
+
+    ],
+    "Framework363": [
+
+    ],
+    "Framework364": [
+
+    ],
+    "Framework365": [
+
+    ],
+    "Framework366": [
+
+    ],
+    "Framework367": [
+
+    ],
+    "Framework368": [
+
+    ],
+    "Framework369": [
+
+    ],
+    "Framework370": [
+
+    ],
+    "Framework371": [
+
+    ],
+    "Framework372": [
+
+    ],
+    "Framework373": [
+
+    ],
+    "Framework374": [
+
+    ],
+    "Framework375": [
+
+    ],
+    "Framework376": [
+
+    ],
+    "Framework377": [
+
+    ],
+    "Framework378": [
+
+    ],
+    "Framework379": [
+
+    ],
+    "Framework380": [
+
+    ],
+    "Framework381": [
+
+    ],
+    "Framework382": [
+
+    ],
+    "Framework383": [
+
+    ],
+    "Framework384": [
+
+    ],
+    "Framework385": [
+
+    ],
+    "Framework386": [
+
+    ],
+    "Framework387": [
+
+    ],
+    "Framework388": [
+
+    ],
+    "Framework389": [
+
+    ],
+    "Framework390": [
+
+    ],
+    "Framework391": [
+
+    ],
+    "Framework392": [
+
+    ],
+    "Framework393": [
+
+    ],
+    "Framework394": [
+
+    ],
+    "Framework395": [
+
+    ],
+    "Framework396": [
+
+    ],
+    "Framework397": [
+
+    ],
+    "Framework398": [
+
+    ],
+    "Framework399": [
+
+    ],
+    "Framework400": [
+
+    ],
+    "Framework401": [
+
+    ],
+    "Framework402": [
+
+    ],
+    "Framework403": [
+
+    ],
+    "Framework404": [
+
+    ],
+    "Framework405": [
+
+    ],
+    "Framework406": [
+
+    ],
+    "Framework407": [
+
+    ],
+    "Framework408": [
+
+    ],
+    "Framework409": [
+
+    ],
+    "Framework410": [
+
+    ],
+    "Framework411": [
+
+    ],
+    "Framework412": [
+
+    ],
+    "Framework413": [
+
+    ],
+    "Framework414": [
+
+    ],
+    "Framework415": [
+
+    ],
+    "Framework416": [
+
+    ],
+    "Framework417": [
+
+    ],
+    "Framework418": [
+
+    ],
+    "Framework419": [
+
+    ],
+    "Framework420": [
+
+    ],
+    "Framework421": [
+
+    ],
+    "Framework422": [
+
+    ],
+    "Framework423": [
+
+    ],
+    "Framework424": [
+
+    ],
+    "Framework425": [
+
+    ],
+    "Framework426": [
+
+    ],
+    "Framework427": [
+
+    ],
+    "Framework428": [
+
+    ],
+    "Framework429": [
+
+    ],
+    "Framework430": [
+
+    ],
+    "Framework431": [
+
+    ],
+    "Framework432": [
+
+    ],
+    "Framework433": [
+
+    ],
+    "Framework434": [
+
+    ],
+    "Framework435": [
+
+    ],
+    "Framework436": [
+
+    ],
+    "Framework437": [
+
+    ],
+    "Framework438": [
+
+    ],
+    "Framework439": [
+
+    ],
+    "Framework440": [
+
+    ],
+    "Framework441": [
+
+    ],
+    "Framework442": [
+
+    ],
+    "Framework443": [
+
+    ],
+    "Framework444": [
+
+    ],
+    "Framework445": [
+
+    ],
+    "Framework446": [
+
+    ],
+    "Framework447": [
+
+    ],
+    "Framework448": [
+
+    ],
+    "Framework449": [
+
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/*.{h,m}",
+      "dependencies": {
+        "Framework1": [
+
+        ],
+        "Framework2": [
+
+        ],
+        "Framework3": [
+
+        ],
+        "Framework4": [
+
+        ],
+        "Framework5": [
+
+        ],
+        "Framework6": [
+
+        ],
+        "Framework7": [
+
+        ],
+        "Framework8": [
+
+        ],
+        "Framework9": [
+
+        ],
+        "Framework10": [
+
+        ],
+        "Framework11": [
+
+        ],
+        "Framework12": [
+
+        ],
+        "Framework13": [
+
+        ],
+        "Framework14": [
+
+        ],
+        "Framework15": [
+
+        ],
+        "Framework16": [
+
+        ],
+        "Framework17": [
+
+        ],
+        "Framework18": [
+
+        ],
+        "Framework19": [
+
+        ],
+        "Framework20": [
+
+        ],
+        "Framework21": [
+
+        ],
+        "Framework22": [
+
+        ],
+        "Framework23": [
+
+        ],
+        "Framework24": [
+
+        ],
+        "Framework25": [
+
+        ],
+        "Framework26": [
+
+        ],
+        "Framework27": [
+
+        ],
+        "Framework28": [
+
+        ],
+        "Framework29": [
+
+        ],
+        "Framework30": [
+
+        ],
+        "Framework31": [
+
+        ],
+        "Framework32": [
+
+        ],
+        "Framework33": [
+
+        ],
+        "Framework34": [
+
+        ],
+        "Framework35": [
+
+        ],
+        "Framework36": [
+
+        ],
+        "Framework37": [
+
+        ],
+        "Framework38": [
+
+        ],
+        "Framework39": [
+
+        ],
+        "Framework40": [
+
+        ],
+        "Framework41": [
+
+        ],
+        "Framework42": [
+
+        ],
+        "Framework43": [
+
+        ],
+        "Framework44": [
+
+        ],
+        "Framework45": [
+
+        ],
+        "Framework46": [
+
+        ],
+        "Framework47": [
+
+        ],
+        "Framework48": [
+
+        ],
+        "Framework49": [
+
+        ],
+        "Framework50": [
+
+        ],
+        "Framework51": [
+
+        ],
+        "Framework52": [
+
+        ],
+        "Framework53": [
+
+        ],
+        "Framework54": [
+
+        ],
+        "Framework55": [
+
+        ],
+        "Framework56": [
+
+        ],
+        "Framework57": [
+
+        ],
+        "Framework58": [
+
+        ],
+        "Framework59": [
+
+        ],
+        "Framework60": [
+
+        ],
+        "Framework61": [
+
+        ],
+        "Framework62": [
+
+        ],
+        "Framework63": [
+
+        ],
+        "Framework64": [
+
+        ],
+        "Framework65": [
+
+        ],
+        "Framework66": [
+
+        ],
+        "Framework67": [
+
+        ],
+        "Framework68": [
+
+        ],
+        "Framework69": [
+
+        ],
+        "Framework70": [
+
+        ],
+        "Framework71": [
+
+        ],
+        "Framework72": [
+
+        ],
+        "Framework73": [
+
+        ],
+        "Framework74": [
+
+        ],
+        "Framework75": [
+
+        ],
+        "Framework76": [
+
+        ],
+        "Framework77": [
+
+        ],
+        "Framework78": [
+
+        ],
+        "Framework79": [
+
+        ],
+        "Framework80": [
+
+        ],
+        "Framework81": [
+
+        ],
+        "Framework82": [
+
+        ],
+        "Framework83": [
+
+        ],
+        "Framework84": [
+
+        ],
+        "Framework85": [
+
+        ],
+        "Framework86": [
+
+        ],
+        "Framework87": [
+
+        ],
+        "Framework88": [
+
+        ],
+        "Framework89": [
+
+        ],
+        "Framework90": [
+
+        ],
+        "Framework91": [
+
+        ],
+        "Framework92": [
+
+        ],
+        "Framework93": [
+
+        ],
+        "Framework94": [
+
+        ],
+        "Framework95": [
+
+        ],
+        "Framework96": [
+
+        ],
+        "Framework97": [
+
+        ],
+        "Framework98": [
+
+        ],
+        "Framework99": [
+
+        ],
+        "Framework100": [
+
+        ],
+        "Framework101": [
+
+        ],
+        "Framework102": [
+
+        ],
+        "Framework103": [
+
+        ],
+        "Framework104": [
+
+        ],
+        "Framework105": [
+
+        ],
+        "Framework106": [
+
+        ],
+        "Framework107": [
+
+        ],
+        "Framework108": [
+
+        ],
+        "Framework109": [
+
+        ],
+        "Framework110": [
+
+        ],
+        "Framework111": [
+
+        ],
+        "Framework112": [
+
+        ],
+        "Framework113": [
+
+        ],
+        "Framework114": [
+
+        ],
+        "Framework115": [
+
+        ],
+        "Framework116": [
+
+        ],
+        "Framework117": [
+
+        ],
+        "Framework118": [
+
+        ],
+        "Framework119": [
+
+        ],
+        "Framework120": [
+
+        ],
+        "Framework121": [
+
+        ],
+        "Framework122": [
+
+        ],
+        "Framework123": [
+
+        ],
+        "Framework124": [
+
+        ],
+        "Framework125": [
+
+        ],
+        "Framework126": [
+
+        ],
+        "Framework127": [
+
+        ],
+        "Framework128": [
+
+        ],
+        "Framework129": [
+
+        ],
+        "Framework130": [
+
+        ],
+        "Framework131": [
+
+        ],
+        "Framework132": [
+
+        ],
+        "Framework133": [
+
+        ],
+        "Framework134": [
+
+        ],
+        "Framework135": [
+
+        ],
+        "Framework136": [
+
+        ],
+        "Framework137": [
+
+        ],
+        "Framework138": [
+
+        ],
+        "Framework139": [
+
+        ],
+        "Framework140": [
+
+        ],
+        "Framework141": [
+
+        ],
+        "Framework142": [
+
+        ],
+        "Framework143": [
+
+        ],
+        "Framework144": [
+
+        ],
+        "Framework145": [
+
+        ],
+        "Framework146": [
+
+        ],
+        "Framework147": [
+
+        ],
+        "Framework148": [
+
+        ],
+        "Framework149": [
+
+        ],
+        "Framework150": [
+
+        ],
+        "Framework151": [
+
+        ],
+        "Framework152": [
+
+        ],
+        "Framework153": [
+
+        ],
+        "Framework154": [
+
+        ],
+        "Framework155": [
+
+        ],
+        "Framework156": [
+
+        ],
+        "Framework157": [
+
+        ],
+        "Framework158": [
+
+        ],
+        "Framework159": [
+
+        ],
+        "Framework160": [
+
+        ],
+        "Framework161": [
+
+        ],
+        "Framework162": [
+
+        ],
+        "Framework163": [
+
+        ],
+        "Framework164": [
+
+        ],
+        "Framework165": [
+
+        ],
+        "Framework166": [
+
+        ],
+        "Framework167": [
+
+        ],
+        "Framework168": [
+
+        ],
+        "Framework169": [
+
+        ],
+        "Framework170": [
+
+        ],
+        "Framework171": [
+
+        ],
+        "Framework172": [
+
+        ],
+        "Framework173": [
+
+        ],
+        "Framework174": [
+
+        ],
+        "Framework175": [
+
+        ],
+        "Framework176": [
+
+        ],
+        "Framework177": [
+
+        ],
+        "Framework178": [
+
+        ],
+        "Framework179": [
+
+        ],
+        "Framework180": [
+
+        ],
+        "Framework181": [
+
+        ],
+        "Framework182": [
+
+        ],
+        "Framework183": [
+
+        ],
+        "Framework184": [
+
+        ],
+        "Framework185": [
+
+        ],
+        "Framework186": [
+
+        ],
+        "Framework187": [
+
+        ],
+        "Framework188": [
+
+        ],
+        "Framework189": [
+
+        ],
+        "Framework190": [
+
+        ],
+        "Framework191": [
+
+        ],
+        "Framework192": [
+
+        ],
+        "Framework193": [
+
+        ],
+        "Framework194": [
+
+        ],
+        "Framework195": [
+
+        ],
+        "Framework196": [
+
+        ],
+        "Framework197": [
+
+        ],
+        "Framework198": [
+
+        ],
+        "Framework199": [
+
+        ],
+        "Framework200": [
+
+        ],
+        "Framework201": [
+
+        ],
+        "Framework202": [
+
+        ],
+        "Framework203": [
+
+        ],
+        "Framework204": [
+
+        ],
+        "Framework205": [
+
+        ],
+        "Framework206": [
+
+        ],
+        "Framework207": [
+
+        ],
+        "Framework208": [
+
+        ],
+        "Framework209": [
+
+        ],
+        "Framework210": [
+
+        ],
+        "Framework211": [
+
+        ],
+        "Framework212": [
+
+        ],
+        "Framework213": [
+
+        ],
+        "Framework214": [
+
+        ],
+        "Framework215": [
+
+        ],
+        "Framework216": [
+
+        ],
+        "Framework217": [
+
+        ],
+        "Framework218": [
+
+        ],
+        "Framework219": [
+
+        ],
+        "Framework220": [
+
+        ],
+        "Framework221": [
+
+        ],
+        "Framework222": [
+
+        ],
+        "Framework223": [
+
+        ],
+        "Framework224": [
+
+        ],
+        "Framework225": [
+
+        ],
+        "Framework226": [
+
+        ],
+        "Framework227": [
+
+        ],
+        "Framework228": [
+
+        ],
+        "Framework229": [
+
+        ],
+        "Framework230": [
+
+        ],
+        "Framework231": [
+
+        ],
+        "Framework232": [
+
+        ],
+        "Framework233": [
+
+        ],
+        "Framework234": [
+
+        ],
+        "Framework235": [
+
+        ],
+        "Framework236": [
+
+        ],
+        "Framework237": [
+
+        ],
+        "Framework238": [
+
+        ],
+        "Framework239": [
+
+        ],
+        "Framework240": [
+
+        ],
+        "Framework241": [
+
+        ],
+        "Framework242": [
+
+        ],
+        "Framework243": [
+
+        ],
+        "Framework244": [
+
+        ],
+        "Framework245": [
+
+        ],
+        "Framework246": [
+
+        ],
+        "Framework247": [
+
+        ],
+        "Framework248": [
+
+        ],
+        "Framework249": [
+
+        ],
+        "Framework250": [
+
+        ],
+        "Framework251": [
+
+        ],
+        "Framework252": [
+
+        ],
+        "Framework253": [
+
+        ],
+        "Framework254": [
+
+        ],
+        "Framework255": [
+
+        ],
+        "Framework256": [
+
+        ],
+        "Framework257": [
+
+        ],
+        "Framework258": [
+
+        ],
+        "Framework259": [
+
+        ],
+        "Framework260": [
+
+        ],
+        "Framework261": [
+
+        ],
+        "Framework262": [
+
+        ],
+        "Framework263": [
+
+        ],
+        "Framework264": [
+
+        ],
+        "Framework265": [
+
+        ],
+        "Framework266": [
+
+        ],
+        "Framework267": [
+
+        ],
+        "Framework268": [
+
+        ],
+        "Framework269": [
+
+        ],
+        "Framework270": [
+
+        ],
+        "Framework271": [
+
+        ],
+        "Framework272": [
+
+        ],
+        "Framework273": [
+
+        ],
+        "Framework274": [
+
+        ],
+        "Framework275": [
+
+        ],
+        "Framework276": [
+
+        ],
+        "Framework277": [
+
+        ],
+        "Framework278": [
+
+        ],
+        "Framework279": [
+
+        ],
+        "Framework280": [
+
+        ],
+        "Framework281": [
+
+        ],
+        "Framework282": [
+
+        ],
+        "Framework283": [
+
+        ],
+        "Framework284": [
+
+        ],
+        "Framework285": [
+
+        ],
+        "Framework286": [
+
+        ],
+        "Framework287": [
+
+        ],
+        "Framework288": [
+
+        ],
+        "Framework289": [
+
+        ],
+        "Framework290": [
+
+        ],
+        "Framework291": [
+
+        ],
+        "Framework292": [
+
+        ],
+        "Framework293": [
+
+        ],
+        "Framework294": [
+
+        ],
+        "Framework295": [
+
+        ],
+        "Framework296": [
+
+        ],
+        "Framework297": [
+
+        ],
+        "Framework298": [
+
+        ],
+        "Framework299": [
+
+        ],
+        "Framework300": [
+
+        ],
+        "Framework301": [
+
+        ],
+        "Framework302": [
+
+        ],
+        "Framework303": [
+
+        ],
+        "Framework304": [
+
+        ],
+        "Framework305": [
+
+        ],
+        "Framework306": [
+
+        ],
+        "Framework307": [
+
+        ],
+        "Framework308": [
+
+        ],
+        "Framework309": [
+
+        ],
+        "Framework310": [
+
+        ],
+        "Framework311": [
+
+        ],
+        "Framework312": [
+
+        ],
+        "Framework313": [
+
+        ],
+        "Framework314": [
+
+        ],
+        "Framework315": [
+
+        ],
+        "Framework316": [
+
+        ],
+        "Framework317": [
+
+        ],
+        "Framework318": [
+
+        ],
+        "Framework319": [
+
+        ],
+        "Framework320": [
+
+        ],
+        "Framework321": [
+
+        ],
+        "Framework322": [
+
+        ],
+        "Framework323": [
+
+        ],
+        "Framework324": [
+
+        ],
+        "Framework325": [
+
+        ],
+        "Framework326": [
+
+        ],
+        "Framework327": [
+
+        ],
+        "Framework328": [
+
+        ],
+        "Framework329": [
+
+        ],
+        "Framework330": [
+
+        ],
+        "Framework331": [
+
+        ],
+        "Framework332": [
+
+        ],
+        "Framework333": [
+
+        ],
+        "Framework334": [
+
+        ],
+        "Framework335": [
+
+        ],
+        "Framework336": [
+
+        ],
+        "Framework337": [
+
+        ],
+        "Framework338": [
+
+        ],
+        "Framework339": [
+
+        ],
+        "Framework340": [
+
+        ],
+        "Framework341": [
+
+        ],
+        "Framework342": [
+
+        ],
+        "Framework343": [
+
+        ],
+        "Framework344": [
+
+        ],
+        "Framework345": [
+
+        ],
+        "Framework346": [
+
+        ],
+        "Framework347": [
+
+        ],
+        "Framework348": [
+
+        ],
+        "Framework349": [
+
+        ],
+        "Framework350": [
+
+        ],
+        "Framework351": [
+
+        ],
+        "Framework352": [
+
+        ],
+        "Framework353": [
+
+        ],
+        "Framework354": [
+
+        ],
+        "Framework355": [
+
+        ],
+        "Framework356": [
+
+        ],
+        "Framework357": [
+
+        ],
+        "Framework358": [
+
+        ],
+        "Framework359": [
+
+        ],
+        "Framework360": [
+
+        ],
+        "Framework361": [
+
+        ],
+        "Framework362": [
+
+        ],
+        "Framework363": [
+
+        ],
+        "Framework364": [
+
+        ],
+        "Framework365": [
+
+        ],
+        "Framework366": [
+
+        ],
+        "Framework367": [
+
+        ],
+        "Framework368": [
+
+        ],
+        "Framework369": [
+
+        ],
+        "Framework370": [
+
+        ],
+        "Framework371": [
+
+        ],
+        "Framework372": [
+
+        ],
+        "Framework373": [
+
+        ],
+        "Framework374": [
+
+        ],
+        "Framework375": [
+
+        ],
+        "Framework376": [
+
+        ],
+        "Framework377": [
+
+        ],
+        "Framework378": [
+
+        ],
+        "Framework379": [
+
+        ],
+        "Framework380": [
+
+        ],
+        "Framework381": [
+
+        ],
+        "Framework382": [
+
+        ],
+        "Framework383": [
+
+        ],
+        "Framework384": [
+
+        ],
+        "Framework385": [
+
+        ],
+        "Framework386": [
+
+        ],
+        "Framework387": [
+
+        ],
+        "Framework388": [
+
+        ],
+        "Framework389": [
+
+        ],
+        "Framework390": [
+
+        ],
+        "Framework391": [
+
+        ],
+        "Framework392": [
+
+        ],
+        "Framework393": [
+
+        ],
+        "Framework394": [
+
+        ],
+        "Framework395": [
+
+        ],
+        "Framework396": [
+
+        ],
+        "Framework397": [
+
+        ],
+        "Framework398": [
+
+        ],
+        "Framework399": [
+
+        ],
+        "Framework400": [
+
+        ],
+        "Framework401": [
+
+        ],
+        "Framework402": [
+
+        ],
+        "Framework403": [
+
+        ],
+        "Framework404": [
+
+        ],
+        "Framework405": [
+
+        ],
+        "Framework406": [
+
+        ],
+        "Framework407": [
+
+        ],
+        "Framework408": [
+
+        ],
+        "Framework409": [
+
+        ],
+        "Framework410": [
+
+        ],
+        "Framework411": [
+
+        ],
+        "Framework412": [
+
+        ],
+        "Framework413": [
+
+        ],
+        "Framework414": [
+
+        ],
+        "Framework415": [
+
+        ],
+        "Framework416": [
+
+        ],
+        "Framework417": [
+
+        ],
+        "Framework418": [
+
+        ],
+        "Framework419": [
+
+        ],
+        "Framework420": [
+
+        ],
+        "Framework421": [
+
+        ],
+        "Framework422": [
+
+        ],
+        "Framework423": [
+
+        ],
+        "Framework424": [
+
+        ],
+        "Framework425": [
+
+        ],
+        "Framework426": [
+
+        ],
+        "Framework427": [
+
+        ],
+        "Framework428": [
+
+        ],
+        "Framework429": [
+
+        ],
+        "Framework430": [
+
+        ],
+        "Framework431": [
+
+        ],
+        "Framework432": [
+
+        ],
+        "Framework433": [
+
+        ],
+        "Framework434": [
+
+        ],
+        "Framework435": [
+
+        ],
+        "Framework436": [
+
+        ],
+        "Framework437": [
+
+        ],
+        "Framework438": [
+
+        ],
+        "Framework439": [
+
+        ],
+        "Framework440": [
+
+        ],
+        "Framework441": [
+
+        ],
+        "Framework442": [
+
+        ],
+        "Framework443": [
+
+        ],
+        "Framework444": [
+
+        ],
+        "Framework445": [
+
+        ],
+        "Framework446": [
+
+        ],
+        "Framework447": [
+
+        ],
+        "Framework448": [
+
+        ],
+        "Framework449": [
+
+        ]
+      },
+      "frameworks": "XCTest",
+      "requires_app_host": true
+    }
+  ],
+  "appspecs": [
+    {
+      "name": "App",
+      "source_files": "App/*.{h,m}",
+      "dependencies": {
+        "Framework1": [
+
+        ],
+        "Framework2": [
+
+        ],
+        "Framework3": [
+
+        ],
+        "Framework4": [
+
+        ],
+        "Framework5": [
+
+        ],
+        "Framework6": [
+
+        ],
+        "Framework7": [
+
+        ],
+        "Framework8": [
+
+        ],
+        "Framework9": [
+
+        ],
+        "Framework10": [
+
+        ],
+        "Framework11": [
+
+        ],
+        "Framework12": [
+
+        ],
+        "Framework13": [
+
+        ],
+        "Framework14": [
+
+        ],
+        "Framework15": [
+
+        ],
+        "Framework16": [
+
+        ],
+        "Framework17": [
+
+        ],
+        "Framework18": [
+
+        ],
+        "Framework19": [
+
+        ],
+        "Framework20": [
+
+        ],
+        "Framework21": [
+
+        ],
+        "Framework22": [
+
+        ],
+        "Framework23": [
+
+        ],
+        "Framework24": [
+
+        ],
+        "Framework25": [
+
+        ],
+        "Framework26": [
+
+        ],
+        "Framework27": [
+
+        ],
+        "Framework28": [
+
+        ],
+        "Framework29": [
+
+        ],
+        "Framework30": [
+
+        ],
+        "Framework31": [
+
+        ],
+        "Framework32": [
+
+        ],
+        "Framework33": [
+
+        ],
+        "Framework34": [
+
+        ],
+        "Framework35": [
+
+        ],
+        "Framework36": [
+
+        ],
+        "Framework37": [
+
+        ],
+        "Framework38": [
+
+        ],
+        "Framework39": [
+
+        ],
+        "Framework40": [
+
+        ],
+        "Framework41": [
+
+        ],
+        "Framework42": [
+
+        ],
+        "Framework43": [
+
+        ],
+        "Framework44": [
+
+        ],
+        "Framework45": [
+
+        ],
+        "Framework46": [
+
+        ],
+        "Framework47": [
+
+        ],
+        "Framework48": [
+
+        ],
+        "Framework49": [
+
+        ],
+        "Framework50": [
+
+        ],
+        "Framework51": [
+
+        ],
+        "Framework52": [
+
+        ],
+        "Framework53": [
+
+        ],
+        "Framework54": [
+
+        ],
+        "Framework55": [
+
+        ],
+        "Framework56": [
+
+        ],
+        "Framework57": [
+
+        ],
+        "Framework58": [
+
+        ],
+        "Framework59": [
+
+        ],
+        "Framework60": [
+
+        ],
+        "Framework61": [
+
+        ],
+        "Framework62": [
+
+        ],
+        "Framework63": [
+
+        ],
+        "Framework64": [
+
+        ],
+        "Framework65": [
+
+        ],
+        "Framework66": [
+
+        ],
+        "Framework67": [
+
+        ],
+        "Framework68": [
+
+        ],
+        "Framework69": [
+
+        ],
+        "Framework70": [
+
+        ],
+        "Framework71": [
+
+        ],
+        "Framework72": [
+
+        ],
+        "Framework73": [
+
+        ],
+        "Framework74": [
+
+        ],
+        "Framework75": [
+
+        ],
+        "Framework76": [
+
+        ],
+        "Framework77": [
+
+        ],
+        "Framework78": [
+
+        ],
+        "Framework79": [
+
+        ],
+        "Framework80": [
+
+        ],
+        "Framework81": [
+
+        ],
+        "Framework82": [
+
+        ],
+        "Framework83": [
+
+        ],
+        "Framework84": [
+
+        ],
+        "Framework85": [
+
+        ],
+        "Framework86": [
+
+        ],
+        "Framework87": [
+
+        ],
+        "Framework88": [
+
+        ],
+        "Framework89": [
+
+        ],
+        "Framework90": [
+
+        ],
+        "Framework91": [
+
+        ],
+        "Framework92": [
+
+        ],
+        "Framework93": [
+
+        ],
+        "Framework94": [
+
+        ],
+        "Framework95": [
+
+        ],
+        "Framework96": [
+
+        ],
+        "Framework97": [
+
+        ],
+        "Framework98": [
+
+        ],
+        "Framework99": [
+
+        ],
+        "Framework100": [
+
+        ],
+        "Framework101": [
+
+        ],
+        "Framework102": [
+
+        ],
+        "Framework103": [
+
+        ],
+        "Framework104": [
+
+        ],
+        "Framework105": [
+
+        ],
+        "Framework106": [
+
+        ],
+        "Framework107": [
+
+        ],
+        "Framework108": [
+
+        ],
+        "Framework109": [
+
+        ],
+        "Framework110": [
+
+        ],
+        "Framework111": [
+
+        ],
+        "Framework112": [
+
+        ],
+        "Framework113": [
+
+        ],
+        "Framework114": [
+
+        ],
+        "Framework115": [
+
+        ],
+        "Framework116": [
+
+        ],
+        "Framework117": [
+
+        ],
+        "Framework118": [
+
+        ],
+        "Framework119": [
+
+        ],
+        "Framework120": [
+
+        ],
+        "Framework121": [
+
+        ],
+        "Framework122": [
+
+        ],
+        "Framework123": [
+
+        ],
+        "Framework124": [
+
+        ],
+        "Framework125": [
+
+        ],
+        "Framework126": [
+
+        ],
+        "Framework127": [
+
+        ],
+        "Framework128": [
+
+        ],
+        "Framework129": [
+
+        ],
+        "Framework130": [
+
+        ],
+        "Framework131": [
+
+        ],
+        "Framework132": [
+
+        ],
+        "Framework133": [
+
+        ],
+        "Framework134": [
+
+        ],
+        "Framework135": [
+
+        ],
+        "Framework136": [
+
+        ],
+        "Framework137": [
+
+        ],
+        "Framework138": [
+
+        ],
+        "Framework139": [
+
+        ],
+        "Framework140": [
+
+        ],
+        "Framework141": [
+
+        ],
+        "Framework142": [
+
+        ],
+        "Framework143": [
+
+        ],
+        "Framework144": [
+
+        ],
+        "Framework145": [
+
+        ],
+        "Framework146": [
+
+        ],
+        "Framework147": [
+
+        ],
+        "Framework148": [
+
+        ],
+        "Framework149": [
+
+        ],
+        "Framework150": [
+
+        ],
+        "Framework151": [
+
+        ],
+        "Framework152": [
+
+        ],
+        "Framework153": [
+
+        ],
+        "Framework154": [
+
+        ],
+        "Framework155": [
+
+        ],
+        "Framework156": [
+
+        ],
+        "Framework157": [
+
+        ],
+        "Framework158": [
+
+        ],
+        "Framework159": [
+
+        ],
+        "Framework160": [
+
+        ],
+        "Framework161": [
+
+        ],
+        "Framework162": [
+
+        ],
+        "Framework163": [
+
+        ],
+        "Framework164": [
+
+        ],
+        "Framework165": [
+
+        ],
+        "Framework166": [
+
+        ],
+        "Framework167": [
+
+        ],
+        "Framework168": [
+
+        ],
+        "Framework169": [
+
+        ],
+        "Framework170": [
+
+        ],
+        "Framework171": [
+
+        ],
+        "Framework172": [
+
+        ],
+        "Framework173": [
+
+        ],
+        "Framework174": [
+
+        ],
+        "Framework175": [
+
+        ],
+        "Framework176": [
+
+        ],
+        "Framework177": [
+
+        ],
+        "Framework178": [
+
+        ],
+        "Framework179": [
+
+        ],
+        "Framework180": [
+
+        ],
+        "Framework181": [
+
+        ],
+        "Framework182": [
+
+        ],
+        "Framework183": [
+
+        ],
+        "Framework184": [
+
+        ],
+        "Framework185": [
+
+        ],
+        "Framework186": [
+
+        ],
+        "Framework187": [
+
+        ],
+        "Framework188": [
+
+        ],
+        "Framework189": [
+
+        ],
+        "Framework190": [
+
+        ],
+        "Framework191": [
+
+        ],
+        "Framework192": [
+
+        ],
+        "Framework193": [
+
+        ],
+        "Framework194": [
+
+        ],
+        "Framework195": [
+
+        ],
+        "Framework196": [
+
+        ],
+        "Framework197": [
+
+        ],
+        "Framework198": [
+
+        ],
+        "Framework199": [
+
+        ],
+        "Framework200": [
+
+        ],
+        "Framework201": [
+
+        ],
+        "Framework202": [
+
+        ],
+        "Framework203": [
+
+        ],
+        "Framework204": [
+
+        ],
+        "Framework205": [
+
+        ],
+        "Framework206": [
+
+        ],
+        "Framework207": [
+
+        ],
+        "Framework208": [
+
+        ],
+        "Framework209": [
+
+        ],
+        "Framework210": [
+
+        ],
+        "Framework211": [
+
+        ],
+        "Framework212": [
+
+        ],
+        "Framework213": [
+
+        ],
+        "Framework214": [
+
+        ],
+        "Framework215": [
+
+        ],
+        "Framework216": [
+
+        ],
+        "Framework217": [
+
+        ],
+        "Framework218": [
+
+        ],
+        "Framework219": [
+
+        ],
+        "Framework220": [
+
+        ],
+        "Framework221": [
+
+        ],
+        "Framework222": [
+
+        ],
+        "Framework223": [
+
+        ],
+        "Framework224": [
+
+        ],
+        "Framework225": [
+
+        ],
+        "Framework226": [
+
+        ],
+        "Framework227": [
+
+        ],
+        "Framework228": [
+
+        ],
+        "Framework229": [
+
+        ],
+        "Framework230": [
+
+        ],
+        "Framework231": [
+
+        ],
+        "Framework232": [
+
+        ],
+        "Framework233": [
+
+        ],
+        "Framework234": [
+
+        ],
+        "Framework235": [
+
+        ],
+        "Framework236": [
+
+        ],
+        "Framework237": [
+
+        ],
+        "Framework238": [
+
+        ],
+        "Framework239": [
+
+        ],
+        "Framework240": [
+
+        ],
+        "Framework241": [
+
+        ],
+        "Framework242": [
+
+        ],
+        "Framework243": [
+
+        ],
+        "Framework244": [
+
+        ],
+        "Framework245": [
+
+        ],
+        "Framework246": [
+
+        ],
+        "Framework247": [
+
+        ],
+        "Framework248": [
+
+        ],
+        "Framework249": [
+
+        ],
+        "Framework250": [
+
+        ],
+        "Framework251": [
+
+        ],
+        "Framework252": [
+
+        ],
+        "Framework253": [
+
+        ],
+        "Framework254": [
+
+        ],
+        "Framework255": [
+
+        ],
+        "Framework256": [
+
+        ],
+        "Framework257": [
+
+        ],
+        "Framework258": [
+
+        ],
+        "Framework259": [
+
+        ],
+        "Framework260": [
+
+        ],
+        "Framework261": [
+
+        ],
+        "Framework262": [
+
+        ],
+        "Framework263": [
+
+        ],
+        "Framework264": [
+
+        ],
+        "Framework265": [
+
+        ],
+        "Framework266": [
+
+        ],
+        "Framework267": [
+
+        ],
+        "Framework268": [
+
+        ],
+        "Framework269": [
+
+        ],
+        "Framework270": [
+
+        ],
+        "Framework271": [
+
+        ],
+        "Framework272": [
+
+        ],
+        "Framework273": [
+
+        ],
+        "Framework274": [
+
+        ],
+        "Framework275": [
+
+        ],
+        "Framework276": [
+
+        ],
+        "Framework277": [
+
+        ],
+        "Framework278": [
+
+        ],
+        "Framework279": [
+
+        ],
+        "Framework280": [
+
+        ],
+        "Framework281": [
+
+        ],
+        "Framework282": [
+
+        ],
+        "Framework283": [
+
+        ],
+        "Framework284": [
+
+        ],
+        "Framework285": [
+
+        ],
+        "Framework286": [
+
+        ],
+        "Framework287": [
+
+        ],
+        "Framework288": [
+
+        ],
+        "Framework289": [
+
+        ],
+        "Framework290": [
+
+        ],
+        "Framework291": [
+
+        ],
+        "Framework292": [
+
+        ],
+        "Framework293": [
+
+        ],
+        "Framework294": [
+
+        ],
+        "Framework295": [
+
+        ],
+        "Framework296": [
+
+        ],
+        "Framework297": [
+
+        ],
+        "Framework298": [
+
+        ],
+        "Framework299": [
+
+        ],
+        "Framework300": [
+
+        ],
+        "Framework301": [
+
+        ],
+        "Framework302": [
+
+        ],
+        "Framework303": [
+
+        ],
+        "Framework304": [
+
+        ],
+        "Framework305": [
+
+        ],
+        "Framework306": [
+
+        ],
+        "Framework307": [
+
+        ],
+        "Framework308": [
+
+        ],
+        "Framework309": [
+
+        ],
+        "Framework310": [
+
+        ],
+        "Framework311": [
+
+        ],
+        "Framework312": [
+
+        ],
+        "Framework313": [
+
+        ],
+        "Framework314": [
+
+        ],
+        "Framework315": [
+
+        ],
+        "Framework316": [
+
+        ],
+        "Framework317": [
+
+        ],
+        "Framework318": [
+
+        ],
+        "Framework319": [
+
+        ],
+        "Framework320": [
+
+        ],
+        "Framework321": [
+
+        ],
+        "Framework322": [
+
+        ],
+        "Framework323": [
+
+        ],
+        "Framework324": [
+
+        ],
+        "Framework325": [
+
+        ],
+        "Framework326": [
+
+        ],
+        "Framework327": [
+
+        ],
+        "Framework328": [
+
+        ],
+        "Framework329": [
+
+        ],
+        "Framework330": [
+
+        ],
+        "Framework331": [
+
+        ],
+        "Framework332": [
+
+        ],
+        "Framework333": [
+
+        ],
+        "Framework334": [
+
+        ],
+        "Framework335": [
+
+        ],
+        "Framework336": [
+
+        ],
+        "Framework337": [
+
+        ],
+        "Framework338": [
+
+        ],
+        "Framework339": [
+
+        ],
+        "Framework340": [
+
+        ],
+        "Framework341": [
+
+        ],
+        "Framework342": [
+
+        ],
+        "Framework343": [
+
+        ],
+        "Framework344": [
+
+        ],
+        "Framework345": [
+
+        ],
+        "Framework346": [
+
+        ],
+        "Framework347": [
+
+        ],
+        "Framework348": [
+
+        ],
+        "Framework349": [
+
+        ],
+        "Framework350": [
+
+        ],
+        "Framework351": [
+
+        ],
+        "Framework352": [
+
+        ],
+        "Framework353": [
+
+        ],
+        "Framework354": [
+
+        ],
+        "Framework355": [
+
+        ],
+        "Framework356": [
+
+        ],
+        "Framework357": [
+
+        ],
+        "Framework358": [
+
+        ],
+        "Framework359": [
+
+        ],
+        "Framework360": [
+
+        ],
+        "Framework361": [
+
+        ],
+        "Framework362": [
+
+        ],
+        "Framework363": [
+
+        ],
+        "Framework364": [
+
+        ],
+        "Framework365": [
+
+        ],
+        "Framework366": [
+
+        ],
+        "Framework367": [
+
+        ],
+        "Framework368": [
+
+        ],
+        "Framework369": [
+
+        ],
+        "Framework370": [
+
+        ],
+        "Framework371": [
+
+        ],
+        "Framework372": [
+
+        ],
+        "Framework373": [
+
+        ],
+        "Framework374": [
+
+        ],
+        "Framework375": [
+
+        ],
+        "Framework376": [
+
+        ],
+        "Framework377": [
+
+        ],
+        "Framework378": [
+
+        ],
+        "Framework379": [
+
+        ],
+        "Framework380": [
+
+        ],
+        "Framework381": [
+
+        ],
+        "Framework382": [
+
+        ],
+        "Framework383": [
+
+        ],
+        "Framework384": [
+
+        ],
+        "Framework385": [
+
+        ],
+        "Framework386": [
+
+        ],
+        "Framework387": [
+
+        ],
+        "Framework388": [
+
+        ],
+        "Framework389": [
+
+        ],
+        "Framework390": [
+
+        ],
+        "Framework391": [
+
+        ],
+        "Framework392": [
+
+        ],
+        "Framework393": [
+
+        ],
+        "Framework394": [
+
+        ],
+        "Framework395": [
+
+        ],
+        "Framework396": [
+
+        ],
+        "Framework397": [
+
+        ],
+        "Framework398": [
+
+        ],
+        "Framework399": [
+
+        ],
+        "Framework400": [
+
+        ],
+        "Framework401": [
+
+        ],
+        "Framework402": [
+
+        ],
+        "Framework403": [
+
+        ],
+        "Framework404": [
+
+        ],
+        "Framework405": [
+
+        ],
+        "Framework406": [
+
+        ],
+        "Framework407": [
+
+        ],
+        "Framework408": [
+
+        ],
+        "Framework409": [
+
+        ],
+        "Framework410": [
+
+        ],
+        "Framework411": [
+
+        ],
+        "Framework412": [
+
+        ],
+        "Framework413": [
+
+        ],
+        "Framework414": [
+
+        ],
+        "Framework415": [
+
+        ],
+        "Framework416": [
+
+        ],
+        "Framework417": [
+
+        ],
+        "Framework418": [
+
+        ],
+        "Framework419": [
+
+        ],
+        "Framework420": [
+
+        ],
+        "Framework421": [
+
+        ],
+        "Framework422": [
+
+        ],
+        "Framework423": [
+
+        ],
+        "Framework424": [
+
+        ],
+        "Framework425": [
+
+        ],
+        "Framework426": [
+
+        ],
+        "Framework427": [
+
+        ],
+        "Framework428": [
+
+        ],
+        "Framework429": [
+
+        ],
+        "Framework430": [
+
+        ],
+        "Framework431": [
+
+        ],
+        "Framework432": [
+
+        ],
+        "Framework433": [
+
+        ],
+        "Framework434": [
+
+        ],
+        "Framework435": [
+
+        ],
+        "Framework436": [
+
+        ],
+        "Framework437": [
+
+        ],
+        "Framework438": [
+
+        ],
+        "Framework439": [
+
+        ],
+        "Framework440": [
+
+        ],
+        "Framework441": [
+
+        ],
+        "Framework442": [
+
+        ],
+        "Framework443": [
+
+        ],
+        "Framework444": [
+
+        ],
+        "Framework445": [
+
+        ],
+        "Framework446": [
+
+        ],
+        "Framework447": [
+
+        ],
+        "Framework448": [
+
+        ],
+        "Framework449": [
+
+        ]
+      }
+    }
+  ]
+}

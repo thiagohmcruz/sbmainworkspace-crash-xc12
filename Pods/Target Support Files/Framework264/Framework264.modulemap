@@ -1,0 +1,6 @@
+framework module Framework264 {
+  umbrella header "Framework264-umbrella.h"
+
+  export *
+  module * { export * }
+}

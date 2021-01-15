@@ -1,0 +1,6 @@
+framework module Framework408 {
+  umbrella header "Framework408-umbrella.h"
+
+  export *
+  module * { export * }
+}

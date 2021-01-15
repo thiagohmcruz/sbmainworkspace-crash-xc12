@@ -1,0 +1,6 @@
+framework module Framework198 {
+  umbrella header "Framework198-umbrella.h"
+
+  export *
+  module * { export * }
+}

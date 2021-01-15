@@ -1,0 +1,6 @@
+framework module Framework232 {
+  umbrella header "Framework232-umbrella.h"
+
+  export *
+  module * { export * }
+}

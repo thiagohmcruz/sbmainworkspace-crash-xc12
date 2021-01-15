@@ -1,0 +1,6 @@
+framework module Framework395 {
+  umbrella header "Framework395-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Framework392",
+  "version": "1.0.0",
+  "authors": {
+    "Sample Large App": "large-app@largecompany.com"
+  },
+  "summary": "Generated Framework392.",
+  "homepage": "https://largecompany.com",
+  "source": {
+    "git": "https://largecompany.com/Framework392.git",
+    "tag": "podify/1.0.0"
+  },
+  "source_files": "*.{h,m}",
+  "platforms": {
+    "ios": "9.3"
+  }
+}

@@ -1,0 +1,6 @@
+framework module Framework66 {
+  umbrella header "Framework66-umbrella.h"
+
+  export *
+  module * { export * }
+}

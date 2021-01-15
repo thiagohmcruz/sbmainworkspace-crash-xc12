@@ -1,0 +1,6 @@
+framework module Framework206 {
+  umbrella header "Framework206-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Framework385 {
+  umbrella header "Framework385-umbrella.h"
+
+  export *
+  module * { export * }
+}

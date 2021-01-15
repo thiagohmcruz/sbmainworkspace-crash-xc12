@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B070E2EDB7EAE67496D58F740DFF57 /* Framework408.h in Headers */ = {isa = PBXBuildFile; fileRef = FE99684C03C80D1E576E137B939BB6E2 /* Framework408.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		694289EA44C01E9B8F5E3D290FF187E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C180A115F5602546D4298035130CF4 /* Foundation.framework */; };
+		E549C8E4B87E1BA5C7087CF3C4762477 /* Framework408.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCB0BA07DB3302C3DA120AFCD3AAC9 /* Framework408.m */; };
+		EAB97D70749FC84534C6E6DFEB57DA17 /* Framework408-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6275317009B1A1D923B95AF893F1E /* Framework408-dummy.m */; };
+		EF2B3682358B6831D4DAA66AF3FFD969 /* Framework408-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D83E8EDFA0A4352AB9F20C1DB4633A /* Framework408-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21065C2987D690F12B4DB51EECFCA889 /* Framework408-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework408-prefix.pch"; sourceTree = "<group>"; };
+		452C4228BC0F3B1AEB3F81D3E4A42EF7 /* Framework408.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework408.podspec.json; sourceTree = "<group>"; };
+		45C180A115F5602546D4298035130CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4EB6275317009B1A1D923B95AF893F1E /* Framework408-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework408-dummy.m"; sourceTree = "<group>"; };
+		6D3EDA03819586B5F30532B16453F015 /* Framework408.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework408.modulemap; sourceTree = "<group>"; };
+		6E4DE3D68195A53D3619C8EC35F67CB2 /* Framework408.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework408.framework; path = Framework408.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D83E8EDFA0A4352AB9F20C1DB4633A /* Framework408-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework408-umbrella.h"; sourceTree = "<group>"; };
+		7BCCB0BA07DB3302C3DA120AFCD3AAC9 /* Framework408.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework408.m; sourceTree = "<group>"; };
+		9FCECC93FF64BF7036513C5560389FBD /* Framework408.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework408.debug.xcconfig; sourceTree = "<group>"; };
+		BAF8A66F14115F3DE5E08D6DD81FAC62 /* Framework408-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework408-Info.plist"; sourceTree = "<group>"; };
+		E3987A7555A32B9D28369C4053F8F51D /* Framework408.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework408.release.xcconfig; sourceTree = "<group>"; };
+		FE99684C03C80D1E576E137B939BB6E2 /* Framework408.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework408.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0317D63C5A5FA3D8D1F4A9CC746962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694289EA44C01E9B8F5E3D290FF187E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188613C5D4BA34D340D15431739F05A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4DE3D68195A53D3619C8EC35F67CB2 /* Framework408.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D5783AC9748E1F7E4FE9793F82255E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				452C4228BC0F3B1AEB3F81D3E4A42EF7 /* Framework408.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3CF2226E665EB10B6A8B4065C130082F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D3EDA03819586B5F30532B16453F015 /* Framework408.modulemap */,
+				4EB6275317009B1A1D923B95AF893F1E /* Framework408-dummy.m */,
+				BAF8A66F14115F3DE5E08D6DD81FAC62 /* Framework408-Info.plist */,
+				21065C2987D690F12B4DB51EECFCA889 /* Framework408-prefix.pch */,
+				78D83E8EDFA0A4352AB9F20C1DB4633A /* Framework408-umbrella.h */,
+				9FCECC93FF64BF7036513C5560389FBD /* Framework408.debug.xcconfig */,
+				E3987A7555A32B9D28369C4053F8F51D /* Framework408.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework408";
+			sourceTree = "<group>";
+		};
+		431FDD8C2CE83A73DC660CB3A7375DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A444E5735EC749385706128E39F2909C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46C520A25B12B3EE7927E9A9715B7ECF = {
+			isa = PBXGroup;
+			children = (
+				CDE0ABE0E0E5EF08F445B284DB25E242 /* Framework408 */,
+				431FDD8C2CE83A73DC660CB3A7375DC4 /* Frameworks */,
+				188613C5D4BA34D340D15431739F05A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A444E5735EC749385706128E39F2909C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45C180A115F5602546D4298035130CF4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDE0ABE0E0E5EF08F445B284DB25E242 /* Framework408 */ = {
+			isa = PBXGroup;
+			children = (
+				FE99684C03C80D1E576E137B939BB6E2 /* Framework408.h */,
+				7BCCB0BA07DB3302C3DA120AFCD3AAC9 /* Framework408.m */,
+				38D5783AC9748E1F7E4FE9793F82255E /* Pod */,
+				3CF2226E665EB10B6A8B4065C130082F /* Support Files */,
+			);
+			name = Framework408;
+			path = ../Framework408;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85687F78A9F73A2232485F08547C4806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2B3682358B6831D4DAA66AF3FFD969 /* Framework408-umbrella.h in Headers */,
+				57B070E2EDB7EAE67496D58F740DFF57 /* Framework408.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		466B6302E087341EE3D9B5392D490862 /* Framework408 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F072AD79553AC9DD4B25A1C6D59F94EC /* Build configuration list for PBXNativeTarget "Framework408" */;
+			buildPhases = (
+				85687F78A9F73A2232485F08547C4806 /* Headers */,
+				75B7533BDE6044BD593125D810194188 /* Sources */,
+				6A0317D63C5A5FA3D8D1F4A9CC746962 /* Frameworks */,
+				B9EF5A09A9EFA0A741A4E1DEEFA9C615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework408;
+			productName = Framework408;
+			productReference = 6E4DE3D68195A53D3619C8EC35F67CB2 /* Framework408.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A65819D1ADBD3924BC92BC42695C2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 12B42688244C48BC210DEC6387C43440 /* Build configuration list for PBXProject "Framework408" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46C520A25B12B3EE7927E9A9715B7ECF;
+			productRefGroup = 188613C5D4BA34D340D15431739F05A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466B6302E087341EE3D9B5392D490862 /* Framework408 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9EF5A09A9EFA0A741A4E1DEEFA9C615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75B7533BDE6044BD593125D810194188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB97D70749FC84534C6E6DFEB57DA17 /* Framework408-dummy.m in Sources */,
+				E549C8E4B87E1BA5C7087CF3C4762477 /* Framework408.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37954EDEA8EBBDE335EB29596BD2EBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3987A7555A32B9D28369C4053F8F51D /* Framework408.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework408/Framework408-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework408/Framework408-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework408/Framework408.modulemap";
+				PRODUCT_MODULE_NAME = Framework408;
+				PRODUCT_NAME = Framework408;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		455E61445D6AE2EAD5D043FF312BE93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C88173B291AB9E7E7DA1E5F41AD61BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCECC93FF64BF7036513C5560389FBD /* Framework408.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework408/Framework408-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework408/Framework408-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework408/Framework408.modulemap";
+				PRODUCT_MODULE_NAME = Framework408;
+				PRODUCT_NAME = Framework408;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE49A95181DC36FD584794C6D2830966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B42688244C48BC210DEC6387C43440 /* Build configuration list for PBXProject "Framework408" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455E61445D6AE2EAD5D043FF312BE93C /* Debug */,
+				EE49A95181DC36FD584794C6D2830966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F072AD79553AC9DD4B25A1C6D59F94EC /* Build configuration list for PBXNativeTarget "Framework408" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88173B291AB9E7E7DA1E5F41AD61BC3 /* Debug */,
+				37954EDEA8EBBDE335EB29596BD2EBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A65819D1ADBD3924BC92BC42695C2D0 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Framework12 {
+  umbrella header "Framework12-umbrella.h"
+
+  export *
+  module * { export * }
+}

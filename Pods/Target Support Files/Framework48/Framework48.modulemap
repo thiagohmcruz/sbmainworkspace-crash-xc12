@@ -1,0 +1,6 @@
+framework module Framework48 {
+  umbrella header "Framework48-umbrella.h"
+
+  export *
+  module * { export * }
+}

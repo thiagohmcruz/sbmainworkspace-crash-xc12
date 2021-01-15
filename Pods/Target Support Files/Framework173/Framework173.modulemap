@@ -1,0 +1,6 @@
+framework module Framework173 {
+  umbrella header "Framework173-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Framework20 {
+  umbrella header "Framework20-umbrella.h"
+
+  export *
+  module * { export * }
+}

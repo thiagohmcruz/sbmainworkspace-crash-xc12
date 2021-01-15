@@ -1,0 +1,6 @@
+framework module Framework105 {
+  umbrella header "Framework105-umbrella.h"
+
+  export *
+  module * { export * }
+}

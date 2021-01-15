@@ -1,0 +1,5426 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Framework0:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework0:
+        :debug: 71156e60aeee4e7038c096af6ee288ba
+        :release: 71156e60aeee4e7038c096af6ee288ba
+      Framework0/App:
+        :debug: 32cd9bd0119ac7c62bc2ebe3f4fa73ac
+        :release: 32cd9bd0119ac7c62bc2ebe3f4fa73ac
+      Framework0/Tests:
+        :debug: 44153a3daba8c446b0e3ed129c9da9b8
+        :release: 44153a3daba8c446b0e3ed129c9da9b8
+    CHECKSUM: 8633f91f4eb084e8d644de46bddb64b074fe5713
+    FILES:
+      - "../Framework0/App/Framework0Tests.m"
+      - "../Framework0/Framework0.h"
+      - "../Framework0/Framework0.m"
+      - "../Framework0/Tests/Framework0Tests.m"
+    PROJECT_NAME: Framework0
+    SPECS:
+      - Framework0 (1.0.0)
+      - Framework0/App (1.0.0)
+      - Framework0/Tests (1.0.0)
+  Framework1:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework1:
+        :debug: 5e83c64eda9e0a99452388b0d9ec40ee
+        :release: 5e83c64eda9e0a99452388b0d9ec40ee
+    CHECKSUM: 75594f49cb8da79056d718684cf8c2ae6bae2c21
+    FILES:
+      - "../Framework1/Framework1.h"
+      - "../Framework1/Framework1.m"
+    PROJECT_NAME: Framework1
+    SPECS:
+      - Framework1 (1.0.0)
+  Framework10:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework10:
+        :debug: f32df55ce05151edc08ea4da5a42bb6a
+        :release: f32df55ce05151edc08ea4da5a42bb6a
+    CHECKSUM: 791ab8d12263066530c4b41c51b56897d59c3437
+    FILES:
+      - "../Framework10/Framework10.h"
+      - "../Framework10/Framework10.m"
+    PROJECT_NAME: Framework10
+    SPECS:
+      - Framework10 (1.0.0)
+  Framework100:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework100:
+        :debug: a2aaa7d81a1d9cfce830d4a624e2c0f3
+        :release: a2aaa7d81a1d9cfce830d4a624e2c0f3
+    CHECKSUM: 29ac85f836e2c89ae3f43df96e72876a06ce255d
+    FILES:
+      - "../Framework100/Framework100.h"
+      - "../Framework100/Framework100.m"
+    PROJECT_NAME: Framework100
+    SPECS:
+      - Framework100 (1.0.0)
+  Framework101:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework101:
+        :debug: 485ff3f91978008c884af715e4f3626e
+        :release: 485ff3f91978008c884af715e4f3626e
+    CHECKSUM: ff62ae8435efcb6e7115bfcf142db26be556d8c8
+    FILES:
+      - "../Framework101/Framework101.h"
+      - "../Framework101/Framework101.m"
+    PROJECT_NAME: Framework101
+    SPECS:
+      - Framework101 (1.0.0)
+  Framework102:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework102:
+        :debug: 8edcf7368978ef7064daf72698216106
+        :release: 8edcf7368978ef7064daf72698216106
+    CHECKSUM: d6aea9d125f6ca019dc9dcd1391e36455821f88b
+    FILES:
+      - "../Framework102/Framework102.h"
+      - "../Framework102/Framework102.m"
+    PROJECT_NAME: Framework102
+    SPECS:
+      - Framework102 (1.0.0)
+  Framework103:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework103:
+        :debug: 320b4ff0b068b754f98d2268155a5c12
+        :release: 320b4ff0b068b754f98d2268155a5c12
+    CHECKSUM: 44152ff8870beb412a6ab14434ed757a10c7fb05
+    FILES:
+      - "../Framework103/Framework103.h"
+      - "../Framework103/Framework103.m"
+    PROJECT_NAME: Framework103
+    SPECS:
+      - Framework103 (1.0.0)
+  Framework104:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework104:
+        :debug: 79c46ad62da802e66c8c3a0a9fa549e1
+        :release: 79c46ad62da802e66c8c3a0a9fa549e1
+    CHECKSUM: f2410c27354f77dd241f8766cc110f89e3f9529c
+    FILES:
+      - "../Framework104/Framework104.h"
+      - "../Framework104/Framework104.m"
+    PROJECT_NAME: Framework104
+    SPECS:
+      - Framework104 (1.0.0)
+  Framework105:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework105:
+        :debug: a63a861efee42c32dde62ce7bb7bd4d8
+        :release: a63a861efee42c32dde62ce7bb7bd4d8
+    CHECKSUM: 83106cca7d08f583430b99a2f2751c8aecd84f36
+    FILES:
+      - "../Framework105/Framework105.h"
+      - "../Framework105/Framework105.m"
+    PROJECT_NAME: Framework105
+    SPECS:
+      - Framework105 (1.0.0)
+  Framework106:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework106:
+        :debug: fe04ad678cd57fc3e0de1afdf42475a1
+        :release: fe04ad678cd57fc3e0de1afdf42475a1
+    CHECKSUM: 96c2579beac0dd2566ca5226c7ddd82a618e5371
+    FILES:
+      - "../Framework106/Framework106.h"
+      - "../Framework106/Framework106.m"
+    PROJECT_NAME: Framework106
+    SPECS:
+      - Framework106 (1.0.0)
+  Framework107:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework107:
+        :debug: 2fc7d3e53e7f2176ddd153ad934bcc1f
+        :release: 2fc7d3e53e7f2176ddd153ad934bcc1f
+    CHECKSUM: 2b59be662882d0765efe6731e8988bd795bbbaba
+    FILES:
+      - "../Framework107/Framework107.h"
+      - "../Framework107/Framework107.m"
+    PROJECT_NAME: Framework107
+    SPECS:
+      - Framework107 (1.0.0)
+  Framework108:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework108:
+        :debug: 4f65e39340a38efb054dfde10afba5af
+        :release: 4f65e39340a38efb054dfde10afba5af
+    CHECKSUM: db91896b84e8c2d84089fa707319f5cae0924598
+    FILES:
+      - "../Framework108/Framework108.h"
+      - "../Framework108/Framework108.m"
+    PROJECT_NAME: Framework108
+    SPECS:
+      - Framework108 (1.0.0)
+  Framework109:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework109:
+        :debug: 142c03e56433f070bcee70eb66769b02
+        :release: 142c03e56433f070bcee70eb66769b02
+    CHECKSUM: 199eee076e31cfca4dcd9c0e656ac00173735c0d
+    FILES:
+      - "../Framework109/Framework109.h"
+      - "../Framework109/Framework109.m"
+    PROJECT_NAME: Framework109
+    SPECS:
+      - Framework109 (1.0.0)
+  Framework11:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework11:
+        :debug: 4a785a3462b1a4438b69460f953bbbde
+        :release: 4a785a3462b1a4438b69460f953bbbde
+    CHECKSUM: 22535f8377012b3f7ae7093ff584609d125d7dbe
+    FILES:
+      - "../Framework11/Framework11.h"
+      - "../Framework11/Framework11.m"
+    PROJECT_NAME: Framework11
+    SPECS:
+      - Framework11 (1.0.0)
+  Framework110:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework110:
+        :debug: de0582e20fc9cd027d91560372f81377
+        :release: de0582e20fc9cd027d91560372f81377
+    CHECKSUM: 325be828a9b42d5177c60476f6e021364a863d15
+    FILES:
+      - "../Framework110/Framework110.h"
+      - "../Framework110/Framework110.m"
+    PROJECT_NAME: Framework110
+    SPECS:
+      - Framework110 (1.0.0)
+  Framework111:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework111:
+        :debug: 5cc1a9170446938f26942bf3ac6a64a6
+        :release: 5cc1a9170446938f26942bf3ac6a64a6
+    CHECKSUM: 221ae470accbab569ffbeff576ff61436e54715b
+    FILES:
+      - "../Framework111/Framework111.h"
+      - "../Framework111/Framework111.m"
+    PROJECT_NAME: Framework111
+    SPECS:
+      - Framework111 (1.0.0)
+  Framework112:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework112:
+        :debug: de514f96b65d5aa52f7a8700da71802c
+        :release: de514f96b65d5aa52f7a8700da71802c
+    CHECKSUM: 6590f8d2fa46dad648a33130e8a83fcc4a6a3fb8
+    FILES:
+      - "../Framework112/Framework112.h"
+      - "../Framework112/Framework112.m"
+    PROJECT_NAME: Framework112
+    SPECS:
+      - Framework112 (1.0.0)
+  Framework113:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework113:
+        :debug: 0cb61bb457b1653d5cd6c6a0b255a1bc
+        :release: 0cb61bb457b1653d5cd6c6a0b255a1bc
+    CHECKSUM: 23663f3c65a750e0622856f9cc390c6f26ca0d82
+    FILES:
+      - "../Framework113/Framework113.h"
+      - "../Framework113/Framework113.m"
+    PROJECT_NAME: Framework113
+    SPECS:
+      - Framework113 (1.0.0)
+  Framework114:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework114:
+        :debug: aee24a009efd817c56275fbf9bd72600
+        :release: aee24a009efd817c56275fbf9bd72600
+    CHECKSUM: 73d889ef038715f3d339b48d6ee47075a7628f0d
+    FILES:
+      - "../Framework114/Framework114.h"
+      - "../Framework114/Framework114.m"
+    PROJECT_NAME: Framework114
+    SPECS:
+      - Framework114 (1.0.0)
+  Framework115:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework115:
+        :debug: 1b21b1d7c06e957dc450dded9c296ba5
+        :release: 1b21b1d7c06e957dc450dded9c296ba5
+    CHECKSUM: 71e7b52d78e220dcf87f8678156664fdac651f26
+    FILES:
+      - "../Framework115/Framework115.h"
+      - "../Framework115/Framework115.m"
+    PROJECT_NAME: Framework115
+    SPECS:
+      - Framework115 (1.0.0)
+  Framework116:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework116:
+        :debug: e91e31264ddada8fdcace8338f3c4f65
+        :release: e91e31264ddada8fdcace8338f3c4f65
+    CHECKSUM: 30d00a2b9653815c782fc8a0b743645d59480b5b
+    FILES:
+      - "../Framework116/Framework116.h"
+      - "../Framework116/Framework116.m"
+    PROJECT_NAME: Framework116
+    SPECS:
+      - Framework116 (1.0.0)
+  Framework117:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework117:
+        :debug: 55c2958b205abd700e7eaff61f354ff1
+        :release: 55c2958b205abd700e7eaff61f354ff1
+    CHECKSUM: a30efacffead32b15b3a68229019cac719e0e311
+    FILES:
+      - "../Framework117/Framework117.h"
+      - "../Framework117/Framework117.m"
+    PROJECT_NAME: Framework117
+    SPECS:
+      - Framework117 (1.0.0)
+  Framework118:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework118:
+        :debug: 4a991ec41edbd6c0279c0be4bbea5ba0
+        :release: 4a991ec41edbd6c0279c0be4bbea5ba0
+    CHECKSUM: 140e2ccfacef9dfdac14c70bf7c531f88bc62c06
+    FILES:
+      - "../Framework118/Framework118.h"
+      - "../Framework118/Framework118.m"
+    PROJECT_NAME: Framework118
+    SPECS:
+      - Framework118 (1.0.0)
+  Framework119:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework119:
+        :debug: 0e14024afe0f441093819ae3d2577de5
+        :release: 0e14024afe0f441093819ae3d2577de5
+    CHECKSUM: fb7514f60abfe2e57e78b9ab11e9946ca4fe9def
+    FILES:
+      - "../Framework119/Framework119.h"
+      - "../Framework119/Framework119.m"
+    PROJECT_NAME: Framework119
+    SPECS:
+      - Framework119 (1.0.0)
+  Framework12:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework12:
+        :debug: e4f3cfefb209665f33148e332cd265ca
+        :release: e4f3cfefb209665f33148e332cd265ca
+    CHECKSUM: 0777c7c23078a5d9f108d46a3f651c7114b4e7c9
+    FILES:
+      - "../Framework12/Framework12.h"
+      - "../Framework12/Framework12.m"
+    PROJECT_NAME: Framework12
+    SPECS:
+      - Framework12 (1.0.0)
+  Framework120:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework120:
+        :debug: b0c53181d934c840381db2a17e332f0e
+        :release: b0c53181d934c840381db2a17e332f0e
+    CHECKSUM: 21062ec938c4c25edc9b13c3f3639ecd6a6aa38b
+    FILES:
+      - "../Framework120/Framework120.h"
+      - "../Framework120/Framework120.m"
+    PROJECT_NAME: Framework120
+    SPECS:
+      - Framework120 (1.0.0)
+  Framework121:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework121:
+        :debug: fff7da367d32e6b459ec84c4226c22d2
+        :release: fff7da367d32e6b459ec84c4226c22d2
+    CHECKSUM: 8670a45692e4a13344d9c098d4c4172d7eae057b
+    FILES:
+      - "../Framework121/Framework121.h"
+      - "../Framework121/Framework121.m"
+    PROJECT_NAME: Framework121
+    SPECS:
+      - Framework121 (1.0.0)
+  Framework122:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework122:
+        :debug: d0636f40e7276251aa4f99bc0dcb58fa
+        :release: d0636f40e7276251aa4f99bc0dcb58fa
+    CHECKSUM: 94f25c54f96b50bf4608437d86e033702a776b7c
+    FILES:
+      - "../Framework122/Framework122.h"
+      - "../Framework122/Framework122.m"
+    PROJECT_NAME: Framework122
+    SPECS:
+      - Framework122 (1.0.0)
+  Framework123:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework123:
+        :debug: 5d1c5e71b9d573ebf467f91d41355adc
+        :release: 5d1c5e71b9d573ebf467f91d41355adc
+    CHECKSUM: 4128accfc02998ab1c0dffe20f1aac1f9402336a
+    FILES:
+      - "../Framework123/Framework123.h"
+      - "../Framework123/Framework123.m"
+    PROJECT_NAME: Framework123
+    SPECS:
+      - Framework123 (1.0.0)
+  Framework124:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework124:
+        :debug: aa9db8f43631f3f1a7b450324b626129
+        :release: aa9db8f43631f3f1a7b450324b626129
+    CHECKSUM: bf8a204d0a53583aa2264324a11c39a3e6c8d302
+    FILES:
+      - "../Framework124/Framework124.h"
+      - "../Framework124/Framework124.m"
+    PROJECT_NAME: Framework124
+    SPECS:
+      - Framework124 (1.0.0)
+  Framework125:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework125:
+        :debug: 1936c2d2ebb11dced1a29e7feab38abd
+        :release: 1936c2d2ebb11dced1a29e7feab38abd
+    CHECKSUM: b09e455c35e86f8bd520f4e6a28ecfcc5aa73c86
+    FILES:
+      - "../Framework125/Framework125.h"
+      - "../Framework125/Framework125.m"
+    PROJECT_NAME: Framework125
+    SPECS:
+      - Framework125 (1.0.0)
+  Framework126:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework126:
+        :debug: f39124fe8c64618aae77d36c59731596
+        :release: f39124fe8c64618aae77d36c59731596
+    CHECKSUM: 647a0efbb8b153d5d4b78a35054c5fe2defc3338
+    FILES:
+      - "../Framework126/Framework126.h"
+      - "../Framework126/Framework126.m"
+    PROJECT_NAME: Framework126
+    SPECS:
+      - Framework126 (1.0.0)
+  Framework127:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework127:
+        :debug: 99b926cae24a4e7d172925a65438dab3
+        :release: 99b926cae24a4e7d172925a65438dab3
+    CHECKSUM: 589a13134ac1f0a0227dd4f8da940271f797249a
+    FILES:
+      - "../Framework127/Framework127.h"
+      - "../Framework127/Framework127.m"
+    PROJECT_NAME: Framework127
+    SPECS:
+      - Framework127 (1.0.0)
+  Framework128:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework128:
+        :debug: a8ac5337f90422c899f8382af3c219a3
+        :release: a8ac5337f90422c899f8382af3c219a3
+    CHECKSUM: d428d9388e6c8d412efb41ff85fb3d19c8ae9fa0
+    FILES:
+      - "../Framework128/Framework128.h"
+      - "../Framework128/Framework128.m"
+    PROJECT_NAME: Framework128
+    SPECS:
+      - Framework128 (1.0.0)
+  Framework129:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework129:
+        :debug: 75d05bf4b54d37af301683d1acc7ff51
+        :release: 75d05bf4b54d37af301683d1acc7ff51
+    CHECKSUM: 1e877556c76a456aaef3e23ae7b5dca635415c57
+    FILES:
+      - "../Framework129/Framework129.h"
+      - "../Framework129/Framework129.m"
+    PROJECT_NAME: Framework129
+    SPECS:
+      - Framework129 (1.0.0)
+  Framework13:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework13:
+        :debug: f556d4baba5fbf0e20d778d6dddcc491
+        :release: f556d4baba5fbf0e20d778d6dddcc491
+    CHECKSUM: 9c4164baf4d941422fe4c8f0fab5e3074a1474e1
+    FILES:
+      - "../Framework13/Framework13.h"
+      - "../Framework13/Framework13.m"
+    PROJECT_NAME: Framework13
+    SPECS:
+      - Framework13 (1.0.0)
+  Framework130:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework130:
+        :debug: e1045897800497d72ccf26c62589fdf9
+        :release: e1045897800497d72ccf26c62589fdf9
+    CHECKSUM: 01e9000872e2f1837a934b32f1b5d0c3c5ff578c
+    FILES:
+      - "../Framework130/Framework130.h"
+      - "../Framework130/Framework130.m"
+    PROJECT_NAME: Framework130
+    SPECS:
+      - Framework130 (1.0.0)
+  Framework131:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework131:
+        :debug: 0e0afd31c720eb37df306abb3ec1927d
+        :release: 0e0afd31c720eb37df306abb3ec1927d
+    CHECKSUM: 267861bb52949b8377ee6ab9b943ae91a98023b3
+    FILES:
+      - "../Framework131/Framework131.h"
+      - "../Framework131/Framework131.m"
+    PROJECT_NAME: Framework131
+    SPECS:
+      - Framework131 (1.0.0)
+  Framework132:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework132:
+        :debug: dd06a16f5f2cebfaef301b34ae1e7263
+        :release: dd06a16f5f2cebfaef301b34ae1e7263
+    CHECKSUM: f72e3e61c01add5c30f9da3b697c198fd0f779a4
+    FILES:
+      - "../Framework132/Framework132.h"
+      - "../Framework132/Framework132.m"
+    PROJECT_NAME: Framework132
+    SPECS:
+      - Framework132 (1.0.0)
+  Framework133:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework133:
+        :debug: 9743cddc29d8c5e2efd295bb86dffc19
+        :release: 9743cddc29d8c5e2efd295bb86dffc19
+    CHECKSUM: c1ff01bd06b9866914c0dbd6a903e5a96f8f1774
+    FILES:
+      - "../Framework133/Framework133.h"
+      - "../Framework133/Framework133.m"
+    PROJECT_NAME: Framework133
+    SPECS:
+      - Framework133 (1.0.0)
+  Framework134:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework134:
+        :debug: d872b6dce044c7489353f6d7d470edee
+        :release: d872b6dce044c7489353f6d7d470edee
+    CHECKSUM: ddfecf9409ae1da1c2a9dafa8d8a415822e7890f
+    FILES:
+      - "../Framework134/Framework134.h"
+      - "../Framework134/Framework134.m"
+    PROJECT_NAME: Framework134
+    SPECS:
+      - Framework134 (1.0.0)
+  Framework135:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework135:
+        :debug: 5ed27f6f62cd57916c71353547495c93
+        :release: 5ed27f6f62cd57916c71353547495c93
+    CHECKSUM: 45535b7d41a9ae4c38f5c605201e1867a783b424
+    FILES:
+      - "../Framework135/Framework135.h"
+      - "../Framework135/Framework135.m"
+    PROJECT_NAME: Framework135
+    SPECS:
+      - Framework135 (1.0.0)
+  Framework136:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework136:
+        :debug: 10342219728edb363596a85e1f23dfb6
+        :release: 10342219728edb363596a85e1f23dfb6
+    CHECKSUM: 410156893677f87e564e23b942f99a2366e995cb
+    FILES:
+      - "../Framework136/Framework136.h"
+      - "../Framework136/Framework136.m"
+    PROJECT_NAME: Framework136
+    SPECS:
+      - Framework136 (1.0.0)
+  Framework137:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework137:
+        :debug: 44a2da4884d7f083d8c5c6e8f4f23fd6
+        :release: 44a2da4884d7f083d8c5c6e8f4f23fd6
+    CHECKSUM: c67c309dd368c376c3f9d94148a794328fc084fe
+    FILES:
+      - "../Framework137/Framework137.h"
+      - "../Framework137/Framework137.m"
+    PROJECT_NAME: Framework137
+    SPECS:
+      - Framework137 (1.0.0)
+  Framework138:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework138:
+        :debug: 00bf65db5f1b3a25d8e841ae04044466
+        :release: 00bf65db5f1b3a25d8e841ae04044466
+    CHECKSUM: 23a0b1a9148f0b8360c3a28bd1bfd607473de8e7
+    FILES:
+      - "../Framework138/Framework138.h"
+      - "../Framework138/Framework138.m"
+    PROJECT_NAME: Framework138
+    SPECS:
+      - Framework138 (1.0.0)
+  Framework139:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework139:
+        :debug: 992b03d772a97262ba14196273e108d8
+        :release: 992b03d772a97262ba14196273e108d8
+    CHECKSUM: 7e505015983cff891f10af22204350b6e2f5650f
+    FILES:
+      - "../Framework139/Framework139.h"
+      - "../Framework139/Framework139.m"
+    PROJECT_NAME: Framework139
+    SPECS:
+      - Framework139 (1.0.0)
+  Framework14:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework14:
+        :debug: 498d21853c85cb41dfcd9126d360d0a9
+        :release: 498d21853c85cb41dfcd9126d360d0a9
+    CHECKSUM: df500a8b54436b798a359eb73e0023b2521b7d66
+    FILES:
+      - "../Framework14/Framework14.h"
+      - "../Framework14/Framework14.m"
+    PROJECT_NAME: Framework14
+    SPECS:
+      - Framework14 (1.0.0)
+  Framework140:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework140:
+        :debug: f1a46ac1aacb7115c65250fdf75e7348
+        :release: f1a46ac1aacb7115c65250fdf75e7348
+    CHECKSUM: f60e389d10a8c74290f471081fd0bb5fc709bb03
+    FILES:
+      - "../Framework140/Framework140.h"
+      - "../Framework140/Framework140.m"
+    PROJECT_NAME: Framework140
+    SPECS:
+      - Framework140 (1.0.0)
+  Framework141:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework141:
+        :debug: c1b3edfd837383597b2b471753455eb8
+        :release: c1b3edfd837383597b2b471753455eb8
+    CHECKSUM: cdd684c0ea9108bf7eb23f568c5aa01929884bdd
+    FILES:
+      - "../Framework141/Framework141.h"
+      - "../Framework141/Framework141.m"
+    PROJECT_NAME: Framework141
+    SPECS:
+      - Framework141 (1.0.0)
+  Framework142:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework142:
+        :debug: a5257eb979c138e58e01fdf408b2a802
+        :release: a5257eb979c138e58e01fdf408b2a802
+    CHECKSUM: 375523743ed44398245dd9af7b032ac2595fb9b9
+    FILES:
+      - "../Framework142/Framework142.h"
+      - "../Framework142/Framework142.m"
+    PROJECT_NAME: Framework142
+    SPECS:
+      - Framework142 (1.0.0)
+  Framework143:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework143:
+        :debug: 0d9ac1a851afa5f280f6a43f3e6643a5
+        :release: 0d9ac1a851afa5f280f6a43f3e6643a5
+    CHECKSUM: 3f2b02f6f8743c3bf1fd9513a3202fbcce11c522
+    FILES:
+      - "../Framework143/Framework143.h"
+      - "../Framework143/Framework143.m"
+    PROJECT_NAME: Framework143
+    SPECS:
+      - Framework143 (1.0.0)
+  Framework144:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework144:
+        :debug: e481a0eb738f9ae6d1bc7288f67f8027
+        :release: e481a0eb738f9ae6d1bc7288f67f8027
+    CHECKSUM: 5bfe332115d1f37d5b20184ca320424ca0e4e0cb
+    FILES:
+      - "../Framework144/Framework144.h"
+      - "../Framework144/Framework144.m"
+    PROJECT_NAME: Framework144
+    SPECS:
+      - Framework144 (1.0.0)
+  Framework145:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework145:
+        :debug: 8421a946bfb15b1a706c730a4590902b
+        :release: 8421a946bfb15b1a706c730a4590902b
+    CHECKSUM: b2b75263ddc098608b6394ddf097c767ef651243
+    FILES:
+      - "../Framework145/Framework145.h"
+      - "../Framework145/Framework145.m"
+    PROJECT_NAME: Framework145
+    SPECS:
+      - Framework145 (1.0.0)
+  Framework146:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework146:
+        :debug: e61ffcb3f5f7f14e2c90ab5b2593f144
+        :release: e61ffcb3f5f7f14e2c90ab5b2593f144
+    CHECKSUM: 8bca2ff67e82124fda26cff8df46c410f84698ba
+    FILES:
+      - "../Framework146/Framework146.h"
+      - "../Framework146/Framework146.m"
+    PROJECT_NAME: Framework146
+    SPECS:
+      - Framework146 (1.0.0)
+  Framework147:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework147:
+        :debug: df12dc02ae449bb029d7fe58b527585a
+        :release: df12dc02ae449bb029d7fe58b527585a
+    CHECKSUM: c09f769768fbd3e5c2200af573ddb39764ab08eb
+    FILES:
+      - "../Framework147/Framework147.h"
+      - "../Framework147/Framework147.m"
+    PROJECT_NAME: Framework147
+    SPECS:
+      - Framework147 (1.0.0)
+  Framework148:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework148:
+        :debug: e532148997c213a1e13eaf1b02171202
+        :release: e532148997c213a1e13eaf1b02171202
+    CHECKSUM: c3dc448b2e71731fcf2173fb79a4e857be20225c
+    FILES:
+      - "../Framework148/Framework148.h"
+      - "../Framework148/Framework148.m"
+    PROJECT_NAME: Framework148
+    SPECS:
+      - Framework148 (1.0.0)
+  Framework149:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework149:
+        :debug: e48e041dea8c63b24ee233be6c6dd3f2
+        :release: e48e041dea8c63b24ee233be6c6dd3f2
+    CHECKSUM: 3bbf3d46b16eecccaf4abc8eb220138b59fef1b8
+    FILES:
+      - "../Framework149/Framework149.h"
+      - "../Framework149/Framework149.m"
+    PROJECT_NAME: Framework149
+    SPECS:
+      - Framework149 (1.0.0)
+  Framework15:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework15:
+        :debug: 296048b5a2cf464e6b6d31773dad1102
+        :release: 296048b5a2cf464e6b6d31773dad1102
+    CHECKSUM: 52792fc8c599300e3c11f32bdaf4cf632bc37c81
+    FILES:
+      - "../Framework15/Framework15.h"
+      - "../Framework15/Framework15.m"
+    PROJECT_NAME: Framework15
+    SPECS:
+      - Framework15 (1.0.0)
+  Framework150:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework150:
+        :debug: 1a30d7c18ec4a1dd06cb833215e80fd0
+        :release: 1a30d7c18ec4a1dd06cb833215e80fd0
+    CHECKSUM: 3247e31b43fead8674573365fb4e9da055a7b7c1
+    FILES:
+      - "../Framework150/Framework150.h"
+      - "../Framework150/Framework150.m"
+    PROJECT_NAME: Framework150
+    SPECS:
+      - Framework150 (1.0.0)
+  Framework151:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework151:
+        :debug: 649dd69733093639be6eddd58fdc1ae7
+        :release: 649dd69733093639be6eddd58fdc1ae7
+    CHECKSUM: bca606cb31a98342cc27eb361e79d35fa1e2867c
+    FILES:
+      - "../Framework151/Framework151.h"
+      - "../Framework151/Framework151.m"
+    PROJECT_NAME: Framework151
+    SPECS:
+      - Framework151 (1.0.0)
+  Framework152:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework152:
+        :debug: c794fe915f52440d70664bdfd4703925
+        :release: c794fe915f52440d70664bdfd4703925
+    CHECKSUM: 7d5cb9f869e116d53b8b2236f9419cda56726c67
+    FILES:
+      - "../Framework152/Framework152.h"
+      - "../Framework152/Framework152.m"
+    PROJECT_NAME: Framework152
+    SPECS:
+      - Framework152 (1.0.0)
+  Framework153:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework153:
+        :debug: 76b11885b0f44792236df2d00d705423
+        :release: 76b11885b0f44792236df2d00d705423
+    CHECKSUM: 95bd5a09245c2692aedcd119923492dba7f08f04
+    FILES:
+      - "../Framework153/Framework153.h"
+      - "../Framework153/Framework153.m"
+    PROJECT_NAME: Framework153
+    SPECS:
+      - Framework153 (1.0.0)
+  Framework154:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework154:
+        :debug: c1a4c1da8f714c14e68ea6bd2c844a9f
+        :release: c1a4c1da8f714c14e68ea6bd2c844a9f
+    CHECKSUM: be61ef5219995bab8139f6d9d547162425f34ce3
+    FILES:
+      - "../Framework154/Framework154.h"
+      - "../Framework154/Framework154.m"
+    PROJECT_NAME: Framework154
+    SPECS:
+      - Framework154 (1.0.0)
+  Framework155:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework155:
+        :debug: 04b8649629d8e2c92618d3d0ac6fa47b
+        :release: 04b8649629d8e2c92618d3d0ac6fa47b
+    CHECKSUM: 5f9fb7642575c8227ef9b83d3027f7188ce2ef5e
+    FILES:
+      - "../Framework155/Framework155.h"
+      - "../Framework155/Framework155.m"
+    PROJECT_NAME: Framework155
+    SPECS:
+      - Framework155 (1.0.0)
+  Framework156:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework156:
+        :debug: 72efa94ce673cae8a9c41125ea2e8abd
+        :release: 72efa94ce673cae8a9c41125ea2e8abd
+    CHECKSUM: a93bb13958f8d647031c7d852ab79750c432d6b3
+    FILES:
+      - "../Framework156/Framework156.h"
+      - "../Framework156/Framework156.m"
+    PROJECT_NAME: Framework156
+    SPECS:
+      - Framework156 (1.0.0)
+  Framework157:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework157:
+        :debug: 2a06819cd7d83258b9f2dc0a176ffbe1
+        :release: 2a06819cd7d83258b9f2dc0a176ffbe1
+    CHECKSUM: 7b4dd87da271ec8b7a928101beaa858ec92477cc
+    FILES:
+      - "../Framework157/Framework157.h"
+      - "../Framework157/Framework157.m"
+    PROJECT_NAME: Framework157
+    SPECS:
+      - Framework157 (1.0.0)
+  Framework158:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework158:
+        :debug: 73b48e2bd5ef99a7a34a28485e87586d
+        :release: 73b48e2bd5ef99a7a34a28485e87586d
+    CHECKSUM: 8fcb8ac8fde404c50ae646ca210fb21efd297487
+    FILES:
+      - "../Framework158/Framework158.h"
+      - "../Framework158/Framework158.m"
+    PROJECT_NAME: Framework158
+    SPECS:
+      - Framework158 (1.0.0)
+  Framework159:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework159:
+        :debug: da2f99db46df5cd2126cbaa5808afeae
+        :release: da2f99db46df5cd2126cbaa5808afeae
+    CHECKSUM: a925ddc5d87433411f3717b118cb06914770be1d
+    FILES:
+      - "../Framework159/Framework159.h"
+      - "../Framework159/Framework159.m"
+    PROJECT_NAME: Framework159
+    SPECS:
+      - Framework159 (1.0.0)
+  Framework16:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework16:
+        :debug: 080ca7b863876a0158000a3a5ee41c9e
+        :release: 080ca7b863876a0158000a3a5ee41c9e
+    CHECKSUM: 60b52eb7eb37c9cf3870fc75da40bf08b2f9a846
+    FILES:
+      - "../Framework16/Framework16.h"
+      - "../Framework16/Framework16.m"
+    PROJECT_NAME: Framework16
+    SPECS:
+      - Framework16 (1.0.0)
+  Framework160:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework160:
+        :debug: e4468e25e0fffe65d5bd0c05cc912d0f
+        :release: e4468e25e0fffe65d5bd0c05cc912d0f
+    CHECKSUM: bd032e99631e33989acd0e6d16977447d1e9f6e4
+    FILES:
+      - "../Framework160/Framework160.h"
+      - "../Framework160/Framework160.m"
+    PROJECT_NAME: Framework160
+    SPECS:
+      - Framework160 (1.0.0)
+  Framework161:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework161:
+        :debug: 70b7ab1c13267a8a439c15cc51cdb233
+        :release: 70b7ab1c13267a8a439c15cc51cdb233
+    CHECKSUM: 7005d0d905f2b4cb06d43833f17b0b728e789deb
+    FILES:
+      - "../Framework161/Framework161.h"
+      - "../Framework161/Framework161.m"
+    PROJECT_NAME: Framework161
+    SPECS:
+      - Framework161 (1.0.0)
+  Framework162:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework162:
+        :debug: a26513d2cbb75f4ef2174a7cd7c82200
+        :release: a26513d2cbb75f4ef2174a7cd7c82200
+    CHECKSUM: 40f8d92ce69a2bd1cf2f3bc068205556b17a26c6
+    FILES:
+      - "../Framework162/Framework162.h"
+      - "../Framework162/Framework162.m"
+    PROJECT_NAME: Framework162
+    SPECS:
+      - Framework162 (1.0.0)
+  Framework163:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework163:
+        :debug: 619b6a0fb42551664c681bbef98f2a18
+        :release: 619b6a0fb42551664c681bbef98f2a18
+    CHECKSUM: 85aade3f240cf4d8527793b23f2e05433d02fdea
+    FILES:
+      - "../Framework163/Framework163.h"
+      - "../Framework163/Framework163.m"
+    PROJECT_NAME: Framework163
+    SPECS:
+      - Framework163 (1.0.0)
+  Framework164:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework164:
+        :debug: 8c3e9685b77bb8bd80a86b32a1caf84c
+        :release: 8c3e9685b77bb8bd80a86b32a1caf84c
+    CHECKSUM: f78151d679106a7fb5b030c3ec80b6f522d4c3f3
+    FILES:
+      - "../Framework164/Framework164.h"
+      - "../Framework164/Framework164.m"
+    PROJECT_NAME: Framework164
+    SPECS:
+      - Framework164 (1.0.0)
+  Framework165:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework165:
+        :debug: 90d21b0efbcdec4d6c417eabd6bcdfb6
+        :release: 90d21b0efbcdec4d6c417eabd6bcdfb6
+    CHECKSUM: a4951e3b455c722699d262c2839bd16b222c351b
+    FILES:
+      - "../Framework165/Framework165.h"
+      - "../Framework165/Framework165.m"
+    PROJECT_NAME: Framework165
+    SPECS:
+      - Framework165 (1.0.0)
+  Framework166:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework166:
+        :debug: d28e98c97600fa425b198fee3516eadf
+        :release: d28e98c97600fa425b198fee3516eadf
+    CHECKSUM: bad3bcc9e2d46af48823e27f37925755d5e46e64
+    FILES:
+      - "../Framework166/Framework166.h"
+      - "../Framework166/Framework166.m"
+    PROJECT_NAME: Framework166
+    SPECS:
+      - Framework166 (1.0.0)
+  Framework167:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework167:
+        :debug: d4229982af921df05811656fc722394b
+        :release: d4229982af921df05811656fc722394b
+    CHECKSUM: fcc44d28d8e9b7bafa4f06d631677885da3d6c57
+    FILES:
+      - "../Framework167/Framework167.h"
+      - "../Framework167/Framework167.m"
+    PROJECT_NAME: Framework167
+    SPECS:
+      - Framework167 (1.0.0)
+  Framework168:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework168:
+        :debug: 3a2ec26e81342b8a79752e3dc4ecf819
+        :release: 3a2ec26e81342b8a79752e3dc4ecf819
+    CHECKSUM: 1acbc206b2050def79b887c5262c10d184f475a6
+    FILES:
+      - "../Framework168/Framework168.h"
+      - "../Framework168/Framework168.m"
+    PROJECT_NAME: Framework168
+    SPECS:
+      - Framework168 (1.0.0)
+  Framework169:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework169:
+        :debug: 27e172498f1587118897f5b0ef7f5bf9
+        :release: 27e172498f1587118897f5b0ef7f5bf9
+    CHECKSUM: bb0d16e7f77b2d07f063ba8350d50d22e8a3ecae
+    FILES:
+      - "../Framework169/Framework169.h"
+      - "../Framework169/Framework169.m"
+    PROJECT_NAME: Framework169
+    SPECS:
+      - Framework169 (1.0.0)
+  Framework17:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework17:
+        :debug: 7141ac5452c64a6147ddaedcbfa373d2
+        :release: 7141ac5452c64a6147ddaedcbfa373d2
+    CHECKSUM: 30f0c00cf8551cd1630d2d84034eff256d5b4d32
+    FILES:
+      - "../Framework17/Framework17.h"
+      - "../Framework17/Framework17.m"
+    PROJECT_NAME: Framework17
+    SPECS:
+      - Framework17 (1.0.0)
+  Framework170:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework170:
+        :debug: d9c441541c7f9b74f70a56751420159e
+        :release: d9c441541c7f9b74f70a56751420159e
+    CHECKSUM: b40b8749df741cb5008e39389601a0b62413c77f
+    FILES:
+      - "../Framework170/Framework170.h"
+      - "../Framework170/Framework170.m"
+    PROJECT_NAME: Framework170
+    SPECS:
+      - Framework170 (1.0.0)
+  Framework171:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework171:
+        :debug: 391958838422988bc267185e3c2c6d67
+        :release: 391958838422988bc267185e3c2c6d67
+    CHECKSUM: e8ecc41a9ee93a5f71d65adc4b2e2b5bc36461f8
+    FILES:
+      - "../Framework171/Framework171.h"
+      - "../Framework171/Framework171.m"
+    PROJECT_NAME: Framework171
+    SPECS:
+      - Framework171 (1.0.0)
+  Framework172:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework172:
+        :debug: 3c9103d40188dafecc72e4ef7e4b0a74
+        :release: 3c9103d40188dafecc72e4ef7e4b0a74
+    CHECKSUM: bb7e6d6f6622d9d52ba953718d8e26dcab8af761
+    FILES:
+      - "../Framework172/Framework172.h"
+      - "../Framework172/Framework172.m"
+    PROJECT_NAME: Framework172
+    SPECS:
+      - Framework172 (1.0.0)
+  Framework173:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework173:
+        :debug: abbb6a3f2e02cce3dec7cb7876304ac1
+        :release: abbb6a3f2e02cce3dec7cb7876304ac1
+    CHECKSUM: 9cee6e5831527b8ec36cf8fb210efaccdb0ad88e
+    FILES:
+      - "../Framework173/Framework173.h"
+      - "../Framework173/Framework173.m"
+    PROJECT_NAME: Framework173
+    SPECS:
+      - Framework173 (1.0.0)
+  Framework174:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework174:
+        :debug: f84272a6ef8d232d1ec7dba77c301fbf
+        :release: f84272a6ef8d232d1ec7dba77c301fbf
+    CHECKSUM: 430ff37bd1ae33def4d3cdc4e8afebfc493338d3
+    FILES:
+      - "../Framework174/Framework174.h"
+      - "../Framework174/Framework174.m"
+    PROJECT_NAME: Framework174
+    SPECS:
+      - Framework174 (1.0.0)
+  Framework175:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework175:
+        :debug: 519a56021035f329c1a4938d0b346f57
+        :release: 519a56021035f329c1a4938d0b346f57
+    CHECKSUM: 87f74d0bee461aea3cd295722f0388cf98088b76
+    FILES:
+      - "../Framework175/Framework175.h"
+      - "../Framework175/Framework175.m"
+    PROJECT_NAME: Framework175
+    SPECS:
+      - Framework175 (1.0.0)
+  Framework176:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework176:
+        :debug: b7ea97e00be961d116e795864e6836fa
+        :release: b7ea97e00be961d116e795864e6836fa
+    CHECKSUM: 3198a28d1953aae88451374e5d984cee495095b4
+    FILES:
+      - "../Framework176/Framework176.h"
+      - "../Framework176/Framework176.m"
+    PROJECT_NAME: Framework176
+    SPECS:
+      - Framework176 (1.0.0)
+  Framework177:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework177:
+        :debug: 986616064aa8c3a363752d5cdba5e63a
+        :release: 986616064aa8c3a363752d5cdba5e63a
+    CHECKSUM: 85123f21b8296b10b55949cac6b63041beeeb9ff
+    FILES:
+      - "../Framework177/Framework177.h"
+      - "../Framework177/Framework177.m"
+    PROJECT_NAME: Framework177
+    SPECS:
+      - Framework177 (1.0.0)
+  Framework178:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework178:
+        :debug: 49d16270a5d2846522421ae4a3aff9fc
+        :release: 49d16270a5d2846522421ae4a3aff9fc
+    CHECKSUM: 644fdc0bff68bc3a78e2c48f6980f3ceb1ad43b9
+    FILES:
+      - "../Framework178/Framework178.h"
+      - "../Framework178/Framework178.m"
+    PROJECT_NAME: Framework178
+    SPECS:
+      - Framework178 (1.0.0)
+  Framework179:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework179:
+        :debug: e04a96c8f907f323125854abb5874484
+        :release: e04a96c8f907f323125854abb5874484
+    CHECKSUM: fad1e7ad19c9efc88d3ee493ec6c3e3fb66f9992
+    FILES:
+      - "../Framework179/Framework179.h"
+      - "../Framework179/Framework179.m"
+    PROJECT_NAME: Framework179
+    SPECS:
+      - Framework179 (1.0.0)
+  Framework18:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework18:
+        :debug: dd3c9abb5979832bdc1c3b9a6bbee14e
+        :release: dd3c9abb5979832bdc1c3b9a6bbee14e
+    CHECKSUM: 7d7384ecd128d583deef99b61007c20bf20bb29d
+    FILES:
+      - "../Framework18/Framework18.h"
+      - "../Framework18/Framework18.m"
+    PROJECT_NAME: Framework18
+    SPECS:
+      - Framework18 (1.0.0)
+  Framework180:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework180:
+        :debug: 288c09d727f9f6661d01771a90e56119
+        :release: 288c09d727f9f6661d01771a90e56119
+    CHECKSUM: 23f8cc5621f47cb20108de3b41518c7d0074acfc
+    FILES:
+      - "../Framework180/Framework180.h"
+      - "../Framework180/Framework180.m"
+    PROJECT_NAME: Framework180
+    SPECS:
+      - Framework180 (1.0.0)
+  Framework181:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework181:
+        :debug: bb1785b000c2736db77c791e218e43e8
+        :release: bb1785b000c2736db77c791e218e43e8
+    CHECKSUM: daaf22d4043dfa9bd6a4aa9bce3a8867c06a9dbf
+    FILES:
+      - "../Framework181/Framework181.h"
+      - "../Framework181/Framework181.m"
+    PROJECT_NAME: Framework181
+    SPECS:
+      - Framework181 (1.0.0)
+  Framework182:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework182:
+        :debug: ac7a73607c4f89cdbc68b47a483bf823
+        :release: ac7a73607c4f89cdbc68b47a483bf823
+    CHECKSUM: 1b4b39e21532e31b91a112d33ad6b5c944c15bd8
+    FILES:
+      - "../Framework182/Framework182.h"
+      - "../Framework182/Framework182.m"
+    PROJECT_NAME: Framework182
+    SPECS:
+      - Framework182 (1.0.0)
+  Framework183:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework183:
+        :debug: 59ed4f8ba0ac7359b7b740926181000a
+        :release: 59ed4f8ba0ac7359b7b740926181000a
+    CHECKSUM: 48c2c64b0fd551e81d08448f9e194dc20a945be8
+    FILES:
+      - "../Framework183/Framework183.h"
+      - "../Framework183/Framework183.m"
+    PROJECT_NAME: Framework183
+    SPECS:
+      - Framework183 (1.0.0)
+  Framework184:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework184:
+        :debug: 9711d9d011f7999aa7409702cc01d2db
+        :release: 9711d9d011f7999aa7409702cc01d2db
+    CHECKSUM: ed7d3114ee90f33d1770120de01166766dd2167b
+    FILES:
+      - "../Framework184/Framework184.h"
+      - "../Framework184/Framework184.m"
+    PROJECT_NAME: Framework184
+    SPECS:
+      - Framework184 (1.0.0)
+  Framework185:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework185:
+        :debug: 840f08338bca87a091ceb79a14ce2e5e
+        :release: 840f08338bca87a091ceb79a14ce2e5e
+    CHECKSUM: 08fdb546451cf53288b46b73644f7f89335d9403
+    FILES:
+      - "../Framework185/Framework185.h"
+      - "../Framework185/Framework185.m"
+    PROJECT_NAME: Framework185
+    SPECS:
+      - Framework185 (1.0.0)
+  Framework186:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework186:
+        :debug: ed2ce2cca67d544fd3d003a7e831ab13
+        :release: ed2ce2cca67d544fd3d003a7e831ab13
+    CHECKSUM: 2410ac21230127f689dc1f30c03ade23da862bdf
+    FILES:
+      - "../Framework186/Framework186.h"
+      - "../Framework186/Framework186.m"
+    PROJECT_NAME: Framework186
+    SPECS:
+      - Framework186 (1.0.0)
+  Framework187:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework187:
+        :debug: 464be7e6b8a492eb4321be6f1cd928c2
+        :release: 464be7e6b8a492eb4321be6f1cd928c2
+    CHECKSUM: 07bb43926e2e068a4a8b390b96835e807e2c075f
+    FILES:
+      - "../Framework187/Framework187.h"
+      - "../Framework187/Framework187.m"
+    PROJECT_NAME: Framework187
+    SPECS:
+      - Framework187 (1.0.0)
+  Framework188:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework188:
+        :debug: 98a29aa45ae69a9842fdee4c6d3c53e7
+        :release: 98a29aa45ae69a9842fdee4c6d3c53e7
+    CHECKSUM: 497e68d2f6b559ce70d012d88c284c99cee4e13a
+    FILES:
+      - "../Framework188/Framework188.h"
+      - "../Framework188/Framework188.m"
+    PROJECT_NAME: Framework188
+    SPECS:
+      - Framework188 (1.0.0)
+  Framework189:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework189:
+        :debug: 1191ccf6552e78048c329304085a0607
+        :release: 1191ccf6552e78048c329304085a0607
+    CHECKSUM: 21e7b2d6d40794881f0d616f05cccd1a11d7c14b
+    FILES:
+      - "../Framework189/Framework189.h"
+      - "../Framework189/Framework189.m"
+    PROJECT_NAME: Framework189
+    SPECS:
+      - Framework189 (1.0.0)
+  Framework19:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework19:
+        :debug: b687cac7a97168092ebae447b47e5fc5
+        :release: b687cac7a97168092ebae447b47e5fc5
+    CHECKSUM: ad93e997cc1506f22f27e871d3d6fd2c466884ce
+    FILES:
+      - "../Framework19/Framework19.h"
+      - "../Framework19/Framework19.m"
+    PROJECT_NAME: Framework19
+    SPECS:
+      - Framework19 (1.0.0)
+  Framework190:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework190:
+        :debug: a77663a4a531b8cca183922588e06931
+        :release: a77663a4a531b8cca183922588e06931
+    CHECKSUM: 9c5ffbf1dba25534706da5f74665da5d6be6ddef
+    FILES:
+      - "../Framework190/Framework190.h"
+      - "../Framework190/Framework190.m"
+    PROJECT_NAME: Framework190
+    SPECS:
+      - Framework190 (1.0.0)
+  Framework191:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework191:
+        :debug: 626517b5c872a829dbcfba46cf37fab5
+        :release: 626517b5c872a829dbcfba46cf37fab5
+    CHECKSUM: 32236a94688a6894bffc468ada60194664fb4099
+    FILES:
+      - "../Framework191/Framework191.h"
+      - "../Framework191/Framework191.m"
+    PROJECT_NAME: Framework191
+    SPECS:
+      - Framework191 (1.0.0)
+  Framework192:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework192:
+        :debug: ef58cb75b938e7f7fc21a71f84177f81
+        :release: ef58cb75b938e7f7fc21a71f84177f81
+    CHECKSUM: 0274ff026bc45039f48234582fb9f5e913e00e3e
+    FILES:
+      - "../Framework192/Framework192.h"
+      - "../Framework192/Framework192.m"
+    PROJECT_NAME: Framework192
+    SPECS:
+      - Framework192 (1.0.0)
+  Framework193:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework193:
+        :debug: f7e8d2e449812662ea0e892488fda5ad
+        :release: f7e8d2e449812662ea0e892488fda5ad
+    CHECKSUM: 5ed93e9e6067d505a9d45227e14fdc694ee9f6fa
+    FILES:
+      - "../Framework193/Framework193.h"
+      - "../Framework193/Framework193.m"
+    PROJECT_NAME: Framework193
+    SPECS:
+      - Framework193 (1.0.0)
+  Framework194:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework194:
+        :debug: 7c9e2b6f3c5ab4b699a96d409637d4da
+        :release: 7c9e2b6f3c5ab4b699a96d409637d4da
+    CHECKSUM: 969c793618167fdee382c9eca3f499ad4d0c89a5
+    FILES:
+      - "../Framework194/Framework194.h"
+      - "../Framework194/Framework194.m"
+    PROJECT_NAME: Framework194
+    SPECS:
+      - Framework194 (1.0.0)
+  Framework195:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework195:
+        :debug: 337bfae0caa456869134b9d33ce29818
+        :release: 337bfae0caa456869134b9d33ce29818
+    CHECKSUM: 34a0b27db9d0a5988f1638cbf2701373ce573d02
+    FILES:
+      - "../Framework195/Framework195.h"
+      - "../Framework195/Framework195.m"
+    PROJECT_NAME: Framework195
+    SPECS:
+      - Framework195 (1.0.0)
+  Framework196:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework196:
+        :debug: da93adab8018eab3261358dc5887938a
+        :release: da93adab8018eab3261358dc5887938a
+    CHECKSUM: 0cb93de9ea7ebef915820cff186912daebd02210
+    FILES:
+      - "../Framework196/Framework196.h"
+      - "../Framework196/Framework196.m"
+    PROJECT_NAME: Framework196
+    SPECS:
+      - Framework196 (1.0.0)
+  Framework197:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework197:
+        :debug: 9ef6971279532e2f665dfcf3f918edd8
+        :release: 9ef6971279532e2f665dfcf3f918edd8
+    CHECKSUM: 34ce454e27a65b1b9857f3502c98997d4f434a74
+    FILES:
+      - "../Framework197/Framework197.h"
+      - "../Framework197/Framework197.m"
+    PROJECT_NAME: Framework197
+    SPECS:
+      - Framework197 (1.0.0)
+  Framework198:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework198:
+        :debug: a4a0344c623cc5caabc5510cd2b53560
+        :release: a4a0344c623cc5caabc5510cd2b53560
+    CHECKSUM: 4c50095c35d98ea0cee71bd18ac47835939ba62f
+    FILES:
+      - "../Framework198/Framework198.h"
+      - "../Framework198/Framework198.m"
+    PROJECT_NAME: Framework198
+    SPECS:
+      - Framework198 (1.0.0)
+  Framework199:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework199:
+        :debug: c9fa3a9eabb236a7771fe18fd1123b2d
+        :release: c9fa3a9eabb236a7771fe18fd1123b2d
+    CHECKSUM: ac7715b740da2d08ed22209384806779abca4357
+    FILES:
+      - "../Framework199/Framework199.h"
+      - "../Framework199/Framework199.m"
+    PROJECT_NAME: Framework199
+    SPECS:
+      - Framework199 (1.0.0)
+  Framework2:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework2:
+        :debug: ee683a62e5e74b63f0bf04ba6f36d528
+        :release: ee683a62e5e74b63f0bf04ba6f36d528
+    CHECKSUM: 2cab38823ae927c45d5a5ac02f6dad254626ebd9
+    FILES:
+      - "../Framework2/Framework2.h"
+      - "../Framework2/Framework2.m"
+    PROJECT_NAME: Framework2
+    SPECS:
+      - Framework2 (1.0.0)
+  Framework20:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework20:
+        :debug: ea772da5524bd7cebefa3b2beb4d3859
+        :release: ea772da5524bd7cebefa3b2beb4d3859
+    CHECKSUM: f1098c738adbef1a050028b9d403b8203162b72b
+    FILES:
+      - "../Framework20/Framework20.h"
+      - "../Framework20/Framework20.m"
+    PROJECT_NAME: Framework20
+    SPECS:
+      - Framework20 (1.0.0)
+  Framework200:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework200:
+        :debug: 443ab4c749e8811f51ad8740de3a9f2b
+        :release: 443ab4c749e8811f51ad8740de3a9f2b
+    CHECKSUM: 14770e2d569e7a03f9bc0675df54c181096c76fb
+    FILES:
+      - "../Framework200/Framework200.h"
+      - "../Framework200/Framework200.m"
+    PROJECT_NAME: Framework200
+    SPECS:
+      - Framework200 (1.0.0)
+  Framework201:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework201:
+        :debug: afeb24f80c444908527854da915c60d5
+        :release: afeb24f80c444908527854da915c60d5
+    CHECKSUM: 3a466b663c4dc9ab521daaa8bbca19d37b8bfb60
+    FILES:
+      - "../Framework201/Framework201.h"
+      - "../Framework201/Framework201.m"
+    PROJECT_NAME: Framework201
+    SPECS:
+      - Framework201 (1.0.0)
+  Framework202:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework202:
+        :debug: 7bc370ffe584bf28a1ad29a849f2e6d2
+        :release: 7bc370ffe584bf28a1ad29a849f2e6d2
+    CHECKSUM: 4f94f40c6e1b00e2525cb634dc0f6fef3f2748d1
+    FILES:
+      - "../Framework202/Framework202.h"
+      - "../Framework202/Framework202.m"
+    PROJECT_NAME: Framework202
+    SPECS:
+      - Framework202 (1.0.0)
+  Framework203:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework203:
+        :debug: 35fd8cb1a2918f8f00e937274a4d82f8
+        :release: 35fd8cb1a2918f8f00e937274a4d82f8
+    CHECKSUM: 7efc93b26e36644e5fdcebcff631767cd1b2de44
+    FILES:
+      - "../Framework203/Framework203.h"
+      - "../Framework203/Framework203.m"
+    PROJECT_NAME: Framework203
+    SPECS:
+      - Framework203 (1.0.0)
+  Framework204:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework204:
+        :debug: 4b7da8b0f7c00f43bedc8223936a2300
+        :release: 4b7da8b0f7c00f43bedc8223936a2300
+    CHECKSUM: fac15881b1343dffd173ccde34b19837e495774d
+    FILES:
+      - "../Framework204/Framework204.h"
+      - "../Framework204/Framework204.m"
+    PROJECT_NAME: Framework204
+    SPECS:
+      - Framework204 (1.0.0)
+  Framework205:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework205:
+        :debug: 4cf895df5f34d2328dcbd016d31114a4
+        :release: 4cf895df5f34d2328dcbd016d31114a4
+    CHECKSUM: a9b927f21fa360ef3ea371123461672e6fdfa0ac
+    FILES:
+      - "../Framework205/Framework205.h"
+      - "../Framework205/Framework205.m"
+    PROJECT_NAME: Framework205
+    SPECS:
+      - Framework205 (1.0.0)
+  Framework206:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework206:
+        :debug: a5b5374e9d4d8ab9b5829238ea62bc84
+        :release: a5b5374e9d4d8ab9b5829238ea62bc84
+    CHECKSUM: bb71924ce5e7aa67b759da0e3412df9b5b17bdf1
+    FILES:
+      - "../Framework206/Framework206.h"
+      - "../Framework206/Framework206.m"
+    PROJECT_NAME: Framework206
+    SPECS:
+      - Framework206 (1.0.0)
+  Framework207:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework207:
+        :debug: 3f432051339de4c11e3eaa48d0adaf4b
+        :release: 3f432051339de4c11e3eaa48d0adaf4b
+    CHECKSUM: 502ba3fddf7b2501041564b1511ea24ea75ec652
+    FILES:
+      - "../Framework207/Framework207.h"
+      - "../Framework207/Framework207.m"
+    PROJECT_NAME: Framework207
+    SPECS:
+      - Framework207 (1.0.0)
+  Framework208:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework208:
+        :debug: f213c5e7fa57e9164f6776e18bbfb8d3
+        :release: f213c5e7fa57e9164f6776e18bbfb8d3
+    CHECKSUM: cb292596577b6cf23888891c4cbf6bd2bb3f8ce6
+    FILES:
+      - "../Framework208/Framework208.h"
+      - "../Framework208/Framework208.m"
+    PROJECT_NAME: Framework208
+    SPECS:
+      - Framework208 (1.0.0)
+  Framework209:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework209:
+        :debug: cd209b068b01c2fef817a5ba6963bf98
+        :release: cd209b068b01c2fef817a5ba6963bf98
+    CHECKSUM: 2b581fc626f7d761e3a54f1de9b48752c353d26a
+    FILES:
+      - "../Framework209/Framework209.h"
+      - "../Framework209/Framework209.m"
+    PROJECT_NAME: Framework209
+    SPECS:
+      - Framework209 (1.0.0)
+  Framework21:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework21:
+        :debug: ee4d098553a00b78384f3344b1e9851c
+        :release: ee4d098553a00b78384f3344b1e9851c
+    CHECKSUM: d601d283ad9e721ce3a269ab9224cd4e799f8da0
+    FILES:
+      - "../Framework21/Framework21.h"
+      - "../Framework21/Framework21.m"
+    PROJECT_NAME: Framework21
+    SPECS:
+      - Framework21 (1.0.0)
+  Framework210:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework210:
+        :debug: c380c63a0d7983d34267351aacc21ce7
+        :release: c380c63a0d7983d34267351aacc21ce7
+    CHECKSUM: 4c4c61d6ef6b0d4b8989bf934173462b50d21b51
+    FILES:
+      - "../Framework210/Framework210.h"
+      - "../Framework210/Framework210.m"
+    PROJECT_NAME: Framework210
+    SPECS:
+      - Framework210 (1.0.0)
+  Framework211:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework211:
+        :debug: d8f162993bbc4434ede174fd41f99584
+        :release: d8f162993bbc4434ede174fd41f99584
+    CHECKSUM: ae463ef8eb0332f21d6da03f897a15e5598538f5
+    FILES:
+      - "../Framework211/Framework211.h"
+      - "../Framework211/Framework211.m"
+    PROJECT_NAME: Framework211
+    SPECS:
+      - Framework211 (1.0.0)
+  Framework212:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework212:
+        :debug: 3a0b8576dcff9efc94b05c3f763f2d1e
+        :release: 3a0b8576dcff9efc94b05c3f763f2d1e
+    CHECKSUM: ad1969e2786aa08a4b42fca7ba4f045e58d7924a
+    FILES:
+      - "../Framework212/Framework212.h"
+      - "../Framework212/Framework212.m"
+    PROJECT_NAME: Framework212
+    SPECS:
+      - Framework212 (1.0.0)
+  Framework213:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework213:
+        :debug: 4c0523a29c21bf142a7104ef62b17199
+        :release: 4c0523a29c21bf142a7104ef62b17199
+    CHECKSUM: 9d0679ebd69d13c341d0ccc4c9b00ced41b86705
+    FILES:
+      - "../Framework213/Framework213.h"
+      - "../Framework213/Framework213.m"
+    PROJECT_NAME: Framework213
+    SPECS:
+      - Framework213 (1.0.0)
+  Framework214:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework214:
+        :debug: 39246af2be735a02a5f710a341f2ca41
+        :release: 39246af2be735a02a5f710a341f2ca41
+    CHECKSUM: 30fc78d998ab459e75628ca54921bf6a2e7f7381
+    FILES:
+      - "../Framework214/Framework214.h"
+      - "../Framework214/Framework214.m"
+    PROJECT_NAME: Framework214
+    SPECS:
+      - Framework214 (1.0.0)
+  Framework215:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework215:
+        :debug: dc27ed1f8fb0eb3b35ea9fdb6da31b71
+        :release: dc27ed1f8fb0eb3b35ea9fdb6da31b71
+    CHECKSUM: 6b297f3b5d119f104fd7b3ac84cc2288f3cc24e4
+    FILES:
+      - "../Framework215/Framework215.h"
+      - "../Framework215/Framework215.m"
+    PROJECT_NAME: Framework215
+    SPECS:
+      - Framework215 (1.0.0)
+  Framework216:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework216:
+        :debug: 6ae66afb68b3c38ddf0b24c45fdb22d7
+        :release: 6ae66afb68b3c38ddf0b24c45fdb22d7
+    CHECKSUM: 923debf466314467ff5dacabd0e8ccd3b4efc00f
+    FILES:
+      - "../Framework216/Framework216.h"
+      - "../Framework216/Framework216.m"
+    PROJECT_NAME: Framework216
+    SPECS:
+      - Framework216 (1.0.0)
+  Framework217:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework217:
+        :debug: 824a8a2164cec38ae505c04cf150e2fc
+        :release: 824a8a2164cec38ae505c04cf150e2fc
+    CHECKSUM: fa5836600ae78124e6b606b77a124bfd495f66f2
+    FILES:
+      - "../Framework217/Framework217.h"
+      - "../Framework217/Framework217.m"
+    PROJECT_NAME: Framework217
+    SPECS:
+      - Framework217 (1.0.0)
+  Framework218:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework218:
+        :debug: f6de6f76215d00ea3d4fb51306a72135
+        :release: f6de6f76215d00ea3d4fb51306a72135
+    CHECKSUM: cb36e41d70fdb0504fb76876b9211a3d8d4eed4f
+    FILES:
+      - "../Framework218/Framework218.h"
+      - "../Framework218/Framework218.m"
+    PROJECT_NAME: Framework218
+    SPECS:
+      - Framework218 (1.0.0)
+  Framework219:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework219:
+        :debug: 03289b733285c93a4ef24e9a8c778a3f
+        :release: 03289b733285c93a4ef24e9a8c778a3f
+    CHECKSUM: 3b22991927101f4d59e35a89a04f1a9f922197cf
+    FILES:
+      - "../Framework219/Framework219.h"
+      - "../Framework219/Framework219.m"
+    PROJECT_NAME: Framework219
+    SPECS:
+      - Framework219 (1.0.0)
+  Framework22:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework22:
+        :debug: d72f64e88f5cde7b01332da8b8508e43
+        :release: d72f64e88f5cde7b01332da8b8508e43
+    CHECKSUM: 9246a0b50e9b14186dd6ef680ef3716cff67fa33
+    FILES:
+      - "../Framework22/Framework22.h"
+      - "../Framework22/Framework22.m"
+    PROJECT_NAME: Framework22
+    SPECS:
+      - Framework22 (1.0.0)
+  Framework220:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework220:
+        :debug: 328c9533e879842e325355f74b6413ff
+        :release: 328c9533e879842e325355f74b6413ff
+    CHECKSUM: 2cd4818a61f1accb7f62125b455489d3bea42a6f
+    FILES:
+      - "../Framework220/Framework220.h"
+      - "../Framework220/Framework220.m"
+    PROJECT_NAME: Framework220
+    SPECS:
+      - Framework220 (1.0.0)
+  Framework221:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework221:
+        :debug: 7f40f460d946efb04b8bfbf1a686936f
+        :release: 7f40f460d946efb04b8bfbf1a686936f
+    CHECKSUM: 888012799febfb76967891d7b22deab42d80c2ff
+    FILES:
+      - "../Framework221/Framework221.h"
+      - "../Framework221/Framework221.m"
+    PROJECT_NAME: Framework221
+    SPECS:
+      - Framework221 (1.0.0)
+  Framework222:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework222:
+        :debug: 97169d5982ec0c5093f111e04418955e
+        :release: 97169d5982ec0c5093f111e04418955e
+    CHECKSUM: 389ff19bdc2dcff558335cfb7fa9c31ab99aa772
+    FILES:
+      - "../Framework222/Framework222.h"
+      - "../Framework222/Framework222.m"
+    PROJECT_NAME: Framework222
+    SPECS:
+      - Framework222 (1.0.0)
+  Framework223:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework223:
+        :debug: 5b71421e692f19fe75e090ddf6ba9900
+        :release: 5b71421e692f19fe75e090ddf6ba9900
+    CHECKSUM: 44460769bfc0486f85b8bb66b1c32a8120c50d74
+    FILES:
+      - "../Framework223/Framework223.h"
+      - "../Framework223/Framework223.m"
+    PROJECT_NAME: Framework223
+    SPECS:
+      - Framework223 (1.0.0)
+  Framework224:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework224:
+        :debug: 3a9598e80b6feefede91b745c8b13e45
+        :release: 3a9598e80b6feefede91b745c8b13e45
+    CHECKSUM: 107cbac6d71827b8061b81e228ad1cdfe1ad19f7
+    FILES:
+      - "../Framework224/Framework224.h"
+      - "../Framework224/Framework224.m"
+    PROJECT_NAME: Framework224
+    SPECS:
+      - Framework224 (1.0.0)
+  Framework225:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework225:
+        :debug: 153cc9122382d70e4f6af6327c8a4a95
+        :release: 153cc9122382d70e4f6af6327c8a4a95
+    CHECKSUM: a053dfb570d5ebc6c5e895233e64abae7945a3b5
+    FILES:
+      - "../Framework225/Framework225.h"
+      - "../Framework225/Framework225.m"
+    PROJECT_NAME: Framework225
+    SPECS:
+      - Framework225 (1.0.0)
+  Framework226:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework226:
+        :debug: ed1ee4432d7d6472ab94c6bbf076b0fe
+        :release: ed1ee4432d7d6472ab94c6bbf076b0fe
+    CHECKSUM: a2dec34715bbe644b5b8fbe5485874c9e20e262c
+    FILES:
+      - "../Framework226/Framework226.h"
+      - "../Framework226/Framework226.m"
+    PROJECT_NAME: Framework226
+    SPECS:
+      - Framework226 (1.0.0)
+  Framework227:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework227:
+        :debug: bcf06952af25e8ac8f0a601a5824c1a5
+        :release: bcf06952af25e8ac8f0a601a5824c1a5
+    CHECKSUM: 1f9476222123e7688f023f99771356ee7f0e2e8c
+    FILES:
+      - "../Framework227/Framework227.h"
+      - "../Framework227/Framework227.m"
+    PROJECT_NAME: Framework227
+    SPECS:
+      - Framework227 (1.0.0)
+  Framework228:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework228:
+        :debug: 71ec7b424ace89bb35a70bc9171ecbd2
+        :release: 71ec7b424ace89bb35a70bc9171ecbd2
+    CHECKSUM: 044310f83615573d9226dcc53294c8974758ae05
+    FILES:
+      - "../Framework228/Framework228.h"
+      - "../Framework228/Framework228.m"
+    PROJECT_NAME: Framework228
+    SPECS:
+      - Framework228 (1.0.0)
+  Framework229:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework229:
+        :debug: 0ea0b6a305b4e8aba59a10623d776c5d
+        :release: 0ea0b6a305b4e8aba59a10623d776c5d
+    CHECKSUM: ad49d339e224a590d1de1d8855cc8cdbd1f6d1d0
+    FILES:
+      - "../Framework229/Framework229.h"
+      - "../Framework229/Framework229.m"
+    PROJECT_NAME: Framework229
+    SPECS:
+      - Framework229 (1.0.0)
+  Framework23:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework23:
+        :debug: ea12182fb7c061ab1cdf6dbd5b3ff52e
+        :release: ea12182fb7c061ab1cdf6dbd5b3ff52e
+    CHECKSUM: 051daad07674352e4fb6183b783564bf3b138944
+    FILES:
+      - "../Framework23/Framework23.h"
+      - "../Framework23/Framework23.m"
+    PROJECT_NAME: Framework23
+    SPECS:
+      - Framework23 (1.0.0)
+  Framework230:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework230:
+        :debug: 5eb6ab274f918652b64c7f8df645fd00
+        :release: 5eb6ab274f918652b64c7f8df645fd00
+    CHECKSUM: 0effa971f5175930da83da609430a203ece9a887
+    FILES:
+      - "../Framework230/Framework230.h"
+      - "../Framework230/Framework230.m"
+    PROJECT_NAME: Framework230
+    SPECS:
+      - Framework230 (1.0.0)
+  Framework231:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework231:
+        :debug: e3c3a96d00168df2ab5bb4430c21b5e4
+        :release: e3c3a96d00168df2ab5bb4430c21b5e4
+    CHECKSUM: 55077b969b7135c95a23a73d61f566aaa1a1c9b3
+    FILES:
+      - "../Framework231/Framework231.h"
+      - "../Framework231/Framework231.m"
+    PROJECT_NAME: Framework231
+    SPECS:
+      - Framework231 (1.0.0)
+  Framework232:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework232:
+        :debug: 3cfc4ee6deb189c1fe853d022501da72
+        :release: 3cfc4ee6deb189c1fe853d022501da72
+    CHECKSUM: 83b5510d3705909de2401db80d1eef96a5a2b51e
+    FILES:
+      - "../Framework232/Framework232.h"
+      - "../Framework232/Framework232.m"
+    PROJECT_NAME: Framework232
+    SPECS:
+      - Framework232 (1.0.0)
+  Framework233:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework233:
+        :debug: e5228c4c28e8d7612742139a33a39639
+        :release: e5228c4c28e8d7612742139a33a39639
+    CHECKSUM: 0ec4b5fe3724d8bea4c32bc9f7bc2293ac8ea261
+    FILES:
+      - "../Framework233/Framework233.h"
+      - "../Framework233/Framework233.m"
+    PROJECT_NAME: Framework233
+    SPECS:
+      - Framework233 (1.0.0)
+  Framework234:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework234:
+        :debug: ea368915bd357987646ffdd643e6229c
+        :release: ea368915bd357987646ffdd643e6229c
+    CHECKSUM: 0d48f1d718e37698fb1ed286842ad11b5bf27dc7
+    FILES:
+      - "../Framework234/Framework234.h"
+      - "../Framework234/Framework234.m"
+    PROJECT_NAME: Framework234
+    SPECS:
+      - Framework234 (1.0.0)
+  Framework235:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework235:
+        :debug: fc17a0c417aa72815843ce78f4409e65
+        :release: fc17a0c417aa72815843ce78f4409e65
+    CHECKSUM: 6268221867512c26c42a77ec628c8bea69f2201b
+    FILES:
+      - "../Framework235/Framework235.h"
+      - "../Framework235/Framework235.m"
+    PROJECT_NAME: Framework235
+    SPECS:
+      - Framework235 (1.0.0)
+  Framework236:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework236:
+        :debug: 73876e77e38a908a881061cd182a7124
+        :release: 73876e77e38a908a881061cd182a7124
+    CHECKSUM: 66775902eee913883f3bc9d348e8de05bfb9b447
+    FILES:
+      - "../Framework236/Framework236.h"
+      - "../Framework236/Framework236.m"
+    PROJECT_NAME: Framework236
+    SPECS:
+      - Framework236 (1.0.0)
+  Framework237:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework237:
+        :debug: 386025f2c45aa75a908a4ec4e518304f
+        :release: 386025f2c45aa75a908a4ec4e518304f
+    CHECKSUM: 66759542452e4167c2457483b3a23f6563c0da15
+    FILES:
+      - "../Framework237/Framework237.h"
+      - "../Framework237/Framework237.m"
+    PROJECT_NAME: Framework237
+    SPECS:
+      - Framework237 (1.0.0)
+  Framework238:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework238:
+        :debug: 8bb48092ebeed2fc0f98cf1850147f59
+        :release: 8bb48092ebeed2fc0f98cf1850147f59
+    CHECKSUM: 56ae8a3ffa6859b3577331f8c5cf4d2f13ada93b
+    FILES:
+      - "../Framework238/Framework238.h"
+      - "../Framework238/Framework238.m"
+    PROJECT_NAME: Framework238
+    SPECS:
+      - Framework238 (1.0.0)
+  Framework239:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework239:
+        :debug: 1eb9efa6fdd9f8edefa6e0bc6ba2f5c0
+        :release: 1eb9efa6fdd9f8edefa6e0bc6ba2f5c0
+    CHECKSUM: 8a64f0526b43c8134f8b04b3446961788b826687
+    FILES:
+      - "../Framework239/Framework239.h"
+      - "../Framework239/Framework239.m"
+    PROJECT_NAME: Framework239
+    SPECS:
+      - Framework239 (1.0.0)
+  Framework24:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework24:
+        :debug: 281deab6122bc82ac3c976291e7b4d2a
+        :release: 281deab6122bc82ac3c976291e7b4d2a
+    CHECKSUM: 864b192b7e44b3f228946ae9c7f5f6499d68f5a6
+    FILES:
+      - "../Framework24/Framework24.h"
+      - "../Framework24/Framework24.m"
+    PROJECT_NAME: Framework24
+    SPECS:
+      - Framework24 (1.0.0)
+  Framework240:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework240:
+        :debug: 8e32d6cfe062dac3ffbf9cfdfa3f7343
+        :release: 8e32d6cfe062dac3ffbf9cfdfa3f7343
+    CHECKSUM: 61d9dc9f34c70a383a8844c525d1dee53ca9a864
+    FILES:
+      - "../Framework240/Framework240.h"
+      - "../Framework240/Framework240.m"
+    PROJECT_NAME: Framework240
+    SPECS:
+      - Framework240 (1.0.0)
+  Framework241:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework241:
+        :debug: d2dcc79f0e96d63d3121c76cebd21239
+        :release: d2dcc79f0e96d63d3121c76cebd21239
+    CHECKSUM: 040e20b8f75ab994cd40c1beb57b6e2e537961e4
+    FILES:
+      - "../Framework241/Framework241.h"
+      - "../Framework241/Framework241.m"
+    PROJECT_NAME: Framework241
+    SPECS:
+      - Framework241 (1.0.0)
+  Framework242:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework242:
+        :debug: 37058f0f08f70abd73aa1740d0a285a0
+        :release: 37058f0f08f70abd73aa1740d0a285a0
+    CHECKSUM: add4a255373e45b3b6706305d7b9fb2793f3cb0b
+    FILES:
+      - "../Framework242/Framework242.h"
+      - "../Framework242/Framework242.m"
+    PROJECT_NAME: Framework242
+    SPECS:
+      - Framework242 (1.0.0)
+  Framework243:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework243:
+        :debug: e9327cc7283d57f142eb1f4087f24149
+        :release: e9327cc7283d57f142eb1f4087f24149
+    CHECKSUM: 44d2ae85120236dd4aa91c5ba1fb02819b6c3720
+    FILES:
+      - "../Framework243/Framework243.h"
+      - "../Framework243/Framework243.m"
+    PROJECT_NAME: Framework243
+    SPECS:
+      - Framework243 (1.0.0)
+  Framework244:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework244:
+        :debug: aec9b05d3d9b86a65544b89bdf3627d3
+        :release: aec9b05d3d9b86a65544b89bdf3627d3
+    CHECKSUM: 3dd1818645d7cc33445f418a0a82509b8adbc2c1
+    FILES:
+      - "../Framework244/Framework244.h"
+      - "../Framework244/Framework244.m"
+    PROJECT_NAME: Framework244
+    SPECS:
+      - Framework244 (1.0.0)
+  Framework245:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework245:
+        :debug: b30b7168df1f0da3a739f9205ddb43f0
+        :release: b30b7168df1f0da3a739f9205ddb43f0
+    CHECKSUM: 1d627e1346b1c19c74ee63aba5ea1695fedca329
+    FILES:
+      - "../Framework245/Framework245.h"
+      - "../Framework245/Framework245.m"
+    PROJECT_NAME: Framework245
+    SPECS:
+      - Framework245 (1.0.0)
+  Framework246:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework246:
+        :debug: 201298053b5c98bb37ad5f4f3a1c283e
+        :release: 201298053b5c98bb37ad5f4f3a1c283e
+    CHECKSUM: b5fe30062fca9ecd029c37f45e687eecaed35f89
+    FILES:
+      - "../Framework246/Framework246.h"
+      - "../Framework246/Framework246.m"
+    PROJECT_NAME: Framework246
+    SPECS:
+      - Framework246 (1.0.0)
+  Framework247:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework247:
+        :debug: 85d3aefc93f5af8a2d978f3f5ab33af1
+        :release: 85d3aefc93f5af8a2d978f3f5ab33af1
+    CHECKSUM: f74fc02f3956749e98eafa354411b52859158211
+    FILES:
+      - "../Framework247/Framework247.h"
+      - "../Framework247/Framework247.m"
+    PROJECT_NAME: Framework247
+    SPECS:
+      - Framework247 (1.0.0)
+  Framework248:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework248:
+        :debug: eaa8a68e3d22f439ff4229132a89b8ef
+        :release: eaa8a68e3d22f439ff4229132a89b8ef
+    CHECKSUM: fbd297501196645c8716ff9c1fa21289981bce7b
+    FILES:
+      - "../Framework248/Framework248.h"
+      - "../Framework248/Framework248.m"
+    PROJECT_NAME: Framework248
+    SPECS:
+      - Framework248 (1.0.0)
+  Framework249:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework249:
+        :debug: 3a63eb81f127aab254f1ff0eef4776a8
+        :release: 3a63eb81f127aab254f1ff0eef4776a8
+    CHECKSUM: 019c34d5f3ea6cc1a07ef163ba23e5053989a2df
+    FILES:
+      - "../Framework249/Framework249.h"
+      - "../Framework249/Framework249.m"
+    PROJECT_NAME: Framework249
+    SPECS:
+      - Framework249 (1.0.0)
+  Framework25:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework25:
+        :debug: e87549eb5e76aaeb53bb30a690aa2c99
+        :release: e87549eb5e76aaeb53bb30a690aa2c99
+    CHECKSUM: c9b4bdeec24600a3956d87a178f140712805ab9d
+    FILES:
+      - "../Framework25/Framework25.h"
+      - "../Framework25/Framework25.m"
+    PROJECT_NAME: Framework25
+    SPECS:
+      - Framework25 (1.0.0)
+  Framework250:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework250:
+        :debug: 047bc1c0fd0d211dfc64ed9af684a997
+        :release: 047bc1c0fd0d211dfc64ed9af684a997
+    CHECKSUM: 2991b1a4a38ab20d01154eb9550026eb5f6b588f
+    FILES:
+      - "../Framework250/Framework250.h"
+      - "../Framework250/Framework250.m"
+    PROJECT_NAME: Framework250
+    SPECS:
+      - Framework250 (1.0.0)
+  Framework251:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework251:
+        :debug: 22c4120189bd41201036b2680ee78896
+        :release: 22c4120189bd41201036b2680ee78896
+    CHECKSUM: 063da06edd34cb450a8cba502069ab9cc5fd67f2
+    FILES:
+      - "../Framework251/Framework251.h"
+      - "../Framework251/Framework251.m"
+    PROJECT_NAME: Framework251
+    SPECS:
+      - Framework251 (1.0.0)
+  Framework252:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework252:
+        :debug: 4d2a94d4862ecbe7c23aa2196bce72e6
+        :release: 4d2a94d4862ecbe7c23aa2196bce72e6
+    CHECKSUM: 0ca32f02a48b08a400bbda1ee8f4d4c102bbae9c
+    FILES:
+      - "../Framework252/Framework252.h"
+      - "../Framework252/Framework252.m"
+    PROJECT_NAME: Framework252
+    SPECS:
+      - Framework252 (1.0.0)
+  Framework253:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework253:
+        :debug: 18f7192d96dbf2f3d67d38447bdbe301
+        :release: 18f7192d96dbf2f3d67d38447bdbe301
+    CHECKSUM: fecbf95c247369a3d1728d8df5a7e43a2b4e8b03
+    FILES:
+      - "../Framework253/Framework253.h"
+      - "../Framework253/Framework253.m"
+    PROJECT_NAME: Framework253
+    SPECS:
+      - Framework253 (1.0.0)
+  Framework254:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework254:
+        :debug: d26149b0f26f45a4e55df7bffd292264
+        :release: d26149b0f26f45a4e55df7bffd292264
+    CHECKSUM: 0f45dc49054fd6fbc3aa6e096a125b28d48e567c
+    FILES:
+      - "../Framework254/Framework254.h"
+      - "../Framework254/Framework254.m"
+    PROJECT_NAME: Framework254
+    SPECS:
+      - Framework254 (1.0.0)
+  Framework255:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework255:
+        :debug: 66008dbfb4adc41360daa09e2d64afc9
+        :release: 66008dbfb4adc41360daa09e2d64afc9
+    CHECKSUM: 80e384cf9b0b1dd0f2edd42f7af00ef12de1fd2c
+    FILES:
+      - "../Framework255/Framework255.h"
+      - "../Framework255/Framework255.m"
+    PROJECT_NAME: Framework255
+    SPECS:
+      - Framework255 (1.0.0)
+  Framework256:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework256:
+        :debug: 024b48ae1291c715a2a8283bebf5999f
+        :release: 024b48ae1291c715a2a8283bebf5999f
+    CHECKSUM: 5dccc25ced5af65fa4b0f3dfe596d8f0c8c4d381
+    FILES:
+      - "../Framework256/Framework256.h"
+      - "../Framework256/Framework256.m"
+    PROJECT_NAME: Framework256
+    SPECS:
+      - Framework256 (1.0.0)
+  Framework257:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework257:
+        :debug: f3d692f4f5b72af4472f72bfd95b669e
+        :release: f3d692f4f5b72af4472f72bfd95b669e
+    CHECKSUM: 7673522f5d1fa87025d7166f4d0744a7ce313c19
+    FILES:
+      - "../Framework257/Framework257.h"
+      - "../Framework257/Framework257.m"
+    PROJECT_NAME: Framework257
+    SPECS:
+      - Framework257 (1.0.0)
+  Framework258:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework258:
+        :debug: 655dd337225fdf1f4394444f53f92b64
+        :release: 655dd337225fdf1f4394444f53f92b64
+    CHECKSUM: 6b193b33604572c5b684f949df8b7ae4cade0a60
+    FILES:
+      - "../Framework258/Framework258.h"
+      - "../Framework258/Framework258.m"
+    PROJECT_NAME: Framework258
+    SPECS:
+      - Framework258 (1.0.0)
+  Framework259:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework259:
+        :debug: 9e197bd5bec2bf9a1dab2865e9e66376
+        :release: 9e197bd5bec2bf9a1dab2865e9e66376
+    CHECKSUM: 0bb475e4ca52469ac34f83b139f749e2f14b65df
+    FILES:
+      - "../Framework259/Framework259.h"
+      - "../Framework259/Framework259.m"
+    PROJECT_NAME: Framework259
+    SPECS:
+      - Framework259 (1.0.0)
+  Framework26:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework26:
+        :debug: 8fcdfa28968d921c8e6518092c0eab14
+        :release: 8fcdfa28968d921c8e6518092c0eab14
+    CHECKSUM: 1df26cb9454173ffc947d2de18b189d72ec467da
+    FILES:
+      - "../Framework26/Framework26.h"
+      - "../Framework26/Framework26.m"
+    PROJECT_NAME: Framework26
+    SPECS:
+      - Framework26 (1.0.0)
+  Framework260:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework260:
+        :debug: acbc6c6d8e58deac8f7cea4f7aa61895
+        :release: acbc6c6d8e58deac8f7cea4f7aa61895
+    CHECKSUM: f4e62bd7d7c57e44d177410503ebf99fd3ccffcb
+    FILES:
+      - "../Framework260/Framework260.h"
+      - "../Framework260/Framework260.m"
+    PROJECT_NAME: Framework260
+    SPECS:
+      - Framework260 (1.0.0)
+  Framework261:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework261:
+        :debug: ee8eaa392e006a9e4c54cc07175e48d7
+        :release: ee8eaa392e006a9e4c54cc07175e48d7
+    CHECKSUM: 694c5dd07993ad95977ca4f3ea873a1f411c80b4
+    FILES:
+      - "../Framework261/Framework261.h"
+      - "../Framework261/Framework261.m"
+    PROJECT_NAME: Framework261
+    SPECS:
+      - Framework261 (1.0.0)
+  Framework262:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework262:
+        :debug: 5f2c2cab60ed5bc20e2d80d0f96e7888
+        :release: 5f2c2cab60ed5bc20e2d80d0f96e7888
+    CHECKSUM: 36438361bed2094335cfec63dc2dd83d76d8f13d
+    FILES:
+      - "../Framework262/Framework262.h"
+      - "../Framework262/Framework262.m"
+    PROJECT_NAME: Framework262
+    SPECS:
+      - Framework262 (1.0.0)
+  Framework263:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework263:
+        :debug: 4fbacbecefb2076d47faa6622bb14967
+        :release: 4fbacbecefb2076d47faa6622bb14967
+    CHECKSUM: c8515eaa114d6ee41122491b0125bb4e27e26091
+    FILES:
+      - "../Framework263/Framework263.h"
+      - "../Framework263/Framework263.m"
+    PROJECT_NAME: Framework263
+    SPECS:
+      - Framework263 (1.0.0)
+  Framework264:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework264:
+        :debug: 7d0e9ec1d42012f0276cc0b1804aea4d
+        :release: 7d0e9ec1d42012f0276cc0b1804aea4d
+    CHECKSUM: 200b32668b0b39610bcb5c4281ecc7506ced32d3
+    FILES:
+      - "../Framework264/Framework264.h"
+      - "../Framework264/Framework264.m"
+    PROJECT_NAME: Framework264
+    SPECS:
+      - Framework264 (1.0.0)
+  Framework265:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework265:
+        :debug: ffb24023a3e02578bc24b2372af64b43
+        :release: ffb24023a3e02578bc24b2372af64b43
+    CHECKSUM: eacc9d42db439d3ee9a4c880363efd8cc0c5e460
+    FILES:
+      - "../Framework265/Framework265.h"
+      - "../Framework265/Framework265.m"
+    PROJECT_NAME: Framework265
+    SPECS:
+      - Framework265 (1.0.0)
+  Framework266:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework266:
+        :debug: dbe76bea4548bb394d6340f8fb2467e1
+        :release: dbe76bea4548bb394d6340f8fb2467e1
+    CHECKSUM: 99bf10d9027d22f439aef03d06c52ac8b8b7fd11
+    FILES:
+      - "../Framework266/Framework266.h"
+      - "../Framework266/Framework266.m"
+    PROJECT_NAME: Framework266
+    SPECS:
+      - Framework266 (1.0.0)
+  Framework267:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework267:
+        :debug: d726b05f25de7a6efb5cb8e6e06f4072
+        :release: d726b05f25de7a6efb5cb8e6e06f4072
+    CHECKSUM: c8afa6eea10e7c36754e20c8968d3851b2382be5
+    FILES:
+      - "../Framework267/Framework267.h"
+      - "../Framework267/Framework267.m"
+    PROJECT_NAME: Framework267
+    SPECS:
+      - Framework267 (1.0.0)
+  Framework268:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework268:
+        :debug: 11dbef99ec751788bc81b210cfb15efb
+        :release: 11dbef99ec751788bc81b210cfb15efb
+    CHECKSUM: ebd407d8368259dadaeeb2914afc4520d125b66e
+    FILES:
+      - "../Framework268/Framework268.h"
+      - "../Framework268/Framework268.m"
+    PROJECT_NAME: Framework268
+    SPECS:
+      - Framework268 (1.0.0)
+  Framework269:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework269:
+        :debug: 4c66aa634788ce86931edae392fbfa89
+        :release: 4c66aa634788ce86931edae392fbfa89
+    CHECKSUM: b16cb5a09294e4c71fe50118ff63f64ff319c933
+    FILES:
+      - "../Framework269/Framework269.h"
+      - "../Framework269/Framework269.m"
+    PROJECT_NAME: Framework269
+    SPECS:
+      - Framework269 (1.0.0)
+  Framework27:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework27:
+        :debug: ca3615515669e062de7ba88c550f7206
+        :release: ca3615515669e062de7ba88c550f7206
+    CHECKSUM: 57d8fab5f013b81acf052a4d02b3eda35d4d7c9f
+    FILES:
+      - "../Framework27/Framework27.h"
+      - "../Framework27/Framework27.m"
+    PROJECT_NAME: Framework27
+    SPECS:
+      - Framework27 (1.0.0)
+  Framework270:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework270:
+        :debug: 70175c782721fc1762698393cf324cc3
+        :release: 70175c782721fc1762698393cf324cc3
+    CHECKSUM: 8ad073e9506f98f482d9f0ae3611066fd27a9ad9
+    FILES:
+      - "../Framework270/Framework270.h"
+      - "../Framework270/Framework270.m"
+    PROJECT_NAME: Framework270
+    SPECS:
+      - Framework270 (1.0.0)
+  Framework271:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework271:
+        :debug: f7daf43e7a8195a875612ecdef38d500
+        :release: f7daf43e7a8195a875612ecdef38d500
+    CHECKSUM: 21e85776965c227e384e126e6264f4741d4704c7
+    FILES:
+      - "../Framework271/Framework271.h"
+      - "../Framework271/Framework271.m"
+    PROJECT_NAME: Framework271
+    SPECS:
+      - Framework271 (1.0.0)
+  Framework272:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework272:
+        :debug: c441bd8f48059cda162773aef4279eab
+        :release: c441bd8f48059cda162773aef4279eab
+    CHECKSUM: bf4830a6d46702a67ef977c9243cd66165938c2c
+    FILES:
+      - "../Framework272/Framework272.h"
+      - "../Framework272/Framework272.m"
+    PROJECT_NAME: Framework272
+    SPECS:
+      - Framework272 (1.0.0)
+  Framework273:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework273:
+        :debug: 4718b08a75ead4610192a62d21923f3e
+        :release: 4718b08a75ead4610192a62d21923f3e
+    CHECKSUM: bb6704ab9362bf23e3584f721be65e0e2732a70e
+    FILES:
+      - "../Framework273/Framework273.h"
+      - "../Framework273/Framework273.m"
+    PROJECT_NAME: Framework273
+    SPECS:
+      - Framework273 (1.0.0)
+  Framework274:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework274:
+        :debug: 0a73d529bcd16553f6877c8897132668
+        :release: 0a73d529bcd16553f6877c8897132668
+    CHECKSUM: 96a0bea544c6268f77d76284e4e93dc98a43c171
+    FILES:
+      - "../Framework274/Framework274.h"
+      - "../Framework274/Framework274.m"
+    PROJECT_NAME: Framework274
+    SPECS:
+      - Framework274 (1.0.0)
+  Framework275:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework275:
+        :debug: 91a54c7d4e176723a657a02f14e52e83
+        :release: 91a54c7d4e176723a657a02f14e52e83
+    CHECKSUM: 2adb746ef3105b8d2365b253c6c0f48e1e607c18
+    FILES:
+      - "../Framework275/Framework275.h"
+      - "../Framework275/Framework275.m"
+    PROJECT_NAME: Framework275
+    SPECS:
+      - Framework275 (1.0.0)
+  Framework276:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework276:
+        :debug: 8f54596d3970d3df77219e9b4d75000d
+        :release: 8f54596d3970d3df77219e9b4d75000d
+    CHECKSUM: cd819e09aeef1ec6d4b8466022e893f57667bb37
+    FILES:
+      - "../Framework276/Framework276.h"
+      - "../Framework276/Framework276.m"
+    PROJECT_NAME: Framework276
+    SPECS:
+      - Framework276 (1.0.0)
+  Framework277:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework277:
+        :debug: f593b79f42521a540c41866795325f46
+        :release: f593b79f42521a540c41866795325f46
+    CHECKSUM: eafbf64d9e5b57998ad85ae4c8bb9167b70a434a
+    FILES:
+      - "../Framework277/Framework277.h"
+      - "../Framework277/Framework277.m"
+    PROJECT_NAME: Framework277
+    SPECS:
+      - Framework277 (1.0.0)
+  Framework278:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework278:
+        :debug: 68060cca1e82e7d0c9c092b8da78b32f
+        :release: 68060cca1e82e7d0c9c092b8da78b32f
+    CHECKSUM: 3c4da327f71d432bca51c7a083ce4536dc4383e0
+    FILES:
+      - "../Framework278/Framework278.h"
+      - "../Framework278/Framework278.m"
+    PROJECT_NAME: Framework278
+    SPECS:
+      - Framework278 (1.0.0)
+  Framework279:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework279:
+        :debug: cb4cdad0b15356f5edbd7e47806247d2
+        :release: cb4cdad0b15356f5edbd7e47806247d2
+    CHECKSUM: 975556f06d352cd0f39f926637a492b12cde304c
+    FILES:
+      - "../Framework279/Framework279.h"
+      - "../Framework279/Framework279.m"
+    PROJECT_NAME: Framework279
+    SPECS:
+      - Framework279 (1.0.0)
+  Framework28:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework28:
+        :debug: 6586cd6cbb309be65a52af972a91f22a
+        :release: 6586cd6cbb309be65a52af972a91f22a
+    CHECKSUM: 10fa4641483e8693fd015ed69980c70693d862c8
+    FILES:
+      - "../Framework28/Framework28.h"
+      - "../Framework28/Framework28.m"
+    PROJECT_NAME: Framework28
+    SPECS:
+      - Framework28 (1.0.0)
+  Framework280:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework280:
+        :debug: 24d99443e92462e9e55c837fefb2712e
+        :release: 24d99443e92462e9e55c837fefb2712e
+    CHECKSUM: 817bf44718f0d7036c145a1bcc79fc069e4fb16c
+    FILES:
+      - "../Framework280/Framework280.h"
+      - "../Framework280/Framework280.m"
+    PROJECT_NAME: Framework280
+    SPECS:
+      - Framework280 (1.0.0)
+  Framework281:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework281:
+        :debug: fb1c626f891ceb691c28be10668522cb
+        :release: fb1c626f891ceb691c28be10668522cb
+    CHECKSUM: b6476a13e6e8661161b64be38888cac93d7884cf
+    FILES:
+      - "../Framework281/Framework281.h"
+      - "../Framework281/Framework281.m"
+    PROJECT_NAME: Framework281
+    SPECS:
+      - Framework281 (1.0.0)
+  Framework282:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework282:
+        :debug: d0bb9b8a8f84943282b63f3e856d1a84
+        :release: d0bb9b8a8f84943282b63f3e856d1a84
+    CHECKSUM: 4c837408695a89f3dcf7d10d97a04591b0943eb6
+    FILES:
+      - "../Framework282/Framework282.h"
+      - "../Framework282/Framework282.m"
+    PROJECT_NAME: Framework282
+    SPECS:
+      - Framework282 (1.0.0)
+  Framework283:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework283:
+        :debug: 1a38f12854ddce9946ac285819935fa5
+        :release: 1a38f12854ddce9946ac285819935fa5
+    CHECKSUM: f99fefea0cde1ba43311f915a0d5374f65c40272
+    FILES:
+      - "../Framework283/Framework283.h"
+      - "../Framework283/Framework283.m"
+    PROJECT_NAME: Framework283
+    SPECS:
+      - Framework283 (1.0.0)
+  Framework284:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework284:
+        :debug: dc1b2086ee5b32a46f2fae9edd3d0430
+        :release: dc1b2086ee5b32a46f2fae9edd3d0430
+    CHECKSUM: ad9553842f46cc6da765a0bec4842237e2f1920b
+    FILES:
+      - "../Framework284/Framework284.h"
+      - "../Framework284/Framework284.m"
+    PROJECT_NAME: Framework284
+    SPECS:
+      - Framework284 (1.0.0)
+  Framework285:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework285:
+        :debug: e1cbef731fba1b22f07040bb521048eb
+        :release: e1cbef731fba1b22f07040bb521048eb
+    CHECKSUM: 6168beb27cc4795f81e64a45539fa90de79f32c0
+    FILES:
+      - "../Framework285/Framework285.h"
+      - "../Framework285/Framework285.m"
+    PROJECT_NAME: Framework285
+    SPECS:
+      - Framework285 (1.0.0)
+  Framework286:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework286:
+        :debug: 806cdfcbeff5b68c989311a0ed642d24
+        :release: 806cdfcbeff5b68c989311a0ed642d24
+    CHECKSUM: ba86802b18bfaab67bdce713dbac85d6878c73a9
+    FILES:
+      - "../Framework286/Framework286.h"
+      - "../Framework286/Framework286.m"
+    PROJECT_NAME: Framework286
+    SPECS:
+      - Framework286 (1.0.0)
+  Framework287:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework287:
+        :debug: 0dc091afa239feb4da41e5ee9f74c85c
+        :release: 0dc091afa239feb4da41e5ee9f74c85c
+    CHECKSUM: 5ef3890acbaa35bdbc4459d3895089b426ec6c79
+    FILES:
+      - "../Framework287/Framework287.h"
+      - "../Framework287/Framework287.m"
+    PROJECT_NAME: Framework287
+    SPECS:
+      - Framework287 (1.0.0)
+  Framework288:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework288:
+        :debug: ad2236a61ca22d7e9a3dc8d7b17b80b1
+        :release: ad2236a61ca22d7e9a3dc8d7b17b80b1
+    CHECKSUM: a3766a8d0d543d0608441dcc2ca2ec7aba7c8468
+    FILES:
+      - "../Framework288/Framework288.h"
+      - "../Framework288/Framework288.m"
+    PROJECT_NAME: Framework288
+    SPECS:
+      - Framework288 (1.0.0)
+  Framework289:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework289:
+        :debug: d67fe6d56582eb04c6c2d39355b00a5f
+        :release: d67fe6d56582eb04c6c2d39355b00a5f
+    CHECKSUM: 3b8174f36b169ebb02b8c70279d74d909a94fe89
+    FILES:
+      - "../Framework289/Framework289.h"
+      - "../Framework289/Framework289.m"
+    PROJECT_NAME: Framework289
+    SPECS:
+      - Framework289 (1.0.0)
+  Framework29:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework29:
+        :debug: d8d4ecda7272d406d67ee9dcfc8619e2
+        :release: d8d4ecda7272d406d67ee9dcfc8619e2
+    CHECKSUM: 2af920deac97b801a66b0a128d7291fa1b3c35a9
+    FILES:
+      - "../Framework29/Framework29.h"
+      - "../Framework29/Framework29.m"
+    PROJECT_NAME: Framework29
+    SPECS:
+      - Framework29 (1.0.0)
+  Framework290:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework290:
+        :debug: 7d843c18c62b35fad48df0b617837a72
+        :release: 7d843c18c62b35fad48df0b617837a72
+    CHECKSUM: 2bf587662d0fa96c5627ad2c881d6e9c33c4ed99
+    FILES:
+      - "../Framework290/Framework290.h"
+      - "../Framework290/Framework290.m"
+    PROJECT_NAME: Framework290
+    SPECS:
+      - Framework290 (1.0.0)
+  Framework291:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework291:
+        :debug: 608a23c7f3bbf64052d11a396cedba4e
+        :release: 608a23c7f3bbf64052d11a396cedba4e
+    CHECKSUM: 0014e218796bfd15537054471297c279a1aedfea
+    FILES:
+      - "../Framework291/Framework291.h"
+      - "../Framework291/Framework291.m"
+    PROJECT_NAME: Framework291
+    SPECS:
+      - Framework291 (1.0.0)
+  Framework292:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework292:
+        :debug: cf70ad7215c481a304b1094e4dda61a0
+        :release: cf70ad7215c481a304b1094e4dda61a0
+    CHECKSUM: f8efe4dffbc56c7432ae91bea442e5315cb1fad4
+    FILES:
+      - "../Framework292/Framework292.h"
+      - "../Framework292/Framework292.m"
+    PROJECT_NAME: Framework292
+    SPECS:
+      - Framework292 (1.0.0)
+  Framework293:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework293:
+        :debug: 897496b4ba31fca5e9c38146e9cff71f
+        :release: 897496b4ba31fca5e9c38146e9cff71f
+    CHECKSUM: e34728fc173c01220e2a48d364d4d6be8a23d4d7
+    FILES:
+      - "../Framework293/Framework293.h"
+      - "../Framework293/Framework293.m"
+    PROJECT_NAME: Framework293
+    SPECS:
+      - Framework293 (1.0.0)
+  Framework294:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework294:
+        :debug: 5bfa6d459ffdc2385cf3f7519a6494b8
+        :release: 5bfa6d459ffdc2385cf3f7519a6494b8
+    CHECKSUM: 7a0d65ca3a5fbdd004be9c3bce7cbdc7a8024ca6
+    FILES:
+      - "../Framework294/Framework294.h"
+      - "../Framework294/Framework294.m"
+    PROJECT_NAME: Framework294
+    SPECS:
+      - Framework294 (1.0.0)
+  Framework295:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework295:
+        :debug: 7d47d1298dfa02b7578c4731fb437c1d
+        :release: 7d47d1298dfa02b7578c4731fb437c1d
+    CHECKSUM: 776715966fc446a45367d7fd12a528c43d0abefe
+    FILES:
+      - "../Framework295/Framework295.h"
+      - "../Framework295/Framework295.m"
+    PROJECT_NAME: Framework295
+    SPECS:
+      - Framework295 (1.0.0)
+  Framework296:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework296:
+        :debug: d4a6717c16e3f0152c48d2c12019067c
+        :release: d4a6717c16e3f0152c48d2c12019067c
+    CHECKSUM: c6c97e9ad3e8098702451058b632f3fffba1f3e1
+    FILES:
+      - "../Framework296/Framework296.h"
+      - "../Framework296/Framework296.m"
+    PROJECT_NAME: Framework296
+    SPECS:
+      - Framework296 (1.0.0)
+  Framework297:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework297:
+        :debug: 9137608d9bafd862a952d50f09dff207
+        :release: 9137608d9bafd862a952d50f09dff207
+    CHECKSUM: e4a92359dec191e32da96b8c3eafa455ff2569b3
+    FILES:
+      - "../Framework297/Framework297.h"
+      - "../Framework297/Framework297.m"
+    PROJECT_NAME: Framework297
+    SPECS:
+      - Framework297 (1.0.0)
+  Framework298:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework298:
+        :debug: ce699aaef6f8ea5b1142d217144d84c6
+        :release: ce699aaef6f8ea5b1142d217144d84c6
+    CHECKSUM: 58186d4df8bdb949b2ece4a0a5595ab0f8779301
+    FILES:
+      - "../Framework298/Framework298.h"
+      - "../Framework298/Framework298.m"
+    PROJECT_NAME: Framework298
+    SPECS:
+      - Framework298 (1.0.0)
+  Framework299:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework299:
+        :debug: 447a9c1318d6670046f74790615817b1
+        :release: 447a9c1318d6670046f74790615817b1
+    CHECKSUM: e2a6fa42368cd2dbd8cd2a8c7752f6d7cebc01bc
+    FILES:
+      - "../Framework299/Framework299.h"
+      - "../Framework299/Framework299.m"
+    PROJECT_NAME: Framework299
+    SPECS:
+      - Framework299 (1.0.0)
+  Framework3:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework3:
+        :debug: 51c147a6843c27068fb3d782aae0336e
+        :release: 51c147a6843c27068fb3d782aae0336e
+    CHECKSUM: abdc903ccdc033f5db85e533c5585bb282bf0d15
+    FILES:
+      - "../Framework3/Framework3.h"
+      - "../Framework3/Framework3.m"
+    PROJECT_NAME: Framework3
+    SPECS:
+      - Framework3 (1.0.0)
+  Framework30:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework30:
+        :debug: bf39c0a7ca6630112d1c89347d039d10
+        :release: bf39c0a7ca6630112d1c89347d039d10
+    CHECKSUM: 22bd1072477e3e7b38e37055179406f87ee31cdb
+    FILES:
+      - "../Framework30/Framework30.h"
+      - "../Framework30/Framework30.m"
+    PROJECT_NAME: Framework30
+    SPECS:
+      - Framework30 (1.0.0)
+  Framework300:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework300:
+        :debug: 688083cc48a8b1fd06e756184e7cb223
+        :release: 688083cc48a8b1fd06e756184e7cb223
+    CHECKSUM: 11ad061729d8979d72cc20005696ffa2d452509e
+    FILES:
+      - "../Framework300/Framework300.h"
+      - "../Framework300/Framework300.m"
+    PROJECT_NAME: Framework300
+    SPECS:
+      - Framework300 (1.0.0)
+  Framework301:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework301:
+        :debug: ef175108177b392893ecf3a2cda41f97
+        :release: ef175108177b392893ecf3a2cda41f97
+    CHECKSUM: c1008e6bc480fa2fe16ef2ba1fb2d27168b14ea3
+    FILES:
+      - "../Framework301/Framework301.h"
+      - "../Framework301/Framework301.m"
+    PROJECT_NAME: Framework301
+    SPECS:
+      - Framework301 (1.0.0)
+  Framework302:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework302:
+        :debug: 6eda5aa514f0dedfeec2e799559dc704
+        :release: 6eda5aa514f0dedfeec2e799559dc704
+    CHECKSUM: 3a6e1e739031dce3401735e4d86359045336a379
+    FILES:
+      - "../Framework302/Framework302.h"
+      - "../Framework302/Framework302.m"
+    PROJECT_NAME: Framework302
+    SPECS:
+      - Framework302 (1.0.0)
+  Framework303:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework303:
+        :debug: 4b946b99ff3dd26e96bfde2e002bcda4
+        :release: 4b946b99ff3dd26e96bfde2e002bcda4
+    CHECKSUM: 4dc20ad62a84119d6c8cccd6502e64b621fa6ccf
+    FILES:
+      - "../Framework303/Framework303.h"
+      - "../Framework303/Framework303.m"
+    PROJECT_NAME: Framework303
+    SPECS:
+      - Framework303 (1.0.0)
+  Framework304:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework304:
+        :debug: 8c9d2a86457364ee7afa63e012b53794
+        :release: 8c9d2a86457364ee7afa63e012b53794
+    CHECKSUM: e79e4b04658ab6f55ee024a0e3bf0ff720de861e
+    FILES:
+      - "../Framework304/Framework304.h"
+      - "../Framework304/Framework304.m"
+    PROJECT_NAME: Framework304
+    SPECS:
+      - Framework304 (1.0.0)
+  Framework305:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework305:
+        :debug: 48c2f9b80642440f1fb87006631f8a0d
+        :release: 48c2f9b80642440f1fb87006631f8a0d
+    CHECKSUM: 438b518faa79cd77604340b07a408d29a3cf6c17
+    FILES:
+      - "../Framework305/Framework305.h"
+      - "../Framework305/Framework305.m"
+    PROJECT_NAME: Framework305
+    SPECS:
+      - Framework305 (1.0.0)
+  Framework306:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework306:
+        :debug: 18a936533567cb26773287ec822ebbda
+        :release: 18a936533567cb26773287ec822ebbda
+    CHECKSUM: 3c3127a09eaaa6d533d7f07412d1cc03638db35d
+    FILES:
+      - "../Framework306/Framework306.h"
+      - "../Framework306/Framework306.m"
+    PROJECT_NAME: Framework306
+    SPECS:
+      - Framework306 (1.0.0)
+  Framework307:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework307:
+        :debug: 0774d0bc862dfa42161a26870e88bc2d
+        :release: 0774d0bc862dfa42161a26870e88bc2d
+    CHECKSUM: ac0d1ed3daa18dd213cdb45f6f12483fe38fb813
+    FILES:
+      - "../Framework307/Framework307.h"
+      - "../Framework307/Framework307.m"
+    PROJECT_NAME: Framework307
+    SPECS:
+      - Framework307 (1.0.0)
+  Framework308:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework308:
+        :debug: 797e3db85d78b29ee2c82e0fe08b8f5d
+        :release: 797e3db85d78b29ee2c82e0fe08b8f5d
+    CHECKSUM: f9761d9957c448542772409946a82a62a23ae0c8
+    FILES:
+      - "../Framework308/Framework308.h"
+      - "../Framework308/Framework308.m"
+    PROJECT_NAME: Framework308
+    SPECS:
+      - Framework308 (1.0.0)
+  Framework309:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework309:
+        :debug: 8eb5c45e9bdb3de27d972cf5d00d3155
+        :release: 8eb5c45e9bdb3de27d972cf5d00d3155
+    CHECKSUM: 15af9172c4b0297bef1abbadb86b8514eba94779
+    FILES:
+      - "../Framework309/Framework309.h"
+      - "../Framework309/Framework309.m"
+    PROJECT_NAME: Framework309
+    SPECS:
+      - Framework309 (1.0.0)
+  Framework31:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework31:
+        :debug: d52e04d59ca3bd38da8272e3469035c1
+        :release: d52e04d59ca3bd38da8272e3469035c1
+    CHECKSUM: d9763cdb9d2881b3abb056e2949bcbbc857a8bcc
+    FILES:
+      - "../Framework31/Framework31.h"
+      - "../Framework31/Framework31.m"
+    PROJECT_NAME: Framework31
+    SPECS:
+      - Framework31 (1.0.0)
+  Framework310:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework310:
+        :debug: 725cb7fd96186bc2fa12b3a54d92a9ec
+        :release: 725cb7fd96186bc2fa12b3a54d92a9ec
+    CHECKSUM: d060227152e853db9c663f44d7dbddee0bde28db
+    FILES:
+      - "../Framework310/Framework310.h"
+      - "../Framework310/Framework310.m"
+    PROJECT_NAME: Framework310
+    SPECS:
+      - Framework310 (1.0.0)
+  Framework311:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework311:
+        :debug: e7307996a45067b08e7c88f4a4e22830
+        :release: e7307996a45067b08e7c88f4a4e22830
+    CHECKSUM: b46233c1de5b902bf42f8f533ca0f1fa7dc126e9
+    FILES:
+      - "../Framework311/Framework311.h"
+      - "../Framework311/Framework311.m"
+    PROJECT_NAME: Framework311
+    SPECS:
+      - Framework311 (1.0.0)
+  Framework312:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework312:
+        :debug: d956d8ef4d6d15dc0e0d57ffba7c446a
+        :release: d956d8ef4d6d15dc0e0d57ffba7c446a
+    CHECKSUM: 24c6afdbe4501b2158e5d7d8e26842d14e75ee58
+    FILES:
+      - "../Framework312/Framework312.h"
+      - "../Framework312/Framework312.m"
+    PROJECT_NAME: Framework312
+    SPECS:
+      - Framework312 (1.0.0)
+  Framework313:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework313:
+        :debug: 4a6880cf111245461ed2da8780e2f8d8
+        :release: 4a6880cf111245461ed2da8780e2f8d8
+    CHECKSUM: 387842830436bbd13b8f42438da48c4c84d05cfc
+    FILES:
+      - "../Framework313/Framework313.h"
+      - "../Framework313/Framework313.m"
+    PROJECT_NAME: Framework313
+    SPECS:
+      - Framework313 (1.0.0)
+  Framework314:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework314:
+        :debug: 8c8d31181fcd13f15388125a6308ffdd
+        :release: 8c8d31181fcd13f15388125a6308ffdd
+    CHECKSUM: 88e6477682408f87310a44aca69eb2ef8cc6709a
+    FILES:
+      - "../Framework314/Framework314.h"
+      - "../Framework314/Framework314.m"
+    PROJECT_NAME: Framework314
+    SPECS:
+      - Framework314 (1.0.0)
+  Framework315:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework315:
+        :debug: f07fced374ab90fcdbfa9db02aa168ac
+        :release: f07fced374ab90fcdbfa9db02aa168ac
+    CHECKSUM: 80eeb78be6058e657290595f470bac698b6960e9
+    FILES:
+      - "../Framework315/Framework315.h"
+      - "../Framework315/Framework315.m"
+    PROJECT_NAME: Framework315
+    SPECS:
+      - Framework315 (1.0.0)
+  Framework316:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework316:
+        :debug: 5ae6827e878bf35d93fd44beffc2d586
+        :release: 5ae6827e878bf35d93fd44beffc2d586
+    CHECKSUM: a71a0ca31e6ef982c766a44dc51f5ff5c0f13e81
+    FILES:
+      - "../Framework316/Framework316.h"
+      - "../Framework316/Framework316.m"
+    PROJECT_NAME: Framework316
+    SPECS:
+      - Framework316 (1.0.0)
+  Framework317:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework317:
+        :debug: ea32b9d78f61b43d6a5a326f8cd2c141
+        :release: ea32b9d78f61b43d6a5a326f8cd2c141
+    CHECKSUM: a2d5b0556794b2aa42cb8e6881854643c5364a02
+    FILES:
+      - "../Framework317/Framework317.h"
+      - "../Framework317/Framework317.m"
+    PROJECT_NAME: Framework317
+    SPECS:
+      - Framework317 (1.0.0)
+  Framework318:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework318:
+        :debug: 35e248c95c227035a4053cc228f29831
+        :release: 35e248c95c227035a4053cc228f29831
+    CHECKSUM: 649eecf2af6b2816b07a1727048d11be5fef5745
+    FILES:
+      - "../Framework318/Framework318.h"
+      - "../Framework318/Framework318.m"
+    PROJECT_NAME: Framework318
+    SPECS:
+      - Framework318 (1.0.0)
+  Framework319:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework319:
+        :debug: d22f6c45d6b3f197c971775ddb5c92b6
+        :release: d22f6c45d6b3f197c971775ddb5c92b6
+    CHECKSUM: b6636f8f551158a6132beca7a211de677318e40a
+    FILES:
+      - "../Framework319/Framework319.h"
+      - "../Framework319/Framework319.m"
+    PROJECT_NAME: Framework319
+    SPECS:
+      - Framework319 (1.0.0)
+  Framework32:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework32:
+        :debug: a476b9fc2fd2558c719b3c511aa3addb
+        :release: a476b9fc2fd2558c719b3c511aa3addb
+    CHECKSUM: d6a6c55cf01587c0e3db4cc643142e74a4ba1008
+    FILES:
+      - "../Framework32/Framework32.h"
+      - "../Framework32/Framework32.m"
+    PROJECT_NAME: Framework32
+    SPECS:
+      - Framework32 (1.0.0)
+  Framework320:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework320:
+        :debug: 624d7aa57f316443309965bdf92b628e
+        :release: 624d7aa57f316443309965bdf92b628e
+    CHECKSUM: 1ba87b666234eff639bd0f90d0f4090929af84c5
+    FILES:
+      - "../Framework320/Framework320.h"
+      - "../Framework320/Framework320.m"
+    PROJECT_NAME: Framework320
+    SPECS:
+      - Framework320 (1.0.0)
+  Framework321:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework321:
+        :debug: b2060d2747f73ce444e974ea721706de
+        :release: b2060d2747f73ce444e974ea721706de
+    CHECKSUM: 073a067c3aff44bc216cdf6617d96eaf89fa32dd
+    FILES:
+      - "../Framework321/Framework321.h"
+      - "../Framework321/Framework321.m"
+    PROJECT_NAME: Framework321
+    SPECS:
+      - Framework321 (1.0.0)
+  Framework322:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework322:
+        :debug: 09025ae4b946edb1c20403470ae2e42b
+        :release: 09025ae4b946edb1c20403470ae2e42b
+    CHECKSUM: bc12eca3f1ba30e880d86a9523fa96e9876ae469
+    FILES:
+      - "../Framework322/Framework322.h"
+      - "../Framework322/Framework322.m"
+    PROJECT_NAME: Framework322
+    SPECS:
+      - Framework322 (1.0.0)
+  Framework323:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework323:
+        :debug: 8901253038b13b79a68cb3f6e36b1b9d
+        :release: 8901253038b13b79a68cb3f6e36b1b9d
+    CHECKSUM: e7a258b5efd30158d7ab590ffc28fe3236060714
+    FILES:
+      - "../Framework323/Framework323.h"
+      - "../Framework323/Framework323.m"
+    PROJECT_NAME: Framework323
+    SPECS:
+      - Framework323 (1.0.0)
+  Framework324:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework324:
+        :debug: d78d970fbf3fad7a32db81e1aacbc194
+        :release: d78d970fbf3fad7a32db81e1aacbc194
+    CHECKSUM: 9b9cb69ac4eaf8a1e9ab4d6fda1edeeac7eac301
+    FILES:
+      - "../Framework324/Framework324.h"
+      - "../Framework324/Framework324.m"
+    PROJECT_NAME: Framework324
+    SPECS:
+      - Framework324 (1.0.0)
+  Framework325:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework325:
+        :debug: 8a84f5300436946d90a9dd32fc51e711
+        :release: 8a84f5300436946d90a9dd32fc51e711
+    CHECKSUM: d2b636769dd959b001428c3e81a459001cb4c692
+    FILES:
+      - "../Framework325/Framework325.h"
+      - "../Framework325/Framework325.m"
+    PROJECT_NAME: Framework325
+    SPECS:
+      - Framework325 (1.0.0)
+  Framework326:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework326:
+        :debug: 672de51f7254f315c4ad2258886c8184
+        :release: 672de51f7254f315c4ad2258886c8184
+    CHECKSUM: a228d7a3375650256783649efee9458bfced8cc0
+    FILES:
+      - "../Framework326/Framework326.h"
+      - "../Framework326/Framework326.m"
+    PROJECT_NAME: Framework326
+    SPECS:
+      - Framework326 (1.0.0)
+  Framework327:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework327:
+        :debug: 312f51e63f7d4c46002289d9d5725e8f
+        :release: 312f51e63f7d4c46002289d9d5725e8f
+    CHECKSUM: 8772ad95dff34aa7594b30933e518accbc81f2d6
+    FILES:
+      - "../Framework327/Framework327.h"
+      - "../Framework327/Framework327.m"
+    PROJECT_NAME: Framework327
+    SPECS:
+      - Framework327 (1.0.0)
+  Framework328:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework328:
+        :debug: 21413717bcc22014750de6de90114f92
+        :release: 21413717bcc22014750de6de90114f92
+    CHECKSUM: 357ec8bb5498bb61f6cf7d275c969302658059b6
+    FILES:
+      - "../Framework328/Framework328.h"
+      - "../Framework328/Framework328.m"
+    PROJECT_NAME: Framework328
+    SPECS:
+      - Framework328 (1.0.0)
+  Framework329:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework329:
+        :debug: f02e62cb1456217e6a331c5b2a0e9968
+        :release: f02e62cb1456217e6a331c5b2a0e9968
+    CHECKSUM: e0a5efd8cd2b02dce8277000adbc4792a4c5388e
+    FILES:
+      - "../Framework329/Framework329.h"
+      - "../Framework329/Framework329.m"
+    PROJECT_NAME: Framework329
+    SPECS:
+      - Framework329 (1.0.0)
+  Framework33:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework33:
+        :debug: 65125e5b4b2f84731e31efc98bedf83b
+        :release: 65125e5b4b2f84731e31efc98bedf83b
+    CHECKSUM: 4210629aca1ad160ead513b18dcbb95041571d49
+    FILES:
+      - "../Framework33/Framework33.h"
+      - "../Framework33/Framework33.m"
+    PROJECT_NAME: Framework33
+    SPECS:
+      - Framework33 (1.0.0)
+  Framework330:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework330:
+        :debug: ea39d09ce87767c0823ab8136a8dab49
+        :release: ea39d09ce87767c0823ab8136a8dab49
+    CHECKSUM: 748582f2bf95dd7e7fe69369e610d845cb6411ea
+    FILES:
+      - "../Framework330/Framework330.h"
+      - "../Framework330/Framework330.m"
+    PROJECT_NAME: Framework330
+    SPECS:
+      - Framework330 (1.0.0)
+  Framework331:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework331:
+        :debug: 2b319fd12c6a9a7fcb73c42e7ea37884
+        :release: 2b319fd12c6a9a7fcb73c42e7ea37884
+    CHECKSUM: 0396c2645033945be9bdc9cb6b98fa4a32ed6b82
+    FILES:
+      - "../Framework331/Framework331.h"
+      - "../Framework331/Framework331.m"
+    PROJECT_NAME: Framework331
+    SPECS:
+      - Framework331 (1.0.0)
+  Framework332:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework332:
+        :debug: 524abc0c74661493f9afc2efb2a40b21
+        :release: 524abc0c74661493f9afc2efb2a40b21
+    CHECKSUM: 224a98a6004d8b616beb194dcaa0bec4fddc66d3
+    FILES:
+      - "../Framework332/Framework332.h"
+      - "../Framework332/Framework332.m"
+    PROJECT_NAME: Framework332
+    SPECS:
+      - Framework332 (1.0.0)
+  Framework333:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework333:
+        :debug: 2a4e96d67fdf73ea6fb2cc8bd9fc75bd
+        :release: 2a4e96d67fdf73ea6fb2cc8bd9fc75bd
+    CHECKSUM: 0020c1214f23760c953c75940bd630914f2eaf1f
+    FILES:
+      - "../Framework333/Framework333.h"
+      - "../Framework333/Framework333.m"
+    PROJECT_NAME: Framework333
+    SPECS:
+      - Framework333 (1.0.0)
+  Framework334:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework334:
+        :debug: 5944adff04e4edc6a65f31d4b5a06a7c
+        :release: 5944adff04e4edc6a65f31d4b5a06a7c
+    CHECKSUM: 502da0a0b308e9a69dbe09cec0f189ce215c5268
+    FILES:
+      - "../Framework334/Framework334.h"
+      - "../Framework334/Framework334.m"
+    PROJECT_NAME: Framework334
+    SPECS:
+      - Framework334 (1.0.0)
+  Framework335:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework335:
+        :debug: 9894fa8074ee80ed88d4df9cb7cba3ed
+        :release: 9894fa8074ee80ed88d4df9cb7cba3ed
+    CHECKSUM: 953e3f335a2959cf8cb2e48b4fde0a03e7aecb92
+    FILES:
+      - "../Framework335/Framework335.h"
+      - "../Framework335/Framework335.m"
+    PROJECT_NAME: Framework335
+    SPECS:
+      - Framework335 (1.0.0)
+  Framework336:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework336:
+        :debug: 4f46d7846b9b886cf5896675854c03c1
+        :release: 4f46d7846b9b886cf5896675854c03c1
+    CHECKSUM: 856cfb36f3bce4060bef83755f5899a72bcdc470
+    FILES:
+      - "../Framework336/Framework336.h"
+      - "../Framework336/Framework336.m"
+    PROJECT_NAME: Framework336
+    SPECS:
+      - Framework336 (1.0.0)
+  Framework337:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework337:
+        :debug: 6f779157d61b57e3b75dff7c6cb32176
+        :release: 6f779157d61b57e3b75dff7c6cb32176
+    CHECKSUM: edb06bcdf87ab830c2017047569799fd86623ccd
+    FILES:
+      - "../Framework337/Framework337.h"
+      - "../Framework337/Framework337.m"
+    PROJECT_NAME: Framework337
+    SPECS:
+      - Framework337 (1.0.0)
+  Framework338:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework338:
+        :debug: 8bc100725fbebacf5a254d415f66badb
+        :release: 8bc100725fbebacf5a254d415f66badb
+    CHECKSUM: ed1a3736e275461adb8166fe51c936e9e8b87522
+    FILES:
+      - "../Framework338/Framework338.h"
+      - "../Framework338/Framework338.m"
+    PROJECT_NAME: Framework338
+    SPECS:
+      - Framework338 (1.0.0)
+  Framework339:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework339:
+        :debug: e1ca33b2ff25e958b4939f593024f5f3
+        :release: e1ca33b2ff25e958b4939f593024f5f3
+    CHECKSUM: 79b2e8c61e4b27585e8b831a478a26c46a8faacf
+    FILES:
+      - "../Framework339/Framework339.h"
+      - "../Framework339/Framework339.m"
+    PROJECT_NAME: Framework339
+    SPECS:
+      - Framework339 (1.0.0)
+  Framework34:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework34:
+        :debug: d10cb5e11f5cc58113bb9f2fcbd66e85
+        :release: d10cb5e11f5cc58113bb9f2fcbd66e85
+    CHECKSUM: 52718ca45082d2257addd912dd4ed7b44059f93f
+    FILES:
+      - "../Framework34/Framework34.h"
+      - "../Framework34/Framework34.m"
+    PROJECT_NAME: Framework34
+    SPECS:
+      - Framework34 (1.0.0)
+  Framework340:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework340:
+        :debug: e69c0f3b2e0a47323164007ff7b044ac
+        :release: e69c0f3b2e0a47323164007ff7b044ac
+    CHECKSUM: fb4e5a0f08c38f716a9ec1a7b83d0b107efac385
+    FILES:
+      - "../Framework340/Framework340.h"
+      - "../Framework340/Framework340.m"
+    PROJECT_NAME: Framework340
+    SPECS:
+      - Framework340 (1.0.0)
+  Framework341:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework341:
+        :debug: 07b69d3e69f3d6a7a4ef32a3ef2a63ee
+        :release: 07b69d3e69f3d6a7a4ef32a3ef2a63ee
+    CHECKSUM: 6134649cbdbb9e971ba368d9fcf64bb2275dd2f7
+    FILES:
+      - "../Framework341/Framework341.h"
+      - "../Framework341/Framework341.m"
+    PROJECT_NAME: Framework341
+    SPECS:
+      - Framework341 (1.0.0)
+  Framework342:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework342:
+        :debug: 726358b305b184ca92702fffba252801
+        :release: 726358b305b184ca92702fffba252801
+    CHECKSUM: 345efecea1f90895b1f3ae11ff96fde163e893af
+    FILES:
+      - "../Framework342/Framework342.h"
+      - "../Framework342/Framework342.m"
+    PROJECT_NAME: Framework342
+    SPECS:
+      - Framework342 (1.0.0)
+  Framework343:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework343:
+        :debug: 8310d5d697ab2877d0b79aadba0fa029
+        :release: 8310d5d697ab2877d0b79aadba0fa029
+    CHECKSUM: a2a4b906a08ddd58360a5aa86c4daa9b51e0a1ea
+    FILES:
+      - "../Framework343/Framework343.h"
+      - "../Framework343/Framework343.m"
+    PROJECT_NAME: Framework343
+    SPECS:
+      - Framework343 (1.0.0)
+  Framework344:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework344:
+        :debug: 637fab051c98e5885a6bca75c64347ca
+        :release: 637fab051c98e5885a6bca75c64347ca
+    CHECKSUM: 5f0c567af8fbf6cbfe595562a7550acf671e1301
+    FILES:
+      - "../Framework344/Framework344.h"
+      - "../Framework344/Framework344.m"
+    PROJECT_NAME: Framework344
+    SPECS:
+      - Framework344 (1.0.0)
+  Framework345:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework345:
+        :debug: 4e8c1143f2b461c73e759b7253b100a6
+        :release: 4e8c1143f2b461c73e759b7253b100a6
+    CHECKSUM: c871dfac999eecd39bb52c85e38ba1d7c9e49ff5
+    FILES:
+      - "../Framework345/Framework345.h"
+      - "../Framework345/Framework345.m"
+    PROJECT_NAME: Framework345
+    SPECS:
+      - Framework345 (1.0.0)
+  Framework346:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework346:
+        :debug: ae87eb35afa50db175a0687770051d32
+        :release: ae87eb35afa50db175a0687770051d32
+    CHECKSUM: ff6847ff9c134062501efc598d822bf795190c99
+    FILES:
+      - "../Framework346/Framework346.h"
+      - "../Framework346/Framework346.m"
+    PROJECT_NAME: Framework346
+    SPECS:
+      - Framework346 (1.0.0)
+  Framework347:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework347:
+        :debug: 764de209f78b2dbbe14a4b422de0204a
+        :release: 764de209f78b2dbbe14a4b422de0204a
+    CHECKSUM: 513ed5eaacca6add100b76b51b026bff57d5f4c8
+    FILES:
+      - "../Framework347/Framework347.h"
+      - "../Framework347/Framework347.m"
+    PROJECT_NAME: Framework347
+    SPECS:
+      - Framework347 (1.0.0)
+  Framework348:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework348:
+        :debug: 5a5fb304eac35310e83c001a78c60510
+        :release: 5a5fb304eac35310e83c001a78c60510
+    CHECKSUM: 75066bf65626288575ac1a5799dc1ed0a1a98b1e
+    FILES:
+      - "../Framework348/Framework348.h"
+      - "../Framework348/Framework348.m"
+    PROJECT_NAME: Framework348
+    SPECS:
+      - Framework348 (1.0.0)
+  Framework349:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework349:
+        :debug: 423b8d65b20c0eaf4cc76faa331584b5
+        :release: 423b8d65b20c0eaf4cc76faa331584b5
+    CHECKSUM: 5e18279d851763f672b85def60156fadad6d18d2
+    FILES:
+      - "../Framework349/Framework349.h"
+      - "../Framework349/Framework349.m"
+    PROJECT_NAME: Framework349
+    SPECS:
+      - Framework349 (1.0.0)
+  Framework35:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework35:
+        :debug: b8abfcef88ff23ab86f7e78ae6c23d91
+        :release: b8abfcef88ff23ab86f7e78ae6c23d91
+    CHECKSUM: 4b42070c0bda03511a8e5a07c1a9b5cb80c090fd
+    FILES:
+      - "../Framework35/Framework35.h"
+      - "../Framework35/Framework35.m"
+    PROJECT_NAME: Framework35
+    SPECS:
+      - Framework35 (1.0.0)
+  Framework350:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework350:
+        :debug: 5d0cd30cb71b32ffacfa4b2198ab8a40
+        :release: 5d0cd30cb71b32ffacfa4b2198ab8a40
+    CHECKSUM: 1ad7c49cd78c396e2b3ee62b79a340070666733b
+    FILES:
+      - "../Framework350/Framework350.h"
+      - "../Framework350/Framework350.m"
+    PROJECT_NAME: Framework350
+    SPECS:
+      - Framework350 (1.0.0)
+  Framework351:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework351:
+        :debug: 745de45bc979963191abac4a133aee25
+        :release: 745de45bc979963191abac4a133aee25
+    CHECKSUM: c3960135194c43c91e4e071d8369026451a21197
+    FILES:
+      - "../Framework351/Framework351.h"
+      - "../Framework351/Framework351.m"
+    PROJECT_NAME: Framework351
+    SPECS:
+      - Framework351 (1.0.0)
+  Framework352:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework352:
+        :debug: 6f564e5fa1d062e1be552abe782cb438
+        :release: 6f564e5fa1d062e1be552abe782cb438
+    CHECKSUM: 63444ee18a0177a8854f840cae9e3520a1e5290c
+    FILES:
+      - "../Framework352/Framework352.h"
+      - "../Framework352/Framework352.m"
+    PROJECT_NAME: Framework352
+    SPECS:
+      - Framework352 (1.0.0)
+  Framework353:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework353:
+        :debug: 19a02dc340b5e4f90340c08da9682ee7
+        :release: 19a02dc340b5e4f90340c08da9682ee7
+    CHECKSUM: 3c86e46a69948708d7b343e1d52e6af26ade772a
+    FILES:
+      - "../Framework353/Framework353.h"
+      - "../Framework353/Framework353.m"
+    PROJECT_NAME: Framework353
+    SPECS:
+      - Framework353 (1.0.0)
+  Framework354:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework354:
+        :debug: 68b02b07d3ffb1d6a550183c27a62891
+        :release: 68b02b07d3ffb1d6a550183c27a62891
+    CHECKSUM: a07fd3755a721bea8d42d8786beadef111d6f173
+    FILES:
+      - "../Framework354/Framework354.h"
+      - "../Framework354/Framework354.m"
+    PROJECT_NAME: Framework354
+    SPECS:
+      - Framework354 (1.0.0)
+  Framework355:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework355:
+        :debug: 4e22224c0222052a4703f0627f8eaa63
+        :release: 4e22224c0222052a4703f0627f8eaa63
+    CHECKSUM: 19a9f6532c8f975990f5753f29cbc40bf8bee49e
+    FILES:
+      - "../Framework355/Framework355.h"
+      - "../Framework355/Framework355.m"
+    PROJECT_NAME: Framework355
+    SPECS:
+      - Framework355 (1.0.0)
+  Framework356:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework356:
+        :debug: 5b63ff893b6b336455445b90de991ceb
+        :release: 5b63ff893b6b336455445b90de991ceb
+    CHECKSUM: e03f8789ab0e761aba30b3712d73699277e489a5
+    FILES:
+      - "../Framework356/Framework356.h"
+      - "../Framework356/Framework356.m"
+    PROJECT_NAME: Framework356
+    SPECS:
+      - Framework356 (1.0.0)
+  Framework357:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework357:
+        :debug: 36abdc675a47c64e05afd9217993e07c
+        :release: 36abdc675a47c64e05afd9217993e07c
+    CHECKSUM: 3624d8ff10db77d91094a5fa1d88e935f2f773fa
+    FILES:
+      - "../Framework357/Framework357.h"
+      - "../Framework357/Framework357.m"
+    PROJECT_NAME: Framework357
+    SPECS:
+      - Framework357 (1.0.0)
+  Framework358:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework358:
+        :debug: e6680fb6d0a056076e2f6394229f1d84
+        :release: e6680fb6d0a056076e2f6394229f1d84
+    CHECKSUM: a087642fd4c8f584c106fd7cf1d383da3aa58bd5
+    FILES:
+      - "../Framework358/Framework358.h"
+      - "../Framework358/Framework358.m"
+    PROJECT_NAME: Framework358
+    SPECS:
+      - Framework358 (1.0.0)
+  Framework359:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework359:
+        :debug: 3e1dada53846251a862889d7929e1f07
+        :release: 3e1dada53846251a862889d7929e1f07
+    CHECKSUM: 98736a5cd192729724d7d5cfc7cf2f4cc9a5b1c4
+    FILES:
+      - "../Framework359/Framework359.h"
+      - "../Framework359/Framework359.m"
+    PROJECT_NAME: Framework359
+    SPECS:
+      - Framework359 (1.0.0)
+  Framework36:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework36:
+        :debug: ed98a4ae175f9710326aef0d704da791
+        :release: ed98a4ae175f9710326aef0d704da791
+    CHECKSUM: 7a5844d7698b156adb3ba8ff6166260966bf9710
+    FILES:
+      - "../Framework36/Framework36.h"
+      - "../Framework36/Framework36.m"
+    PROJECT_NAME: Framework36
+    SPECS:
+      - Framework36 (1.0.0)
+  Framework360:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework360:
+        :debug: 2b2e45ce76cdb67664fc38866f8de132
+        :release: 2b2e45ce76cdb67664fc38866f8de132
+    CHECKSUM: fa1f6733ea21921985986c7e18aec03289fdbe78
+    FILES:
+      - "../Framework360/Framework360.h"
+      - "../Framework360/Framework360.m"
+    PROJECT_NAME: Framework360
+    SPECS:
+      - Framework360 (1.0.0)
+  Framework361:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework361:
+        :debug: 309650283f516a6d28bd752a720947ba
+        :release: 309650283f516a6d28bd752a720947ba
+    CHECKSUM: 367fa10984850698108f6cbd099b1bd24f99d44f
+    FILES:
+      - "../Framework361/Framework361.h"
+      - "../Framework361/Framework361.m"
+    PROJECT_NAME: Framework361
+    SPECS:
+      - Framework361 (1.0.0)
+  Framework362:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework362:
+        :debug: e133f210d2f5bfbdfaeb5b603aac84a2
+        :release: e133f210d2f5bfbdfaeb5b603aac84a2
+    CHECKSUM: 99506a20b35161d33cac7496518bf30161536e21
+    FILES:
+      - "../Framework362/Framework362.h"
+      - "../Framework362/Framework362.m"
+    PROJECT_NAME: Framework362
+    SPECS:
+      - Framework362 (1.0.0)
+  Framework363:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework363:
+        :debug: 07d4c9ed34cd771d2da0b632bafb78e9
+        :release: 07d4c9ed34cd771d2da0b632bafb78e9
+    CHECKSUM: 6950793d78e6b91e94c9d299f6ab0642f31e42e5
+    FILES:
+      - "../Framework363/Framework363.h"
+      - "../Framework363/Framework363.m"
+    PROJECT_NAME: Framework363
+    SPECS:
+      - Framework363 (1.0.0)
+  Framework364:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework364:
+        :debug: 23c8175a9dec7ccc1e1a32e265067ad1
+        :release: 23c8175a9dec7ccc1e1a32e265067ad1
+    CHECKSUM: aea522111ebbaadc962b859986ddfa4a4ed3df37
+    FILES:
+      - "../Framework364/Framework364.h"
+      - "../Framework364/Framework364.m"
+    PROJECT_NAME: Framework364
+    SPECS:
+      - Framework364 (1.0.0)
+  Framework365:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework365:
+        :debug: 68e767a991f2a03cfb48df8a2b983c6b
+        :release: 68e767a991f2a03cfb48df8a2b983c6b
+    CHECKSUM: 2405c077c6901b617ce4bd40729881dd141aff3e
+    FILES:
+      - "../Framework365/Framework365.h"
+      - "../Framework365/Framework365.m"
+    PROJECT_NAME: Framework365
+    SPECS:
+      - Framework365 (1.0.0)
+  Framework366:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework366:
+        :debug: 3409a42789e31a3272ffa8c2dd90e5c8
+        :release: 3409a42789e31a3272ffa8c2dd90e5c8
+    CHECKSUM: fa0d5bf175f9e0cf88c1234956365ac456b2b62c
+    FILES:
+      - "../Framework366/Framework366.h"
+      - "../Framework366/Framework366.m"
+    PROJECT_NAME: Framework366
+    SPECS:
+      - Framework366 (1.0.0)
+  Framework367:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework367:
+        :debug: 07d63847aab76cfb60667794d7fd9b3c
+        :release: 07d63847aab76cfb60667794d7fd9b3c
+    CHECKSUM: 695a64209211f1e2540717c77330bde4d2566669
+    FILES:
+      - "../Framework367/Framework367.h"
+      - "../Framework367/Framework367.m"
+    PROJECT_NAME: Framework367
+    SPECS:
+      - Framework367 (1.0.0)
+  Framework368:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework368:
+        :debug: 2e0b38310020661c833ec2161120681e
+        :release: 2e0b38310020661c833ec2161120681e
+    CHECKSUM: a075f424089601d2472614a7e9a342ae88a44d37
+    FILES:
+      - "../Framework368/Framework368.h"
+      - "../Framework368/Framework368.m"
+    PROJECT_NAME: Framework368
+    SPECS:
+      - Framework368 (1.0.0)
+  Framework369:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework369:
+        :debug: 5afbf93a6484f1e8d082266ea02f10bf
+        :release: 5afbf93a6484f1e8d082266ea02f10bf
+    CHECKSUM: dc6048728544be3ee4bbba5d796299a0e01da765
+    FILES:
+      - "../Framework369/Framework369.h"
+      - "../Framework369/Framework369.m"
+    PROJECT_NAME: Framework369
+    SPECS:
+      - Framework369 (1.0.0)
+  Framework37:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework37:
+        :debug: d4fc8039ebab1783ebee84f4d1ad3224
+        :release: d4fc8039ebab1783ebee84f4d1ad3224
+    CHECKSUM: fcc319edb7a5d4253a367e8bbc8efd341aeeb75a
+    FILES:
+      - "../Framework37/Framework37.h"
+      - "../Framework37/Framework37.m"
+    PROJECT_NAME: Framework37
+    SPECS:
+      - Framework37 (1.0.0)
+  Framework370:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework370:
+        :debug: 7439ddd2702b79df19a44db3b60982cf
+        :release: 7439ddd2702b79df19a44db3b60982cf
+    CHECKSUM: 472bdac9fed8da27b461aff1c653ff6798808f09
+    FILES:
+      - "../Framework370/Framework370.h"
+      - "../Framework370/Framework370.m"
+    PROJECT_NAME: Framework370
+    SPECS:
+      - Framework370 (1.0.0)
+  Framework371:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework371:
+        :debug: d4e7d0b5fd8e716b3575227a87cbd1d2
+        :release: d4e7d0b5fd8e716b3575227a87cbd1d2
+    CHECKSUM: 5f7160ed363a514ea2dd11f87376413353d9e8c5
+    FILES:
+      - "../Framework371/Framework371.h"
+      - "../Framework371/Framework371.m"
+    PROJECT_NAME: Framework371
+    SPECS:
+      - Framework371 (1.0.0)
+  Framework372:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework372:
+        :debug: 527bc8da20edafb9025886e9525f721e
+        :release: 527bc8da20edafb9025886e9525f721e
+    CHECKSUM: bfe5b5a73be4cce8a93df9e281e005c355b17093
+    FILES:
+      - "../Framework372/Framework372.h"
+      - "../Framework372/Framework372.m"
+    PROJECT_NAME: Framework372
+    SPECS:
+      - Framework372 (1.0.0)
+  Framework373:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework373:
+        :debug: f27152a4df1f70883113aea7049dde80
+        :release: f27152a4df1f70883113aea7049dde80
+    CHECKSUM: 33b7dd8d81594ba5bf0b98ba5fb0c403bee6e599
+    FILES:
+      - "../Framework373/Framework373.h"
+      - "../Framework373/Framework373.m"
+    PROJECT_NAME: Framework373
+    SPECS:
+      - Framework373 (1.0.0)
+  Framework374:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework374:
+        :debug: d13f26c98f9f96c3b6586cf69c8b8e4e
+        :release: d13f26c98f9f96c3b6586cf69c8b8e4e
+    CHECKSUM: 41f63074694098fd1422f2bc90727d7927f2724f
+    FILES:
+      - "../Framework374/Framework374.h"
+      - "../Framework374/Framework374.m"
+    PROJECT_NAME: Framework374
+    SPECS:
+      - Framework374 (1.0.0)
+  Framework375:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework375:
+        :debug: 42f5d3a195f3cc598c3e1af7e58d5704
+        :release: 42f5d3a195f3cc598c3e1af7e58d5704
+    CHECKSUM: 295259ed7bcd67e95541c5f68598fa03e0739941
+    FILES:
+      - "../Framework375/Framework375.h"
+      - "../Framework375/Framework375.m"
+    PROJECT_NAME: Framework375
+    SPECS:
+      - Framework375 (1.0.0)
+  Framework376:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework376:
+        :debug: 3c63ef311424dcb803d4b6d9409687a2
+        :release: 3c63ef311424dcb803d4b6d9409687a2
+    CHECKSUM: e3edd5ab00167ea1f82be65e210dd16e034a22fe
+    FILES:
+      - "../Framework376/Framework376.h"
+      - "../Framework376/Framework376.m"
+    PROJECT_NAME: Framework376
+    SPECS:
+      - Framework376 (1.0.0)
+  Framework377:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework377:
+        :debug: 83f3689d0ecf4429d3e6900db6ac2c8e
+        :release: 83f3689d0ecf4429d3e6900db6ac2c8e
+    CHECKSUM: 7da861cb18885f0daa4ce408740468bcdaa6a3d7
+    FILES:
+      - "../Framework377/Framework377.h"
+      - "../Framework377/Framework377.m"
+    PROJECT_NAME: Framework377
+    SPECS:
+      - Framework377 (1.0.0)
+  Framework378:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework378:
+        :debug: c62b499cf5cac9eba225e8e3ee48a493
+        :release: c62b499cf5cac9eba225e8e3ee48a493
+    CHECKSUM: 0d5047f983dbb437f0fe5cfbbde01def91c17b1f
+    FILES:
+      - "../Framework378/Framework378.h"
+      - "../Framework378/Framework378.m"
+    PROJECT_NAME: Framework378
+    SPECS:
+      - Framework378 (1.0.0)
+  Framework379:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework379:
+        :debug: 958d346021a9983b30393f04ef1c344e
+        :release: 958d346021a9983b30393f04ef1c344e
+    CHECKSUM: 86cfc3be33db8462fd11268bc5519d63c9f711ac
+    FILES:
+      - "../Framework379/Framework379.h"
+      - "../Framework379/Framework379.m"
+    PROJECT_NAME: Framework379
+    SPECS:
+      - Framework379 (1.0.0)
+  Framework38:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework38:
+        :debug: 47fb77b8bcc82f3ecbc4cb3ac06753cb
+        :release: 47fb77b8bcc82f3ecbc4cb3ac06753cb
+    CHECKSUM: 9930ff196e829a8437d5f5b06b8659af1b17c4cd
+    FILES:
+      - "../Framework38/Framework38.h"
+      - "../Framework38/Framework38.m"
+    PROJECT_NAME: Framework38
+    SPECS:
+      - Framework38 (1.0.0)
+  Framework380:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework380:
+        :debug: 9171537f5e2e8bbffaecd2eae84c216a
+        :release: 9171537f5e2e8bbffaecd2eae84c216a
+    CHECKSUM: 10252528d8f3422c388b615b41f6c8d9a6c8c3ba
+    FILES:
+      - "../Framework380/Framework380.h"
+      - "../Framework380/Framework380.m"
+    PROJECT_NAME: Framework380
+    SPECS:
+      - Framework380 (1.0.0)
+  Framework381:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework381:
+        :debug: 8f25f193e73021eb3746c414027e2d50
+        :release: 8f25f193e73021eb3746c414027e2d50
+    CHECKSUM: a776fd22cb640effd7af73cd2750b3684885afa6
+    FILES:
+      - "../Framework381/Framework381.h"
+      - "../Framework381/Framework381.m"
+    PROJECT_NAME: Framework381
+    SPECS:
+      - Framework381 (1.0.0)
+  Framework382:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework382:
+        :debug: 0039e7bb2b47d006eacab6efc82fe812
+        :release: 0039e7bb2b47d006eacab6efc82fe812
+    CHECKSUM: 439d742edab92e308a6bf96d80e3baf8c7841ef7
+    FILES:
+      - "../Framework382/Framework382.h"
+      - "../Framework382/Framework382.m"
+    PROJECT_NAME: Framework382
+    SPECS:
+      - Framework382 (1.0.0)
+  Framework383:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework383:
+        :debug: 85573aa55b01194c3a282dee95ec9766
+        :release: 85573aa55b01194c3a282dee95ec9766
+    CHECKSUM: 0aeae7859898a07ca3259b7b49b2d70b388f74a7
+    FILES:
+      - "../Framework383/Framework383.h"
+      - "../Framework383/Framework383.m"
+    PROJECT_NAME: Framework383
+    SPECS:
+      - Framework383 (1.0.0)
+  Framework384:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework384:
+        :debug: 8f5bf3b69970d721ed74a2627c189391
+        :release: 8f5bf3b69970d721ed74a2627c189391
+    CHECKSUM: d33cc75c7e5149a365554e20f3ef9753b22c0887
+    FILES:
+      - "../Framework384/Framework384.h"
+      - "../Framework384/Framework384.m"
+    PROJECT_NAME: Framework384
+    SPECS:
+      - Framework384 (1.0.0)
+  Framework385:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework385:
+        :debug: 14d7ea49175c83360f6931644f71dfa8
+        :release: 14d7ea49175c83360f6931644f71dfa8
+    CHECKSUM: c1779e16bc7981d3f1bc0ef0f2b36c8608f6cc91
+    FILES:
+      - "../Framework385/Framework385.h"
+      - "../Framework385/Framework385.m"
+    PROJECT_NAME: Framework385
+    SPECS:
+      - Framework385 (1.0.0)
+  Framework386:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework386:
+        :debug: 3ed3225b1acf3149455c94e1a069fc3b
+        :release: 3ed3225b1acf3149455c94e1a069fc3b
+    CHECKSUM: 47af74a3a82c6d5cdb3f67e120bb41a244cd2a89
+    FILES:
+      - "../Framework386/Framework386.h"
+      - "../Framework386/Framework386.m"
+    PROJECT_NAME: Framework386
+    SPECS:
+      - Framework386 (1.0.0)
+  Framework387:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework387:
+        :debug: 3446527a6dd796f889ed7ead8a5ec9a9
+        :release: 3446527a6dd796f889ed7ead8a5ec9a9
+    CHECKSUM: 0c85592e1da9da5d285394b0b64bbfc813ecfcaf
+    FILES:
+      - "../Framework387/Framework387.h"
+      - "../Framework387/Framework387.m"
+    PROJECT_NAME: Framework387
+    SPECS:
+      - Framework387 (1.0.0)
+  Framework388:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework388:
+        :debug: d4b567ef3cc9c5e589c89acccc86646f
+        :release: d4b567ef3cc9c5e589c89acccc86646f
+    CHECKSUM: 1631ee959a8e9045eae52569a55a81a9d7ad0998
+    FILES:
+      - "../Framework388/Framework388.h"
+      - "../Framework388/Framework388.m"
+    PROJECT_NAME: Framework388
+    SPECS:
+      - Framework388 (1.0.0)
+  Framework389:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework389:
+        :debug: 5d6698197a9926429b30c08e11b574ce
+        :release: 5d6698197a9926429b30c08e11b574ce
+    CHECKSUM: fb15a655daf0bcce306c561576c3fb0f204f85b8
+    FILES:
+      - "../Framework389/Framework389.h"
+      - "../Framework389/Framework389.m"
+    PROJECT_NAME: Framework389
+    SPECS:
+      - Framework389 (1.0.0)
+  Framework39:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework39:
+        :debug: 12b2b718e4339b0c9cb086e104f2fc7e
+        :release: 12b2b718e4339b0c9cb086e104f2fc7e
+    CHECKSUM: 9b3a617c4d8718022de0239cfcf18f1b0102f085
+    FILES:
+      - "../Framework39/Framework39.h"
+      - "../Framework39/Framework39.m"
+    PROJECT_NAME: Framework39
+    SPECS:
+      - Framework39 (1.0.0)
+  Framework390:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework390:
+        :debug: adb5be219eff31149b001822b6eb8d1f
+        :release: adb5be219eff31149b001822b6eb8d1f
+    CHECKSUM: 6678e1c0b0330e58c3eb3d047c9473328fdee8e2
+    FILES:
+      - "../Framework390/Framework390.h"
+      - "../Framework390/Framework390.m"
+    PROJECT_NAME: Framework390
+    SPECS:
+      - Framework390 (1.0.0)
+  Framework391:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework391:
+        :debug: 420323ada9546bdf4c95301523fa4265
+        :release: 420323ada9546bdf4c95301523fa4265
+    CHECKSUM: 303e0c9f61938f8c01e619158b53190fea740654
+    FILES:
+      - "../Framework391/Framework391.h"
+      - "../Framework391/Framework391.m"
+    PROJECT_NAME: Framework391
+    SPECS:
+      - Framework391 (1.0.0)
+  Framework392:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework392:
+        :debug: e3c2ab61fd0152012b76c50751fb4ec7
+        :release: e3c2ab61fd0152012b76c50751fb4ec7
+    CHECKSUM: db5da868b483434614d0122bc8752afe976e68bb
+    FILES:
+      - "../Framework392/Framework392.h"
+      - "../Framework392/Framework392.m"
+    PROJECT_NAME: Framework392
+    SPECS:
+      - Framework392 (1.0.0)
+  Framework393:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework393:
+        :debug: 774b2d5aac375dce9594ced484a816a0
+        :release: 774b2d5aac375dce9594ced484a816a0
+    CHECKSUM: 919133a0af08da18f75c6a060580fd5b65d659b7
+    FILES:
+      - "../Framework393/Framework393.h"
+      - "../Framework393/Framework393.m"
+    PROJECT_NAME: Framework393
+    SPECS:
+      - Framework393 (1.0.0)
+  Framework394:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework394:
+        :debug: de36b7a68410107b05a44987880b8924
+        :release: de36b7a68410107b05a44987880b8924
+    CHECKSUM: 3620ae32ed0ea15723571e1a0398f53a67a42fc1
+    FILES:
+      - "../Framework394/Framework394.h"
+      - "../Framework394/Framework394.m"
+    PROJECT_NAME: Framework394
+    SPECS:
+      - Framework394 (1.0.0)
+  Framework395:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework395:
+        :debug: e196c08d18f8a93031e85b07bfbc5b87
+        :release: e196c08d18f8a93031e85b07bfbc5b87
+    CHECKSUM: 1d9870cba1a96ff51530d4490ede487d250b2c23
+    FILES:
+      - "../Framework395/Framework395.h"
+      - "../Framework395/Framework395.m"
+    PROJECT_NAME: Framework395
+    SPECS:
+      - Framework395 (1.0.0)
+  Framework396:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework396:
+        :debug: 2638b7148601ce769fac9ad84f2a0ac4
+        :release: 2638b7148601ce769fac9ad84f2a0ac4
+    CHECKSUM: c29af0c6d866f11ab2f9f1919b29beac69935b8e
+    FILES:
+      - "../Framework396/Framework396.h"
+      - "../Framework396/Framework396.m"
+    PROJECT_NAME: Framework396
+    SPECS:
+      - Framework396 (1.0.0)
+  Framework397:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework397:
+        :debug: bb51290c358c3606b2b1dd67a69a420c
+        :release: bb51290c358c3606b2b1dd67a69a420c
+    CHECKSUM: d0629bac342c0a0675feb99d5811da46a47e7968
+    FILES:
+      - "../Framework397/Framework397.h"
+      - "../Framework397/Framework397.m"
+    PROJECT_NAME: Framework397
+    SPECS:
+      - Framework397 (1.0.0)
+  Framework398:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework398:
+        :debug: bc24d08580cc4cfcaeb4c03a59ab0ceb
+        :release: bc24d08580cc4cfcaeb4c03a59ab0ceb
+    CHECKSUM: 7df19011527de90fa85b4785cec94885d4044dbf
+    FILES:
+      - "../Framework398/Framework398.h"
+      - "../Framework398/Framework398.m"
+    PROJECT_NAME: Framework398
+    SPECS:
+      - Framework398 (1.0.0)
+  Framework399:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework399:
+        :debug: 542dfcb12c8b3bbf59874698fe867589
+        :release: 542dfcb12c8b3bbf59874698fe867589
+    CHECKSUM: 2147558867e72045b72a310a7ac7bfd66a19a5d2
+    FILES:
+      - "../Framework399/Framework399.h"
+      - "../Framework399/Framework399.m"
+    PROJECT_NAME: Framework399
+    SPECS:
+      - Framework399 (1.0.0)
+  Framework4:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework4:
+        :debug: 1b2cd0dbeb485c4a187516e803ab78e5
+        :release: 1b2cd0dbeb485c4a187516e803ab78e5
+    CHECKSUM: 50ad21297b480e246d02a956a07f28b1ae139c43
+    FILES:
+      - "../Framework4/Framework4.h"
+      - "../Framework4/Framework4.m"
+    PROJECT_NAME: Framework4
+    SPECS:
+      - Framework4 (1.0.0)
+  Framework40:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework40:
+        :debug: e4ae8bcac5c670947bd0173e25bbb8e4
+        :release: e4ae8bcac5c670947bd0173e25bbb8e4
+    CHECKSUM: ec9ff1dfd3037abde13c5f7209c187526de18788
+    FILES:
+      - "../Framework40/Framework40.h"
+      - "../Framework40/Framework40.m"
+    PROJECT_NAME: Framework40
+    SPECS:
+      - Framework40 (1.0.0)
+  Framework400:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework400:
+        :debug: 2be9bceac053a40b5417c61ffd2952a9
+        :release: 2be9bceac053a40b5417c61ffd2952a9
+    CHECKSUM: 4f677bb86eca302eaf4e30f26f36ff71ca9a24ca
+    FILES:
+      - "../Framework400/Framework400.h"
+      - "../Framework400/Framework400.m"
+    PROJECT_NAME: Framework400
+    SPECS:
+      - Framework400 (1.0.0)
+  Framework401:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework401:
+        :debug: 090fbff30d34f7654dac13be51a3da67
+        :release: 090fbff30d34f7654dac13be51a3da67
+    CHECKSUM: 5a4acb1849da4ab709f2600695c1210f334c3799
+    FILES:
+      - "../Framework401/Framework401.h"
+      - "../Framework401/Framework401.m"
+    PROJECT_NAME: Framework401
+    SPECS:
+      - Framework401 (1.0.0)
+  Framework402:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework402:
+        :debug: 82febbe71bcc758983849bd0300468b4
+        :release: 82febbe71bcc758983849bd0300468b4
+    CHECKSUM: ab66a5b71794a841ce055404227a43f591d5aaa9
+    FILES:
+      - "../Framework402/Framework402.h"
+      - "../Framework402/Framework402.m"
+    PROJECT_NAME: Framework402
+    SPECS:
+      - Framework402 (1.0.0)
+  Framework403:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework403:
+        :debug: ed7f9b3c6712ead8e8674599ac923fa8
+        :release: ed7f9b3c6712ead8e8674599ac923fa8
+    CHECKSUM: 7702d9d48bc619d140603948dbdc5f49bd6ac26c
+    FILES:
+      - "../Framework403/Framework403.h"
+      - "../Framework403/Framework403.m"
+    PROJECT_NAME: Framework403
+    SPECS:
+      - Framework403 (1.0.0)
+  Framework404:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework404:
+        :debug: a5941812a078ad7502a951b35684fbd4
+        :release: a5941812a078ad7502a951b35684fbd4
+    CHECKSUM: ee635725be5634e4c9b34eac135d38a721264628
+    FILES:
+      - "../Framework404/Framework404.h"
+      - "../Framework404/Framework404.m"
+    PROJECT_NAME: Framework404
+    SPECS:
+      - Framework404 (1.0.0)
+  Framework405:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework405:
+        :debug: 9de61f9bc8195eef65097df569e380c6
+        :release: 9de61f9bc8195eef65097df569e380c6
+    CHECKSUM: 78eda542ff19cc48e0154a0da87aeca14ceee2f8
+    FILES:
+      - "../Framework405/Framework405.h"
+      - "../Framework405/Framework405.m"
+    PROJECT_NAME: Framework405
+    SPECS:
+      - Framework405 (1.0.0)
+  Framework406:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework406:
+        :debug: a69187dd1e2880aef85a758c9fe2fa45
+        :release: a69187dd1e2880aef85a758c9fe2fa45
+    CHECKSUM: 777960e0bec148847d9534d234dfc9212d27c8b3
+    FILES:
+      - "../Framework406/Framework406.h"
+      - "../Framework406/Framework406.m"
+    PROJECT_NAME: Framework406
+    SPECS:
+      - Framework406 (1.0.0)
+  Framework407:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework407:
+        :debug: ec46a8f3b431086804e13d97387a8d0a
+        :release: ec46a8f3b431086804e13d97387a8d0a
+    CHECKSUM: 8c863a5514c341c761ca0d1051bf98fcc2faec54
+    FILES:
+      - "../Framework407/Framework407.h"
+      - "../Framework407/Framework407.m"
+    PROJECT_NAME: Framework407
+    SPECS:
+      - Framework407 (1.0.0)
+  Framework408:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework408:
+        :debug: 17de1b8be7a9b0ef2e4479983ab996fc
+        :release: 17de1b8be7a9b0ef2e4479983ab996fc
+    CHECKSUM: 2e44ed74cf62c597b49f553f64bb7462e7811f14
+    FILES:
+      - "../Framework408/Framework408.h"
+      - "../Framework408/Framework408.m"
+    PROJECT_NAME: Framework408
+    SPECS:
+      - Framework408 (1.0.0)
+  Framework409:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework409:
+        :debug: 3faf9b563a1c4539ef6d94e1c5ac04e3
+        :release: 3faf9b563a1c4539ef6d94e1c5ac04e3
+    CHECKSUM: 3012b3a8d38dfcefa1fbeee4e70704035bfaa962
+    FILES:
+      - "../Framework409/Framework409.h"
+      - "../Framework409/Framework409.m"
+    PROJECT_NAME: Framework409
+    SPECS:
+      - Framework409 (1.0.0)
+  Framework41:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework41:
+        :debug: 99f6372903cba1092d8b8d79460066f7
+        :release: 99f6372903cba1092d8b8d79460066f7
+    CHECKSUM: f29a5216ba5105d8384300987b13c054dd844426
+    FILES:
+      - "../Framework41/Framework41.h"
+      - "../Framework41/Framework41.m"
+    PROJECT_NAME: Framework41
+    SPECS:
+      - Framework41 (1.0.0)
+  Framework410:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework410:
+        :debug: 3901f6d2a512241cbbf288b6e9fcde00
+        :release: 3901f6d2a512241cbbf288b6e9fcde00
+    CHECKSUM: 543aa8111133aecd05d7471b87d8ef07e2a4f72b
+    FILES:
+      - "../Framework410/Framework410.h"
+      - "../Framework410/Framework410.m"
+    PROJECT_NAME: Framework410
+    SPECS:
+      - Framework410 (1.0.0)
+  Framework411:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework411:
+        :debug: 5fc04df14d646d5c0487a41c1ac4bc23
+        :release: 5fc04df14d646d5c0487a41c1ac4bc23
+    CHECKSUM: 7ed279d39656608a896e25236a5cde04bc6e7033
+    FILES:
+      - "../Framework411/Framework411.h"
+      - "../Framework411/Framework411.m"
+    PROJECT_NAME: Framework411
+    SPECS:
+      - Framework411 (1.0.0)
+  Framework412:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework412:
+        :debug: 5dc4b08650339f4f4459fa037ed37c1b
+        :release: 5dc4b08650339f4f4459fa037ed37c1b
+    CHECKSUM: f391227177ee78cf3c932b900c5e754e4180ede6
+    FILES:
+      - "../Framework412/Framework412.h"
+      - "../Framework412/Framework412.m"
+    PROJECT_NAME: Framework412
+    SPECS:
+      - Framework412 (1.0.0)
+  Framework413:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework413:
+        :debug: 68163f54c96bafd1bdaf172a4aff2922
+        :release: 68163f54c96bafd1bdaf172a4aff2922
+    CHECKSUM: edffd0132b5bbe40d83c04272741f96f7687b0a6
+    FILES:
+      - "../Framework413/Framework413.h"
+      - "../Framework413/Framework413.m"
+    PROJECT_NAME: Framework413
+    SPECS:
+      - Framework413 (1.0.0)
+  Framework414:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework414:
+        :debug: b6e945f44d007fb95d5ef5af77e07238
+        :release: b6e945f44d007fb95d5ef5af77e07238
+    CHECKSUM: 1ae9df6cb835f335b0091f0cdfc81c99ede5e2ff
+    FILES:
+      - "../Framework414/Framework414.h"
+      - "../Framework414/Framework414.m"
+    PROJECT_NAME: Framework414
+    SPECS:
+      - Framework414 (1.0.0)
+  Framework415:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework415:
+        :debug: 0bb86f6fb81338887a441463cf06f99d
+        :release: 0bb86f6fb81338887a441463cf06f99d
+    CHECKSUM: 677ca63960900c433585879d27a6b8109490174e
+    FILES:
+      - "../Framework415/Framework415.h"
+      - "../Framework415/Framework415.m"
+    PROJECT_NAME: Framework415
+    SPECS:
+      - Framework415 (1.0.0)
+  Framework416:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework416:
+        :debug: e015709b98daab79aeb496153051ada7
+        :release: e015709b98daab79aeb496153051ada7
+    CHECKSUM: c1cc32afce4fe9248e15f5c858e06a65d1d681b8
+    FILES:
+      - "../Framework416/Framework416.h"
+      - "../Framework416/Framework416.m"
+    PROJECT_NAME: Framework416
+    SPECS:
+      - Framework416 (1.0.0)
+  Framework417:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework417:
+        :debug: c108449ff0fa59163190dc38ca2bf4d0
+        :release: c108449ff0fa59163190dc38ca2bf4d0
+    CHECKSUM: 5a90ff27abcd27007b2b67f820de6d97b0c8fbda
+    FILES:
+      - "../Framework417/Framework417.h"
+      - "../Framework417/Framework417.m"
+    PROJECT_NAME: Framework417
+    SPECS:
+      - Framework417 (1.0.0)
+  Framework418:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework418:
+        :debug: c0154d7e4fcc8c6c491f865d08f92788
+        :release: c0154d7e4fcc8c6c491f865d08f92788
+    CHECKSUM: 4c936b62f2862e7de2642b644401f1229d0afb7a
+    FILES:
+      - "../Framework418/Framework418.h"
+      - "../Framework418/Framework418.m"
+    PROJECT_NAME: Framework418
+    SPECS:
+      - Framework418 (1.0.0)
+  Framework419:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework419:
+        :debug: 637d228743f692ddeacd32930817374e
+        :release: 637d228743f692ddeacd32930817374e
+    CHECKSUM: ddcdd6a59007954ba9dd3545c198b2f2afdea1ee
+    FILES:
+      - "../Framework419/Framework419.h"
+      - "../Framework419/Framework419.m"
+    PROJECT_NAME: Framework419
+    SPECS:
+      - Framework419 (1.0.0)
+  Framework42:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework42:
+        :debug: 15cc281d043e2fa29d3d2d29ee56472a
+        :release: 15cc281d043e2fa29d3d2d29ee56472a
+    CHECKSUM: 34359a961ac6ab21d79f654c58927c7df36c3230
+    FILES:
+      - "../Framework42/Framework42.h"
+      - "../Framework42/Framework42.m"
+    PROJECT_NAME: Framework42
+    SPECS:
+      - Framework42 (1.0.0)
+  Framework420:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework420:
+        :debug: ea700e1fb99b8b0443c245af25dad75a
+        :release: ea700e1fb99b8b0443c245af25dad75a
+    CHECKSUM: c23b3fd4a36dacf73795aaa878640504687a11e5
+    FILES:
+      - "../Framework420/Framework420.h"
+      - "../Framework420/Framework420.m"
+    PROJECT_NAME: Framework420
+    SPECS:
+      - Framework420 (1.0.0)
+  Framework421:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework421:
+        :debug: c1b651c87a9e93ae03d3117ab5e6296d
+        :release: c1b651c87a9e93ae03d3117ab5e6296d
+    CHECKSUM: 22972b18b7c998f25a64205b125dcd3bfa447461
+    FILES:
+      - "../Framework421/Framework421.h"
+      - "../Framework421/Framework421.m"
+    PROJECT_NAME: Framework421
+    SPECS:
+      - Framework421 (1.0.0)
+  Framework422:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework422:
+        :debug: 6fe1f6dcce766498ec12b99fa98b3bba
+        :release: 6fe1f6dcce766498ec12b99fa98b3bba
+    CHECKSUM: 16406f1e83c8b12a41f70d6738522c9f1de2b893
+    FILES:
+      - "../Framework422/Framework422.h"
+      - "../Framework422/Framework422.m"
+    PROJECT_NAME: Framework422
+    SPECS:
+      - Framework422 (1.0.0)
+  Framework423:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework423:
+        :debug: cd4bede135ddbe55208180f8f2a1791c
+        :release: cd4bede135ddbe55208180f8f2a1791c
+    CHECKSUM: 067bf02a9a543e926dd20880f1443f6c3c3e5bf9
+    FILES:
+      - "../Framework423/Framework423.h"
+      - "../Framework423/Framework423.m"
+    PROJECT_NAME: Framework423
+    SPECS:
+      - Framework423 (1.0.0)
+  Framework424:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework424:
+        :debug: 2354a5de60f7c988c3fba583630bd679
+        :release: 2354a5de60f7c988c3fba583630bd679
+    CHECKSUM: 4914f07ec56d1d9a66bdf4bf5071c2c734b0cadb
+    FILES:
+      - "../Framework424/Framework424.h"
+      - "../Framework424/Framework424.m"
+    PROJECT_NAME: Framework424
+    SPECS:
+      - Framework424 (1.0.0)
+  Framework425:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework425:
+        :debug: 2ad5b818f79b05590addbd75b6ab21b2
+        :release: 2ad5b818f79b05590addbd75b6ab21b2
+    CHECKSUM: 65a54d5b23d7574682ba527ce572ac3db17159f1
+    FILES:
+      - "../Framework425/Framework425.h"
+      - "../Framework425/Framework425.m"
+    PROJECT_NAME: Framework425
+    SPECS:
+      - Framework425 (1.0.0)
+  Framework426:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework426:
+        :debug: 8df6565d7b1b03b2f95c526a1fbc73dd
+        :release: 8df6565d7b1b03b2f95c526a1fbc73dd
+    CHECKSUM: e910453ee2a7adee7c6c16ff27564fbacd71fb48
+    FILES:
+      - "../Framework426/Framework426.h"
+      - "../Framework426/Framework426.m"
+    PROJECT_NAME: Framework426
+    SPECS:
+      - Framework426 (1.0.0)
+  Framework427:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework427:
+        :debug: 029e16251a8364c0e4a98d64178e4839
+        :release: 029e16251a8364c0e4a98d64178e4839
+    CHECKSUM: ada16d56ec6bfbda8c05d049571eb84b239e2eef
+    FILES:
+      - "../Framework427/Framework427.h"
+      - "../Framework427/Framework427.m"
+    PROJECT_NAME: Framework427
+    SPECS:
+      - Framework427 (1.0.0)
+  Framework428:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework428:
+        :debug: f4b33477614e321821f6bfb4d1c4ec13
+        :release: f4b33477614e321821f6bfb4d1c4ec13
+    CHECKSUM: 32203f9252344c966e8995ad6d0e834f78c8e75e
+    FILES:
+      - "../Framework428/Framework428.h"
+      - "../Framework428/Framework428.m"
+    PROJECT_NAME: Framework428
+    SPECS:
+      - Framework428 (1.0.0)
+  Framework429:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework429:
+        :debug: e12d20ce587eae9a66ca341f00961032
+        :release: e12d20ce587eae9a66ca341f00961032
+    CHECKSUM: 47aafc669ae885b9241370bf20a80f6db471f253
+    FILES:
+      - "../Framework429/Framework429.h"
+      - "../Framework429/Framework429.m"
+    PROJECT_NAME: Framework429
+    SPECS:
+      - Framework429 (1.0.0)
+  Framework43:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework43:
+        :debug: bc7a5eacf0882390785db806bb2a181b
+        :release: bc7a5eacf0882390785db806bb2a181b
+    CHECKSUM: 229c5e27d41d551ea8319e4d6083333c9a6dbfd0
+    FILES:
+      - "../Framework43/Framework43.h"
+      - "../Framework43/Framework43.m"
+    PROJECT_NAME: Framework43
+    SPECS:
+      - Framework43 (1.0.0)
+  Framework430:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework430:
+        :debug: 97db2c7301a8390824472b3b2e6dce83
+        :release: 97db2c7301a8390824472b3b2e6dce83
+    CHECKSUM: 5e4d2a693be8479fe69e2db89334394819c1f02f
+    FILES:
+      - "../Framework430/Framework430.h"
+      - "../Framework430/Framework430.m"
+    PROJECT_NAME: Framework430
+    SPECS:
+      - Framework430 (1.0.0)
+  Framework431:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework431:
+        :debug: af707643207a10d8307e0e53e047e717
+        :release: af707643207a10d8307e0e53e047e717
+    CHECKSUM: 65ea0330e829e0de6c692bb6af83ff5ca5616e83
+    FILES:
+      - "../Framework431/Framework431.h"
+      - "../Framework431/Framework431.m"
+    PROJECT_NAME: Framework431
+    SPECS:
+      - Framework431 (1.0.0)
+  Framework432:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework432:
+        :debug: 7bf4bc71cc579fe3e5be9a8cbf2c517c
+        :release: 7bf4bc71cc579fe3e5be9a8cbf2c517c
+    CHECKSUM: ac86423953dfa6d18fd3d451be590c8514635e31
+    FILES:
+      - "../Framework432/Framework432.h"
+      - "../Framework432/Framework432.m"
+    PROJECT_NAME: Framework432
+    SPECS:
+      - Framework432 (1.0.0)
+  Framework433:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework433:
+        :debug: 68b335f702451d846a9948fae15ed15e
+        :release: 68b335f702451d846a9948fae15ed15e
+    CHECKSUM: f3cf2a42c45af682eac34bddbe3d4ab13ea4d6de
+    FILES:
+      - "../Framework433/Framework433.h"
+      - "../Framework433/Framework433.m"
+    PROJECT_NAME: Framework433
+    SPECS:
+      - Framework433 (1.0.0)
+  Framework434:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework434:
+        :debug: 8ae6a889517746be7a25f5dc855c1060
+        :release: 8ae6a889517746be7a25f5dc855c1060
+    CHECKSUM: 954d8fc02b13fa734f8f47ff90e900c0e6e1cb50
+    FILES:
+      - "../Framework434/Framework434.h"
+      - "../Framework434/Framework434.m"
+    PROJECT_NAME: Framework434
+    SPECS:
+      - Framework434 (1.0.0)
+  Framework435:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework435:
+        :debug: 86c21efd888d78f1a542e601ea5b2e8b
+        :release: 86c21efd888d78f1a542e601ea5b2e8b
+    CHECKSUM: 276edaeb83f7d29fc53a5b172a41d291ac4ce6d9
+    FILES:
+      - "../Framework435/Framework435.h"
+      - "../Framework435/Framework435.m"
+    PROJECT_NAME: Framework435
+    SPECS:
+      - Framework435 (1.0.0)
+  Framework436:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework436:
+        :debug: cbebff4f023fc92621e81f94e762efae
+        :release: cbebff4f023fc92621e81f94e762efae
+    CHECKSUM: b6ad3326d9abaff9cbec2675b9bef301a2935a71
+    FILES:
+      - "../Framework436/Framework436.h"
+      - "../Framework436/Framework436.m"
+    PROJECT_NAME: Framework436
+    SPECS:
+      - Framework436 (1.0.0)
+  Framework437:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework437:
+        :debug: ea230428598d477d5f3526c8a9204c6a
+        :release: ea230428598d477d5f3526c8a9204c6a
+    CHECKSUM: 16cf525d80eb74bcaafc9feeeaa7ce24fbfb6cde
+    FILES:
+      - "../Framework437/Framework437.h"
+      - "../Framework437/Framework437.m"
+    PROJECT_NAME: Framework437
+    SPECS:
+      - Framework437 (1.0.0)
+  Framework438:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework438:
+        :debug: 4fc6f086701a26d32b44c20bbd1c62e7
+        :release: 4fc6f086701a26d32b44c20bbd1c62e7
+    CHECKSUM: 3d4859e6194dd09d2e775c70c0b3dc6448f65b33
+    FILES:
+      - "../Framework438/Framework438.h"
+      - "../Framework438/Framework438.m"
+    PROJECT_NAME: Framework438
+    SPECS:
+      - Framework438 (1.0.0)
+  Framework439:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework439:
+        :debug: dadb01333822cc8854c42a6a096e64d3
+        :release: dadb01333822cc8854c42a6a096e64d3
+    CHECKSUM: f99d20ecea537eacbf88afa3231ab5e970840d8e
+    FILES:
+      - "../Framework439/Framework439.h"
+      - "../Framework439/Framework439.m"
+    PROJECT_NAME: Framework439
+    SPECS:
+      - Framework439 (1.0.0)
+  Framework44:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework44:
+        :debug: bf034a965888f745883f32a7d7671092
+        :release: bf034a965888f745883f32a7d7671092
+    CHECKSUM: 3c73f5b09979bc1048d8d397c5678eb2e475ebdd
+    FILES:
+      - "../Framework44/Framework44.h"
+      - "../Framework44/Framework44.m"
+    PROJECT_NAME: Framework44
+    SPECS:
+      - Framework44 (1.0.0)
+  Framework440:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework440:
+        :debug: 1a5301f9a04412c88618176babbb9cc0
+        :release: 1a5301f9a04412c88618176babbb9cc0
+    CHECKSUM: 29416de716b679781c7348e37871865323d2a068
+    FILES:
+      - "../Framework440/Framework440.h"
+      - "../Framework440/Framework440.m"
+    PROJECT_NAME: Framework440
+    SPECS:
+      - Framework440 (1.0.0)
+  Framework441:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework441:
+        :debug: 3846a2a48bf758949c2f04df6cf6c999
+        :release: 3846a2a48bf758949c2f04df6cf6c999
+    CHECKSUM: fdcd541765d5257c53e613500ecd9a1c6c1c5a9e
+    FILES:
+      - "../Framework441/Framework441.h"
+      - "../Framework441/Framework441.m"
+    PROJECT_NAME: Framework441
+    SPECS:
+      - Framework441 (1.0.0)
+  Framework442:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework442:
+        :debug: 7115143da58804fccdf7e50d65e28cab
+        :release: 7115143da58804fccdf7e50d65e28cab
+    CHECKSUM: e19b4192066a444de6d142aee88ef23ab75ae074
+    FILES:
+      - "../Framework442/Framework442.h"
+      - "../Framework442/Framework442.m"
+    PROJECT_NAME: Framework442
+    SPECS:
+      - Framework442 (1.0.0)
+  Framework443:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework443:
+        :debug: fbdc24445b305c1e4da13c1851a47c63
+        :release: fbdc24445b305c1e4da13c1851a47c63
+    CHECKSUM: aade2084ecdec47a12c5efb5231f8bd6fa75c5d9
+    FILES:
+      - "../Framework443/Framework443.h"
+      - "../Framework443/Framework443.m"
+    PROJECT_NAME: Framework443
+    SPECS:
+      - Framework443 (1.0.0)
+  Framework444:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework444:
+        :debug: 3282d6c8ec998613d4e2fca8d93ca057
+        :release: 3282d6c8ec998613d4e2fca8d93ca057
+    CHECKSUM: 78413ee0280a04e96217001d1db9cd9f6cee433c
+    FILES:
+      - "../Framework444/Framework444.h"
+      - "../Framework444/Framework444.m"
+    PROJECT_NAME: Framework444
+    SPECS:
+      - Framework444 (1.0.0)
+  Framework445:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework445:
+        :debug: ffbc03722e5048f1bee382dfdd53123a
+        :release: ffbc03722e5048f1bee382dfdd53123a
+    CHECKSUM: 3b197fb606809d9435e204d796177c6916442234
+    FILES:
+      - "../Framework445/Framework445.h"
+      - "../Framework445/Framework445.m"
+    PROJECT_NAME: Framework445
+    SPECS:
+      - Framework445 (1.0.0)
+  Framework446:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework446:
+        :debug: e521a99f7848357d3e0deec510046086
+        :release: e521a99f7848357d3e0deec510046086
+    CHECKSUM: 060200115499b36c8c8d4a15787db5de15e9981b
+    FILES:
+      - "../Framework446/Framework446.h"
+      - "../Framework446/Framework446.m"
+    PROJECT_NAME: Framework446
+    SPECS:
+      - Framework446 (1.0.0)
+  Framework447:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework447:
+        :debug: f484fbe8b687f1cab8def252a226703b
+        :release: f484fbe8b687f1cab8def252a226703b
+    CHECKSUM: ae1581e9055bb3c0eee2d366172e35f63734a4fa
+    FILES:
+      - "../Framework447/Framework447.h"
+      - "../Framework447/Framework447.m"
+    PROJECT_NAME: Framework447
+    SPECS:
+      - Framework447 (1.0.0)
+  Framework448:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework448:
+        :debug: 68eb5e9faf3fe5290043810395711503
+        :release: 68eb5e9faf3fe5290043810395711503
+    CHECKSUM: f5bac4864200b8a229849458968d886edd252da5
+    FILES:
+      - "../Framework448/Framework448.h"
+      - "../Framework448/Framework448.m"
+    PROJECT_NAME: Framework448
+    SPECS:
+      - Framework448 (1.0.0)
+  Framework449:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework449:
+        :debug: bc4c753c80156e7bda4855ae744b48dd
+        :release: bc4c753c80156e7bda4855ae744b48dd
+    CHECKSUM: 91949212ecf0b80e2183c56082af9130ace9e0b2
+    FILES:
+      - "../Framework449/Framework449.h"
+      - "../Framework449/Framework449.m"
+    PROJECT_NAME: Framework449
+    SPECS:
+      - Framework449 (1.0.0)
+  Framework45:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework45:
+        :debug: f1ebc2743dfb103edfab9d5f296f94de
+        :release: f1ebc2743dfb103edfab9d5f296f94de
+    CHECKSUM: 235bad821ee862989f48fb4c6d147c8891077e07
+    FILES:
+      - "../Framework45/Framework45.h"
+      - "../Framework45/Framework45.m"
+    PROJECT_NAME: Framework45
+    SPECS:
+      - Framework45 (1.0.0)
+  Framework46:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework46:
+        :debug: 9d5157bb2d0d3208c018874a9a7114fa
+        :release: 9d5157bb2d0d3208c018874a9a7114fa
+    CHECKSUM: 5d077271241d838971cb603c789d5f64456253f9
+    FILES:
+      - "../Framework46/Framework46.h"
+      - "../Framework46/Framework46.m"
+    PROJECT_NAME: Framework46
+    SPECS:
+      - Framework46 (1.0.0)
+  Framework47:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework47:
+        :debug: 98cf06851b4f50ea81c6c7d236423a1c
+        :release: 98cf06851b4f50ea81c6c7d236423a1c
+    CHECKSUM: e3298870d630d806884511b6380ea7b375ce4a7e
+    FILES:
+      - "../Framework47/Framework47.h"
+      - "../Framework47/Framework47.m"
+    PROJECT_NAME: Framework47
+    SPECS:
+      - Framework47 (1.0.0)
+  Framework48:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework48:
+        :debug: 71cb63988fcb5340c8ca3f21415c3d2f
+        :release: 71cb63988fcb5340c8ca3f21415c3d2f
+    CHECKSUM: 0c1b0b7ba750c5193da8334fd411a4bd68743b0b
+    FILES:
+      - "../Framework48/Framework48.h"
+      - "../Framework48/Framework48.m"
+    PROJECT_NAME: Framework48
+    SPECS:
+      - Framework48 (1.0.0)
+  Framework49:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework49:
+        :debug: 7da6a3cf4f0675226068710a57d6a100
+        :release: 7da6a3cf4f0675226068710a57d6a100
+    CHECKSUM: e11d548f302d0e59579d70bad927960d179ee40e
+    FILES:
+      - "../Framework49/Framework49.h"
+      - "../Framework49/Framework49.m"
+    PROJECT_NAME: Framework49
+    SPECS:
+      - Framework49 (1.0.0)
+  Framework5:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework5:
+        :debug: 8d71a87a4d698be0e6ba990c85454676
+        :release: 8d71a87a4d698be0e6ba990c85454676
+    CHECKSUM: b69c130e3fb20a55f10578bd8420cc488730d8be
+    FILES:
+      - "../Framework5/Framework5.h"
+      - "../Framework5/Framework5.m"
+    PROJECT_NAME: Framework5
+    SPECS:
+      - Framework5 (1.0.0)
+  Framework50:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework50:
+        :debug: f831a149c62b0eb0fb164653dcb6f587
+        :release: f831a149c62b0eb0fb164653dcb6f587
+    CHECKSUM: 3bdd3c31c9ec68e27e8ac93de1797f64b7b1d1e9
+    FILES:
+      - "../Framework50/Framework50.h"
+      - "../Framework50/Framework50.m"
+    PROJECT_NAME: Framework50
+    SPECS:
+      - Framework50 (1.0.0)
+  Framework51:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework51:
+        :debug: 58def73f11f814e1981fce4405795277
+        :release: 58def73f11f814e1981fce4405795277
+    CHECKSUM: 54aef8a83a2c163657e8b0c37686c7b43a08980c
+    FILES:
+      - "../Framework51/Framework51.h"
+      - "../Framework51/Framework51.m"
+    PROJECT_NAME: Framework51
+    SPECS:
+      - Framework51 (1.0.0)
+  Framework52:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework52:
+        :debug: 41b12867b480dec637a07843e3eb969b
+        :release: 41b12867b480dec637a07843e3eb969b
+    CHECKSUM: 20ee084c136e1c943a9d44da90ff98fd9eb61eb2
+    FILES:
+      - "../Framework52/Framework52.h"
+      - "../Framework52/Framework52.m"
+    PROJECT_NAME: Framework52
+    SPECS:
+      - Framework52 (1.0.0)
+  Framework53:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework53:
+        :debug: 0672026cbea60cbf879f604f1bee3e38
+        :release: 0672026cbea60cbf879f604f1bee3e38
+    CHECKSUM: 15aa181dc00afe8f1c2a7f22929280b622fb7bb9
+    FILES:
+      - "../Framework53/Framework53.h"
+      - "../Framework53/Framework53.m"
+    PROJECT_NAME: Framework53
+    SPECS:
+      - Framework53 (1.0.0)
+  Framework54:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework54:
+        :debug: 96059d7de4059c05b82f19fc65e9988e
+        :release: 96059d7de4059c05b82f19fc65e9988e
+    CHECKSUM: 07a96a069ada86e3a27703c2027d3e7b9975b0f1
+    FILES:
+      - "../Framework54/Framework54.h"
+      - "../Framework54/Framework54.m"
+    PROJECT_NAME: Framework54
+    SPECS:
+      - Framework54 (1.0.0)
+  Framework55:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework55:
+        :debug: e6ca8ee6d004541f2c91b81d13852e2f
+        :release: e6ca8ee6d004541f2c91b81d13852e2f
+    CHECKSUM: ebebe0518805bd534196f1437dc96133ccbb992a
+    FILES:
+      - "../Framework55/Framework55.h"
+      - "../Framework55/Framework55.m"
+    PROJECT_NAME: Framework55
+    SPECS:
+      - Framework55 (1.0.0)
+  Framework56:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework56:
+        :debug: b9c79e69ad9f892749d683dc74f17218
+        :release: b9c79e69ad9f892749d683dc74f17218
+    CHECKSUM: 59a136d93d4b6d104869763d79a2aaddcc3a3c26
+    FILES:
+      - "../Framework56/Framework56.h"
+      - "../Framework56/Framework56.m"
+    PROJECT_NAME: Framework56
+    SPECS:
+      - Framework56 (1.0.0)
+  Framework57:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework57:
+        :debug: 5692b8430b64ba50adaef72d885291ed
+        :release: 5692b8430b64ba50adaef72d885291ed
+    CHECKSUM: be7a65526097b436915673f3204df1de43e98513
+    FILES:
+      - "../Framework57/Framework57.h"
+      - "../Framework57/Framework57.m"
+    PROJECT_NAME: Framework57
+    SPECS:
+      - Framework57 (1.0.0)
+  Framework58:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework58:
+        :debug: 0f39de0ac48fe12ede9d88ba7d3f5980
+        :release: 0f39de0ac48fe12ede9d88ba7d3f5980
+    CHECKSUM: 9317719332bb8510c24a254fca7574ea21fb0293
+    FILES:
+      - "../Framework58/Framework58.h"
+      - "../Framework58/Framework58.m"
+    PROJECT_NAME: Framework58
+    SPECS:
+      - Framework58 (1.0.0)
+  Framework59:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework59:
+        :debug: b4f52255310d34ec557da8efc392b35e
+        :release: b4f52255310d34ec557da8efc392b35e
+    CHECKSUM: 9e3a56c996c090f5a57a33f0320b9aed604eb8e2
+    FILES:
+      - "../Framework59/Framework59.h"
+      - "../Framework59/Framework59.m"
+    PROJECT_NAME: Framework59
+    SPECS:
+      - Framework59 (1.0.0)
+  Framework6:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework6:
+        :debug: 2e7e882bfacbd6644449ae8048184b03
+        :release: 2e7e882bfacbd6644449ae8048184b03
+    CHECKSUM: 05c9cb515fd09fc4a3142675edf29267ba0a09eb
+    FILES:
+      - "../Framework6/Framework6.h"
+      - "../Framework6/Framework6.m"
+    PROJECT_NAME: Framework6
+    SPECS:
+      - Framework6 (1.0.0)
+  Framework60:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework60:
+        :debug: b44ebd0a75dad00f302cf47c3a33e727
+        :release: b44ebd0a75dad00f302cf47c3a33e727
+    CHECKSUM: 6cb0b8fdab7b7da35ca01595ceaa0e4a03d1e534
+    FILES:
+      - "../Framework60/Framework60.h"
+      - "../Framework60/Framework60.m"
+    PROJECT_NAME: Framework60
+    SPECS:
+      - Framework60 (1.0.0)
+  Framework61:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework61:
+        :debug: 389f67c7777d195dc857e0cc005bd1a4
+        :release: 389f67c7777d195dc857e0cc005bd1a4
+    CHECKSUM: 87e5b43a79baf30e407d3adc2a4032284c259cee
+    FILES:
+      - "../Framework61/Framework61.h"
+      - "../Framework61/Framework61.m"
+    PROJECT_NAME: Framework61
+    SPECS:
+      - Framework61 (1.0.0)
+  Framework62:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework62:
+        :debug: b291a1b70a9c777b2972879a903ee27e
+        :release: b291a1b70a9c777b2972879a903ee27e
+    CHECKSUM: 62d7b522f6f3303d591b2da8e6fd7d52cc0dae2c
+    FILES:
+      - "../Framework62/Framework62.h"
+      - "../Framework62/Framework62.m"
+    PROJECT_NAME: Framework62
+    SPECS:
+      - Framework62 (1.0.0)
+  Framework63:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework63:
+        :debug: 4b6d31f90bd0f2dedf13817dc5ce6dae
+        :release: 4b6d31f90bd0f2dedf13817dc5ce6dae
+    CHECKSUM: a307e9a32904670d83090df4053c1b29223dced5
+    FILES:
+      - "../Framework63/Framework63.h"
+      - "../Framework63/Framework63.m"
+    PROJECT_NAME: Framework63
+    SPECS:
+      - Framework63 (1.0.0)
+  Framework64:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework64:
+        :debug: 83c97aa4c98fd864540dba4d72c3c6f0
+        :release: 83c97aa4c98fd864540dba4d72c3c6f0
+    CHECKSUM: 87c6ae835b7acd24410255210633a4a02de51f55
+    FILES:
+      - "../Framework64/Framework64.h"
+      - "../Framework64/Framework64.m"
+    PROJECT_NAME: Framework64
+    SPECS:
+      - Framework64 (1.0.0)
+  Framework65:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework65:
+        :debug: 125fba3a047f2b5aa08afce4912a8eaa
+        :release: 125fba3a047f2b5aa08afce4912a8eaa
+    CHECKSUM: 3f29ec9d0310af5cad07e4b41e6684ebf0cf6ec8
+    FILES:
+      - "../Framework65/Framework65.h"
+      - "../Framework65/Framework65.m"
+    PROJECT_NAME: Framework65
+    SPECS:
+      - Framework65 (1.0.0)
+  Framework66:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework66:
+        :debug: 8d1dbc59ebb2cb4e3e60665668dc5f78
+        :release: 8d1dbc59ebb2cb4e3e60665668dc5f78
+    CHECKSUM: 56f007f3ca60dd45ccd641ed65d54ef978e449a3
+    FILES:
+      - "../Framework66/Framework66.h"
+      - "../Framework66/Framework66.m"
+    PROJECT_NAME: Framework66
+    SPECS:
+      - Framework66 (1.0.0)
+  Framework67:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework67:
+        :debug: e41e1619e942531fb2b2ee1583e06c4b
+        :release: e41e1619e942531fb2b2ee1583e06c4b
+    CHECKSUM: d9a40aa1bce97ffbb2bc530b331af9fe298c3834
+    FILES:
+      - "../Framework67/Framework67.h"
+      - "../Framework67/Framework67.m"
+    PROJECT_NAME: Framework67
+    SPECS:
+      - Framework67 (1.0.0)
+  Framework68:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework68:
+        :debug: f651857f0a53049de9bbedcd7b22b2a3
+        :release: f651857f0a53049de9bbedcd7b22b2a3
+    CHECKSUM: e84c0e4a6ba053972818226f8ebc4c14975398d4
+    FILES:
+      - "../Framework68/Framework68.h"
+      - "../Framework68/Framework68.m"
+    PROJECT_NAME: Framework68
+    SPECS:
+      - Framework68 (1.0.0)
+  Framework69:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework69:
+        :debug: 4beb1dc997976e5841896cc16b2b67a1
+        :release: 4beb1dc997976e5841896cc16b2b67a1
+    CHECKSUM: c841c4ede85e31da146fff0ae8523dca6be36438
+    FILES:
+      - "../Framework69/Framework69.h"
+      - "../Framework69/Framework69.m"
+    PROJECT_NAME: Framework69
+    SPECS:
+      - Framework69 (1.0.0)
+  Framework7:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework7:
+        :debug: b5666d297dae4a333b759a8649e9d82a
+        :release: b5666d297dae4a333b759a8649e9d82a
+    CHECKSUM: ce6b62adbbe9ef7f32981a893666a906a658b0d9
+    FILES:
+      - "../Framework7/Framework7.h"
+      - "../Framework7/Framework7.m"
+    PROJECT_NAME: Framework7
+    SPECS:
+      - Framework7 (1.0.0)
+  Framework70:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework70:
+        :debug: 12c3cc7c981efe839a1ca8a29c1dae72
+        :release: 12c3cc7c981efe839a1ca8a29c1dae72
+    CHECKSUM: 978c9807b95edcc92c99afa35b24301175fbea79
+    FILES:
+      - "../Framework70/Framework70.h"
+      - "../Framework70/Framework70.m"
+    PROJECT_NAME: Framework70
+    SPECS:
+      - Framework70 (1.0.0)
+  Framework71:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework71:
+        :debug: 86957acb36050c30c122f8d68a908c9c
+        :release: 86957acb36050c30c122f8d68a908c9c
+    CHECKSUM: eef6778e4671745843719685af8409b116230ae8
+    FILES:
+      - "../Framework71/Framework71.h"
+      - "../Framework71/Framework71.m"
+    PROJECT_NAME: Framework71
+    SPECS:
+      - Framework71 (1.0.0)
+  Framework72:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework72:
+        :debug: 11789aafbb393bd17a675afdab7a8c49
+        :release: 11789aafbb393bd17a675afdab7a8c49
+    CHECKSUM: a8a9d2d05b2172f8ccce8f7e1143e35d32bc5569
+    FILES:
+      - "../Framework72/Framework72.h"
+      - "../Framework72/Framework72.m"
+    PROJECT_NAME: Framework72
+    SPECS:
+      - Framework72 (1.0.0)
+  Framework73:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework73:
+        :debug: f90c78a19abd1adbef57cb7ba5b2d2bc
+        :release: f90c78a19abd1adbef57cb7ba5b2d2bc
+    CHECKSUM: bcdf714028cb9010596aeae7776213725df87a7c
+    FILES:
+      - "../Framework73/Framework73.h"
+      - "../Framework73/Framework73.m"
+    PROJECT_NAME: Framework73
+    SPECS:
+      - Framework73 (1.0.0)
+  Framework74:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework74:
+        :debug: 71c98cca877034342a01d97dbda5537e
+        :release: 71c98cca877034342a01d97dbda5537e
+    CHECKSUM: 80588a49b5728fd834539917e8d87d740711a086
+    FILES:
+      - "../Framework74/Framework74.h"
+      - "../Framework74/Framework74.m"
+    PROJECT_NAME: Framework74
+    SPECS:
+      - Framework74 (1.0.0)
+  Framework75:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework75:
+        :debug: 1220dfdacdca54c6cc9989561a5b9960
+        :release: 1220dfdacdca54c6cc9989561a5b9960
+    CHECKSUM: d278694b55a23e7b361ac35387622a530fc80049
+    FILES:
+      - "../Framework75/Framework75.h"
+      - "../Framework75/Framework75.m"
+    PROJECT_NAME: Framework75
+    SPECS:
+      - Framework75 (1.0.0)
+  Framework76:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework76:
+        :debug: 0338aa9d95e7a1e54414a1c40f2deb35
+        :release: 0338aa9d95e7a1e54414a1c40f2deb35
+    CHECKSUM: fea585955ea6292f07b5b582e4235ae010117138
+    FILES:
+      - "../Framework76/Framework76.h"
+      - "../Framework76/Framework76.m"
+    PROJECT_NAME: Framework76
+    SPECS:
+      - Framework76 (1.0.0)
+  Framework77:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework77:
+        :debug: b544ef0a7ebbc22ecde37ed8516a04d5
+        :release: b544ef0a7ebbc22ecde37ed8516a04d5
+    CHECKSUM: 7903eaf76b14e36c2d2952c9dd3d1ab9dd9ae1e7
+    FILES:
+      - "../Framework77/Framework77.h"
+      - "../Framework77/Framework77.m"
+    PROJECT_NAME: Framework77
+    SPECS:
+      - Framework77 (1.0.0)
+  Framework78:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework78:
+        :debug: c6e1bb7243d5154032d6d5e626d2367f
+        :release: c6e1bb7243d5154032d6d5e626d2367f
+    CHECKSUM: bf8b10aa47b2993a9acf234c6be54b27505c06ef
+    FILES:
+      - "../Framework78/Framework78.h"
+      - "../Framework78/Framework78.m"
+    PROJECT_NAME: Framework78
+    SPECS:
+      - Framework78 (1.0.0)
+  Framework79:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework79:
+        :debug: e765f3b56e07d0acd4630aa6a4a3ca70
+        :release: e765f3b56e07d0acd4630aa6a4a3ca70
+    CHECKSUM: 40188f192b435e6a6bf1f906497693877b23be0d
+    FILES:
+      - "../Framework79/Framework79.h"
+      - "../Framework79/Framework79.m"
+    PROJECT_NAME: Framework79
+    SPECS:
+      - Framework79 (1.0.0)
+  Framework8:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework8:
+        :debug: fe27fa0c4c6a091d18f6e0e771595d11
+        :release: fe27fa0c4c6a091d18f6e0e771595d11
+    CHECKSUM: 7b10e8b7cebb73b9aaac38b87ea24a5d668f0035
+    FILES:
+      - "../Framework8/Framework8.h"
+      - "../Framework8/Framework8.m"
+    PROJECT_NAME: Framework8
+    SPECS:
+      - Framework8 (1.0.0)
+  Framework80:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework80:
+        :debug: 2923486ee4a834c045711f06994fc391
+        :release: 2923486ee4a834c045711f06994fc391
+    CHECKSUM: 8c95bc0631a3ef0dde116bd1e0ce9fcec1803ba8
+    FILES:
+      - "../Framework80/Framework80.h"
+      - "../Framework80/Framework80.m"
+    PROJECT_NAME: Framework80
+    SPECS:
+      - Framework80 (1.0.0)
+  Framework81:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework81:
+        :debug: e8ffac8aa9d5539055d08534407691c4
+        :release: e8ffac8aa9d5539055d08534407691c4
+    CHECKSUM: 621ca7c87a4cb0f4e88c57381c2b6c083383f06e
+    FILES:
+      - "../Framework81/Framework81.h"
+      - "../Framework81/Framework81.m"
+    PROJECT_NAME: Framework81
+    SPECS:
+      - Framework81 (1.0.0)
+  Framework82:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework82:
+        :debug: 8af7dbd7168306c224520d9d12f9b03f
+        :release: 8af7dbd7168306c224520d9d12f9b03f
+    CHECKSUM: 608aa7fd361dc91ed2b3e1017715aecf262f161a
+    FILES:
+      - "../Framework82/Framework82.h"
+      - "../Framework82/Framework82.m"
+    PROJECT_NAME: Framework82
+    SPECS:
+      - Framework82 (1.0.0)
+  Framework83:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework83:
+        :debug: 0abac1abce1e3c436fe375f6c39709e2
+        :release: 0abac1abce1e3c436fe375f6c39709e2
+    CHECKSUM: 9a746a5e8a7c7afd3e399ab1808c058fe7d82f0e
+    FILES:
+      - "../Framework83/Framework83.h"
+      - "../Framework83/Framework83.m"
+    PROJECT_NAME: Framework83
+    SPECS:
+      - Framework83 (1.0.0)
+  Framework84:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework84:
+        :debug: c5cad7e4db6001f05d4c07d9f8d2041f
+        :release: c5cad7e4db6001f05d4c07d9f8d2041f
+    CHECKSUM: 18105c559c28c1d19626e8a58f3108e5962a4f92
+    FILES:
+      - "../Framework84/Framework84.h"
+      - "../Framework84/Framework84.m"
+    PROJECT_NAME: Framework84
+    SPECS:
+      - Framework84 (1.0.0)
+  Framework85:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework85:
+        :debug: f1c6167df2d327bb0d1ae1344fae30ee
+        :release: f1c6167df2d327bb0d1ae1344fae30ee
+    CHECKSUM: b27347d15153fe17c660be33587ac5684b152b97
+    FILES:
+      - "../Framework85/Framework85.h"
+      - "../Framework85/Framework85.m"
+    PROJECT_NAME: Framework85
+    SPECS:
+      - Framework85 (1.0.0)
+  Framework86:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework86:
+        :debug: 3efbd624bfffe807191690d2ff30f1fa
+        :release: 3efbd624bfffe807191690d2ff30f1fa
+    CHECKSUM: d6b01a07ca99f2845b8805a381930d04de2cdd93
+    FILES:
+      - "../Framework86/Framework86.h"
+      - "../Framework86/Framework86.m"
+    PROJECT_NAME: Framework86
+    SPECS:
+      - Framework86 (1.0.0)
+  Framework87:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework87:
+        :debug: 21238f50bdfda1365ee953d4be0c9e85
+        :release: 21238f50bdfda1365ee953d4be0c9e85
+    CHECKSUM: cf677bfcac72ffb5324146d8fe7fc8b2527b7c1d
+    FILES:
+      - "../Framework87/Framework87.h"
+      - "../Framework87/Framework87.m"
+    PROJECT_NAME: Framework87
+    SPECS:
+      - Framework87 (1.0.0)
+  Framework88:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework88:
+        :debug: 462d6244ba1f3018ce8166ab134470ce
+        :release: 462d6244ba1f3018ce8166ab134470ce
+    CHECKSUM: c4e0666da89949cc42dc51afb22a0f9acb3d59ff
+    FILES:
+      - "../Framework88/Framework88.h"
+      - "../Framework88/Framework88.m"
+    PROJECT_NAME: Framework88
+    SPECS:
+      - Framework88 (1.0.0)
+  Framework89:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework89:
+        :debug: 25ddfeae29762e3644bb6d8cbe18f88e
+        :release: 25ddfeae29762e3644bb6d8cbe18f88e
+    CHECKSUM: 82d40698e5fc01997611eacf8655ce664272d2a0
+    FILES:
+      - "../Framework89/Framework89.h"
+      - "../Framework89/Framework89.m"
+    PROJECT_NAME: Framework89
+    SPECS:
+      - Framework89 (1.0.0)
+  Framework9:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework9:
+        :debug: ee54b8373cd87e2734d3eaefe8a32229
+        :release: ee54b8373cd87e2734d3eaefe8a32229
+    CHECKSUM: 65b15da7953a7a0a36523c3a7b8b35e94ac95a2d
+    FILES:
+      - "../Framework9/Framework9.h"
+      - "../Framework9/Framework9.m"
+    PROJECT_NAME: Framework9
+    SPECS:
+      - Framework9 (1.0.0)
+  Framework90:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework90:
+        :debug: 64ee89445e57c1ccf8ee05e614822515
+        :release: 64ee89445e57c1ccf8ee05e614822515
+    CHECKSUM: 544bcc29c90ea88eb84710a5c7e5875f85e52d10
+    FILES:
+      - "../Framework90/Framework90.h"
+      - "../Framework90/Framework90.m"
+    PROJECT_NAME: Framework90
+    SPECS:
+      - Framework90 (1.0.0)
+  Framework91:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework91:
+        :debug: e2a50cf01b818e450b97efd00f74cf00
+        :release: e2a50cf01b818e450b97efd00f74cf00
+    CHECKSUM: 7753f8d28e8eb4e8c61fd579c9c4a79ce282bb10
+    FILES:
+      - "../Framework91/Framework91.h"
+      - "../Framework91/Framework91.m"
+    PROJECT_NAME: Framework91
+    SPECS:
+      - Framework91 (1.0.0)
+  Framework92:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework92:
+        :debug: c62171735f325c0265799657e0cd65e7
+        :release: c62171735f325c0265799657e0cd65e7
+    CHECKSUM: fa6d9725967355b6ac01071a83bde6bc4217c5fd
+    FILES:
+      - "../Framework92/Framework92.h"
+      - "../Framework92/Framework92.m"
+    PROJECT_NAME: Framework92
+    SPECS:
+      - Framework92 (1.0.0)
+  Framework93:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework93:
+        :debug: 4f7d5c62b47ad0b9c36ec5637aaa5e8f
+        :release: 4f7d5c62b47ad0b9c36ec5637aaa5e8f
+    CHECKSUM: d657a8bffa5d0c7d3af3036cbab935dabbdadd60
+    FILES:
+      - "../Framework93/Framework93.h"
+      - "../Framework93/Framework93.m"
+    PROJECT_NAME: Framework93
+    SPECS:
+      - Framework93 (1.0.0)
+  Framework94:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework94:
+        :debug: fa55095dd4cc1623f0475ea9574de256
+        :release: fa55095dd4cc1623f0475ea9574de256
+    CHECKSUM: cdfc152d03c0a0311ecb07dd46a8b667768bbba2
+    FILES:
+      - "../Framework94/Framework94.h"
+      - "../Framework94/Framework94.m"
+    PROJECT_NAME: Framework94
+    SPECS:
+      - Framework94 (1.0.0)
+  Framework95:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework95:
+        :debug: 95896ed2704dc8ddb819b2eb9be48973
+        :release: 95896ed2704dc8ddb819b2eb9be48973
+    CHECKSUM: 3efa72b19f539557b037985b3a454d8d7d1fe1e1
+    FILES:
+      - "../Framework95/Framework95.h"
+      - "../Framework95/Framework95.m"
+    PROJECT_NAME: Framework95
+    SPECS:
+      - Framework95 (1.0.0)
+  Framework96:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework96:
+        :debug: ab82c2db8b32266f3c52f850a634f102
+        :release: ab82c2db8b32266f3c52f850a634f102
+    CHECKSUM: 0fe5fd04cf5aff323b6b2309a3e8574ea4143f4c
+    FILES:
+      - "../Framework96/Framework96.h"
+      - "../Framework96/Framework96.m"
+    PROJECT_NAME: Framework96
+    SPECS:
+      - Framework96 (1.0.0)
+  Framework97:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework97:
+        :debug: 8ecdca170589cdc2aaff641a7660b649
+        :release: 8ecdca170589cdc2aaff641a7660b649
+    CHECKSUM: 9fdd3f0bb319fdf0fa0350c48622e17d0cbf6493
+    FILES:
+      - "../Framework97/Framework97.h"
+      - "../Framework97/Framework97.m"
+    PROJECT_NAME: Framework97
+    SPECS:
+      - Framework97 (1.0.0)
+  Framework98:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework98:
+        :debug: 9c8054b043cd980b382520b66e881440
+        :release: 9c8054b043cd980b382520b66e881440
+    CHECKSUM: 5accc058d9a0c7a55ca535ff19d73afc2bce04d1
+    FILES:
+      - "../Framework98/Framework98.h"
+      - "../Framework98/Framework98.m"
+    PROJECT_NAME: Framework98
+    SPECS:
+      - Framework98 (1.0.0)
+  Framework99:
+    BUILD_SETTINGS_CHECKSUM:
+      Framework99:
+        :debug: e8040be03455bdba52dd13d47cbc1857
+        :release: e8040be03455bdba52dd13d47cbc1857
+    CHECKSUM: 2450ca8b8e0ba4dd53bc8182a239db509970f026
+    FILES:
+      - "../Framework99/Framework99.h"
+      - "../Framework99/Framework99.m"
+    PROJECT_NAME: Framework99
+    SPECS:
+      - Framework99 (1.0.0)
+  Pods-SampleApp:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 3192d49af3bb967c04d87af257cff737
+      Release: 3192d49af3bb967c04d87af257cff737
+  Pods-SampleAppTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 03a8cc230f958e94c09d210e73daa227
+      Release: 03a8cc230f958e94c09d210e73daa227
+OBJECT_VERSION: 50
+PLUGINS:
+  cocoapods-stats:
+    {}

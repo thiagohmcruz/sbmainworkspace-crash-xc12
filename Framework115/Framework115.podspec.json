@@ -1,0 +1,17 @@
+{
+  "name": "Framework115",
+  "version": "1.0.0",
+  "authors": {
+    "Sample Large App": "large-app@largecompany.com"
+  },
+  "summary": "Generated Framework115.",
+  "homepage": "https://largecompany.com",
+  "source": {
+    "git": "https://largecompany.com/Framework115.git",
+    "tag": "podify/1.0.0"
+  },
+  "source_files": "*.{h,m}",
+  "platforms": {
+    "ios": "9.3"
+  }
+}

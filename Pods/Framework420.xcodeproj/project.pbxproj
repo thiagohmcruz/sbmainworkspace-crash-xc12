@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFB26A6C97381C9ACA504CC0FA604B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34C271753582625C84FD2DF242BC06 /* Foundation.framework */; };
+		2BFAB6E51BB33E367C95D32E1F505F77 /* Framework420-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41573D0F07DBA83E7E2861C724672382 /* Framework420-dummy.m */; };
+		2F28E732DAD4CFC404952A108599779C /* Framework420.m in Sources */ = {isa = PBXBuildFile; fileRef = 929A88DCAB94831F7CFAEFF11F6A1D43 /* Framework420.m */; };
+		83A663598AAAC7419AE141306D0BF524 /* Framework420-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FCEBCA2977CC72B4FA8F47F5877D57 /* Framework420-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05699BB115AE7F85B4500C815A718FB /* Framework420.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B5CA5764A0056C77FDA3DE1F8A58B2 /* Framework420.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0359ED7AB1CEEA8B1138CF42666B0333 /* Framework420.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework420.release.xcconfig; sourceTree = "<group>"; };
+		3EC41122EFD57A02638047C31FA51230 /* Framework420.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework420.podspec.json; sourceTree = "<group>"; };
+		40F708A3B39157D1AE20B35F0C8A38DA /* Framework420.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework420.framework; path = Framework420.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41573D0F07DBA83E7E2861C724672382 /* Framework420-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework420-dummy.m"; sourceTree = "<group>"; };
+		48FC86B84A241B2B5A6FDA7911A19ABD /* Framework420.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework420.debug.xcconfig; sourceTree = "<group>"; };
+		56FCEBCA2977CC72B4FA8F47F5877D57 /* Framework420-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework420-umbrella.h"; sourceTree = "<group>"; };
+		5F34C271753582625C84FD2DF242BC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75058914FAF20A8FD8DA21DD9C60A5C5 /* Framework420.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework420.modulemap; sourceTree = "<group>"; };
+		758EE3FB6FBF30CCFFDA9C7B092788E3 /* Framework420-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework420-prefix.pch"; sourceTree = "<group>"; };
+		929A88DCAB94831F7CFAEFF11F6A1D43 /* Framework420.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework420.m; sourceTree = "<group>"; };
+		C72D55A8C7BF6DDFF36B30AA8250E468 /* Framework420-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework420-Info.plist"; sourceTree = "<group>"; };
+		C8B5CA5764A0056C77FDA3DE1F8A58B2 /* Framework420.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework420.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AE6D843438C1853ADC216B6F800824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFB26A6C97381C9ACA504CC0FA604B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1F81EE5D55484D56EA994EA274296B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7BF82446413DCEBA8B441E47E1557 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EE769A6547670999BCF57CE0AF3305B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75058914FAF20A8FD8DA21DD9C60A5C5 /* Framework420.modulemap */,
+				41573D0F07DBA83E7E2861C724672382 /* Framework420-dummy.m */,
+				C72D55A8C7BF6DDFF36B30AA8250E468 /* Framework420-Info.plist */,
+				758EE3FB6FBF30CCFFDA9C7B092788E3 /* Framework420-prefix.pch */,
+				56FCEBCA2977CC72B4FA8F47F5877D57 /* Framework420-umbrella.h */,
+				48FC86B84A241B2B5A6FDA7911A19ABD /* Framework420.debug.xcconfig */,
+				0359ED7AB1CEEA8B1138CF42666B0333 /* Framework420.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework420";
+			sourceTree = "<group>";
+		};
+		5900C847BC7F0924FCCB189A4570215F = {
+			isa = PBXGroup;
+			children = (
+				C80F737E534820F4B158C58C329A3507 /* Framework420 */,
+				0E1F81EE5D55484D56EA994EA274296B /* Frameworks */,
+				995046E797144AD09838A356D31695AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		995046E797144AD09838A356D31695AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F708A3B39157D1AE20B35F0C8A38DA /* Framework420.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC7BF82446413DCEBA8B441E47E1557 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F34C271753582625C84FD2DF242BC06 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B9E9DC176AF58C8ABB3CE36A77217F67 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3EC41122EFD57A02638047C31FA51230 /* Framework420.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C80F737E534820F4B158C58C329A3507 /* Framework420 */ = {
+			isa = PBXGroup;
+			children = (
+				C8B5CA5764A0056C77FDA3DE1F8A58B2 /* Framework420.h */,
+				929A88DCAB94831F7CFAEFF11F6A1D43 /* Framework420.m */,
+				B9E9DC176AF58C8ABB3CE36A77217F67 /* Pod */,
+				0EE769A6547670999BCF57CE0AF3305B /* Support Files */,
+			);
+			name = Framework420;
+			path = ../Framework420;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04F5A7309330FED392B1691D192805DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A663598AAAC7419AE141306D0BF524 /* Framework420-umbrella.h in Headers */,
+				E05699BB115AE7F85B4500C815A718FB /* Framework420.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A3941EFEFBD99A97D70C759FCDF9313 /* Framework420 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D1FFAAB342CC09514D00B86A49E565 /* Build configuration list for PBXNativeTarget "Framework420" */;
+			buildPhases = (
+				04F5A7309330FED392B1691D192805DD /* Headers */,
+				72D182FEE06C84DFD88AF75D5369E8E4 /* Sources */,
+				33AE6D843438C1853ADC216B6F800824 /* Frameworks */,
+				C575C13EB3871158FEFDB37AF64B4B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework420;
+			productName = Framework420;
+			productReference = 40F708A3B39157D1AE20B35F0C8A38DA /* Framework420.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55518C7C52693ADB76963DFB2B3EFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = E83B37035C1B92103ECB1D78A8C21C15 /* Build configuration list for PBXProject "Framework420" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5900C847BC7F0924FCCB189A4570215F;
+			productRefGroup = 995046E797144AD09838A356D31695AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A3941EFEFBD99A97D70C759FCDF9313 /* Framework420 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C575C13EB3871158FEFDB37AF64B4B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D182FEE06C84DFD88AF75D5369E8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFAB6E51BB33E367C95D32E1F505F77 /* Framework420-dummy.m in Sources */,
+				2F28E732DAD4CFC404952A108599779C /* Framework420.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19F12361E53A53BA683E70075744AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5189ECF66D401EC9394EF05A71E6142A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A804157F87BBD4C7B46462317602D3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FC86B84A241B2B5A6FDA7911A19ABD /* Framework420.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework420/Framework420-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework420/Framework420-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework420/Framework420.modulemap";
+				PRODUCT_MODULE_NAME = Framework420;
+				PRODUCT_NAME = Framework420;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3FE24C42E17C4869D24185C80C5221B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0359ED7AB1CEEA8B1138CF42666B0333 /* Framework420.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework420/Framework420-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework420/Framework420-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework420/Framework420.modulemap";
+				PRODUCT_MODULE_NAME = Framework420;
+				PRODUCT_NAME = Framework420;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D1FFAAB342CC09514D00B86A49E565 /* Build configuration list for PBXNativeTarget "Framework420" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A804157F87BBD4C7B46462317602D3A8 /* Debug */,
+				F3FE24C42E17C4869D24185C80C5221B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83B37035C1B92103ECB1D78A8C21C15 /* Build configuration list for PBXProject "Framework420" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F12361E53A53BA683E70075744AF34 /* Debug */,
+				5189ECF66D401EC9394EF05A71E6142A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55518C7C52693ADB76963DFB2B3EFF8 /* Project object */;
+}

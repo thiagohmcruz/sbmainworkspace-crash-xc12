@@ -1,0 +1,6 @@
+framework module Framework262 {
+  umbrella header "Framework262-umbrella.h"
+
+  export *
+  module * { export * }
+}

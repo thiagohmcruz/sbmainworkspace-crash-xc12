@@ -1,0 +1,6 @@
+framework module Framework320 {
+  umbrella header "Framework320-umbrella.h"
+
+  export *
+  module * { export * }
+}

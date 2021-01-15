@@ -1,0 +1,6 @@
+framework module Framework80 {
+  umbrella header "Framework80-umbrella.h"
+
+  export *
+  module * { export * }
+}

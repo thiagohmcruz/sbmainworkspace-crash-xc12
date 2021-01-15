@@ -1,0 +1,6 @@
+framework module Framework386 {
+  umbrella header "Framework386-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Framework138 {
+  umbrella header "Framework138-umbrella.h"
+
+  export *
+  module * { export * }
+}

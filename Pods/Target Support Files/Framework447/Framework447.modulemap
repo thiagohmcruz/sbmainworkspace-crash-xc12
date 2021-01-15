@@ -1,0 +1,6 @@
+framework module Framework447 {
+  umbrella header "Framework447-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Framework74 {
+  umbrella header "Framework74-umbrella.h"
+
+  export *
+  module * { export * }
+}

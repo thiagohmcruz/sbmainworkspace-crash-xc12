@@ -1,0 +1,6 @@
+framework module Framework7 {
+  umbrella header "Framework7-umbrella.h"
+
+  export *
+  module * { export * }
+}

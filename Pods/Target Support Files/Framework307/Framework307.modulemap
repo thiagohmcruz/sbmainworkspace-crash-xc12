@@ -1,0 +1,6 @@
+framework module Framework307 {
+  umbrella header "Framework307-umbrella.h"
+
+  export *
+  module * { export * }
+}

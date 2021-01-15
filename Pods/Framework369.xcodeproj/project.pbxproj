@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1984E39065B8234661FF2CA60BF8AA88 /* Framework369-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFCF488BBCADA017674384280B1C764 /* Framework369-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AA395AEF04E7FFCE2842D411A363E1 /* Framework369.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53BE70D7A180DCB193C568F94F26DF /* Framework369.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8706032E75F695C0E3F158F12B100D63 /* Framework369.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F24AF50FF400CFA371775ACF178981 /* Framework369.m */; };
+		973537BA8E7151D47E825E140BBB4119 /* Framework369-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD412BC08DBEC0C9138F5495ADCEC163 /* Framework369-dummy.m */; };
+		D06E0A785D1338BE6A6005FF26FFD0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1898E522D9B482899F0F85C2C836C4E6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08B73B9908C07390169E9E65D8420DF8 /* Framework369.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework369.release.xcconfig; sourceTree = "<group>"; };
+		08F24AF50FF400CFA371775ACF178981 /* Framework369.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Framework369.m; sourceTree = "<group>"; };
+		0F2DAC87147E98F6FE84714FAD9BCAC1 /* Framework369.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Framework369.modulemap; sourceTree = "<group>"; };
+		10D3F4AD00ECCB55C0E26D8774C19685 /* Framework369-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Framework369-Info.plist"; sourceTree = "<group>"; };
+		1898E522D9B482899F0F85C2C836C4E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1CA56BA6A759ADAE9DC2027B4F6EED9A /* Framework369.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Framework369.podspec.json; sourceTree = "<group>"; };
+		2CFCF488BBCADA017674384280B1C764 /* Framework369-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework369-umbrella.h"; sourceTree = "<group>"; };
+		431C9AD3CFC51B86F05AD903B5CF0DCA /* Framework369-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Framework369-prefix.pch"; sourceTree = "<group>"; };
+		4B53BE70D7A180DCB193C568F94F26DF /* Framework369.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Framework369.h; sourceTree = "<group>"; };
+		66B470491C28CCD9BF0465346B9FB3C8 /* Framework369.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Framework369.framework; path = Framework369.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD412BC08DBEC0C9138F5495ADCEC163 /* Framework369-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Framework369-dummy.m"; sourceTree = "<group>"; };
+		D9BFF32D6393897CB7902414A7B02473 /* Framework369.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Framework369.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB90110DF2DBFD8A84953FC3415F0F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E0A785D1338BE6A6005FF26FFD0DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1AE029659D8AD3213E58ED09928C46 = {
+			isa = PBXGroup;
+			children = (
+				E01BAF6C9A6D67FF38519AE730126753 /* Framework369 */,
+				E6209654FA7F273DA8F583CEBBB0244D /* Frameworks */,
+				BC31BEFDA484A6C5EDE810E816B764DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC31BEFDA484A6C5EDE810E816B764DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B470491C28CCD9BF0465346B9FB3C8 /* Framework369.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D787F904462D33CEA597E7D61D99EA73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CA56BA6A759ADAE9DC2027B4F6EED9A /* Framework369.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E01BAF6C9A6D67FF38519AE730126753 /* Framework369 */ = {
+			isa = PBXGroup;
+			children = (
+				4B53BE70D7A180DCB193C568F94F26DF /* Framework369.h */,
+				08F24AF50FF400CFA371775ACF178981 /* Framework369.m */,
+				D787F904462D33CEA597E7D61D99EA73 /* Pod */,
+				FDD855E253B37033A0BE988EF9678A21 /* Support Files */,
+			);
+			name = Framework369;
+			path = ../Framework369;
+			sourceTree = "<group>";
+		};
+		E6209654FA7F273DA8F583CEBBB0244D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD9767DE2C9F0FFF2D93F7A18339344 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD9767DE2C9F0FFF2D93F7A18339344 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1898E522D9B482899F0F85C2C836C4E6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDD855E253B37033A0BE988EF9678A21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F2DAC87147E98F6FE84714FAD9BCAC1 /* Framework369.modulemap */,
+				CD412BC08DBEC0C9138F5495ADCEC163 /* Framework369-dummy.m */,
+				10D3F4AD00ECCB55C0E26D8774C19685 /* Framework369-Info.plist */,
+				431C9AD3CFC51B86F05AD903B5CF0DCA /* Framework369-prefix.pch */,
+				2CFCF488BBCADA017674384280B1C764 /* Framework369-umbrella.h */,
+				D9BFF32D6393897CB7902414A7B02473 /* Framework369.debug.xcconfig */,
+				08B73B9908C07390169E9E65D8420DF8 /* Framework369.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Framework369";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		158E2B8279692E72AEA752D6385F4D71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1984E39065B8234661FF2CA60BF8AA88 /* Framework369-umbrella.h in Headers */,
+				52AA395AEF04E7FFCE2842D411A363E1 /* Framework369.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08D504410F9ADF0F5BC14ABBF3F07058 /* Framework369 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F035508AD837829C682BAE8939092F1A /* Build configuration list for PBXNativeTarget "Framework369" */;
+			buildPhases = (
+				158E2B8279692E72AEA752D6385F4D71 /* Headers */,
+				E16DC8255481FF3CDBD1E098BBE140F9 /* Sources */,
+				CB90110DF2DBFD8A84953FC3415F0F02 /* Frameworks */,
+				F52BD2A4F0AEF615E770762E24F59454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework369;
+			productName = Framework369;
+			productReference = 66B470491C28CCD9BF0465346B9FB3C8 /* Framework369.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB800362989E4CDECC039D2260B576C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = D46A6DB7618D9F5E9F39012B0F59FF42 /* Build configuration list for PBXProject "Framework369" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C1AE029659D8AD3213E58ED09928C46;
+			productRefGroup = BC31BEFDA484A6C5EDE810E816B764DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D504410F9ADF0F5BC14ABBF3F07058 /* Framework369 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52BD2A4F0AEF615E770762E24F59454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16DC8255481FF3CDBD1E098BBE140F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973537BA8E7151D47E825E140BBB4119 /* Framework369-dummy.m in Sources */,
+				8706032E75F695C0E3F158F12B100D63 /* Framework369.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09A99FE244D9F6A5A87F82DB57DDC7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BFF32D6393897CB7902414A7B02473 /* Framework369.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework369/Framework369-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework369/Framework369-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework369/Framework369.modulemap";
+				PRODUCT_MODULE_NAME = Framework369;
+				PRODUCT_NAME = Framework369;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56CD4A7BD7EA1B0001E04F54CA5995EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6FF09D0A1146F035878BF273389C4385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B73B9908C07390169E9E65D8420DF8 /* Framework369.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Framework369/Framework369-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Framework369/Framework369-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Framework369/Framework369.modulemap";
+				PRODUCT_MODULE_NAME = Framework369;
+				PRODUCT_NAME = Framework369;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFCCD6AFB3300AE871862BF0A672671C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46A6DB7618D9F5E9F39012B0F59FF42 /* Build configuration list for PBXProject "Framework369" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CD4A7BD7EA1B0001E04F54CA5995EC /* Debug */,
+				FFCCD6AFB3300AE871862BF0A672671C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F035508AD837829C682BAE8939092F1A /* Build configuration list for PBXNativeTarget "Framework369" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A99FE244D9F6A5A87F82DB57DDC7C4 /* Debug */,
+				6FF09D0A1146F035878BF273389C4385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB800362989E4CDECC039D2260B576C /* Project object */;
+}

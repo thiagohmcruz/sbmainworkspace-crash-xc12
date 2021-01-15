@@ -1,0 +1,6 @@
+framework module Framework37 {
+  umbrella header "Framework37-umbrella.h"
+
+  export *
+  module * { export * }
+}

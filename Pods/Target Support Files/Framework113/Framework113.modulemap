@@ -1,0 +1,6 @@
+framework module Framework113 {
+  umbrella header "Framework113-umbrella.h"
+
+  export *
+  module * { export * }
+}

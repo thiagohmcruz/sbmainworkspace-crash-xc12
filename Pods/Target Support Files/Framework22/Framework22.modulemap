@@ -1,0 +1,6 @@
+framework module Framework22 {
+  umbrella header "Framework22-umbrella.h"
+
+  export *
+  module * { export * }
+}

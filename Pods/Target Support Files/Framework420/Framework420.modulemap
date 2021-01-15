@@ -1,0 +1,6 @@
+framework module Framework420 {
+  umbrella header "Framework420-umbrella.h"
+
+  export *
+  module * { export * }
+}
